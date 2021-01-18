@@ -1,6 +1,8 @@
 <?php 
+include("./head.php");
 include("./nav.php");
 ?>
+<main>
 
 <h1>Titre</h1>
 <p>Text Content</p>
@@ -8,6 +10,7 @@ include("./nav.php");
 
 
 
+</main>
 <?php 
 include("./footer.php");
 ?>

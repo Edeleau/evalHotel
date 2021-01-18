@@ -1,12 +1,36 @@
-<!DOCTYPE html>
-<html lang="fr">
+<aside class="sidebar">
+    <div class="toggle">
+        <a href="#" class="burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
+            <span></span>
+        </a>
+    </div>
+    <div class="side-inner">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOTELCOP</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
 
-<body>
+        <div class="tags">
+            <h3>Favourite Tags</h3>
+            <ul>
+                <li><a href="#">photography</a>,</li>
+                <li><a href="#">food</a>,</li>
+                <li><a href="#">news</a>,</li>
+                <li><a href="#">design</a>,</li>
+                <li><a href="#">web</a>,</li>
+                <li><a href="#">technology</a>,</li>
+                <li><a href="#">travel</a>,</li>
+                <li><a href="#">business</a>,</li>
+                <li><a href="#">javascript</a>,</li>
+                <li><a href="#">code</a>,</li>
+                <li><a href="#">html</a>,</li>
+            </ul>
+        </div>
+
+    </div>
+
+</aside>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+        <button class="btn btn-outline-success ml-auto">FR</button>
+
+    </div>
+</nav>
