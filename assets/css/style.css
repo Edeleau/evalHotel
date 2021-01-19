@@ -54,6 +54,12 @@ h4{
     margin-bottom: 1em;
     font-style: italic;
 }
+.smallHr{
+    border-bottom: 3px solid var(--color1);
+    margin-bottom: 2%;
+    max-width: 10em;
+    margin: 0.5em auto 0.5em auto;
+}
 #logoLandingPage{
     margin-top: 10vh;
     max-width: 60vw;
@@ -66,28 +72,16 @@ h4{
     display: flex;
     justify-content: center; 
 }
-.sectionTitle{
-    margin-top: 5vh;
-    align-items: center;
-}
-.smallHr{
-    border-bottom: 3px solid var(--color1);
-    margin-bottom: 2%;
-    max-width: 10em;
-    margin: 0.5em auto 0.5em auto;
-}
-#landingPage2{
+#landingPage2, #landingPage3 {
     min-height: 100vh;
     text-align: center;
 }
-#imgTest1{
-    height: 60vh;
-    width: 30vw;
-    background-color: teal;
-    position: relative;
-    left: -5vw;
-    top: 5vh;
-    margin-bottom: 10vh;
+#landingPage3{
+    /* background-color: var(--color2); */
+}
+.sectionTitle{
+    padding-top: 5.3em;
+    align-items: center;
 }
 
 #whoWeAreContainer{
@@ -97,8 +91,37 @@ h4{
     border: var(--color1) 2vh solid;
 }
 #whoWeAreText{
-    border: tomato 1px solid;
     margin: 5vh auto 5vh auto;
+}
+
+#imgTest1{
+    height: 55vh;
+    background-color: teal;
+    position: relative;
+    left: -5vw;
+    top: 5vh;
+    margin-bottom: 10vh;
+}
+#journey{
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imgRoom{
+    height: 60vh;
+    background-color: teal;
+}
+#imgRoom2{
+    height: 30vh;
+    width: 30vw;
+    background-color: paleturquoise;
+    margin-top: 25vh;
+}
+#imgRoom3{
+    height: 30vh;
+    width: 30vw;
+    background-color: palegreen;
+    margin-top: 5vh;
 }
 
 
