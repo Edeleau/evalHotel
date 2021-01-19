@@ -1,31 +1,36 @@
 body{
     font-family: 'Montserrat';
 }
-
-
-
-/* Navbar */
-    .navbar{
-        background-color: #9bbcda;
-        height: 3.3em;
-
+.disparition{
+    display: none!important;
+}
+/* Navbar && Sidebar */
+.navbar{
+    background-color: #9bbcda;
+    height: 3.3em;
+    padding: 0;
     }
-    /* Sidebar */
-    .side-inner .container-fluid .row span{
-        border-bottom: 3px solid white;
-        margin-bottom: 2%;
-    }
-    .side-inner{
-        color: white;
-    }
-    .side-inner a{
-        text-decoration: none;
-        color: white;
-    }
-    .side-inner a:hover{
-        text-decoration: none;
-        background-color: rgba(255, 255, 255, 0.39);
-    }
+#navbarSupportedContent{
+    height: 100vh;
+    background-color: #9bbcda;
+}
+.side-inner .container-fluid .row span{
+    border-bottom: 3px solid white;
+    margin-bottom: 2%;
+}
+.side-inner , nav{
+    color: white;
+}
+.side-inner a, nav .navbar-collapse a{
+    padding: 10px 0 10px 0;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.side-inner a:hover, nav .navbar-collapse a:hover{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.39);
+}
 
     /* LandingPage */
 #landingPage1{
