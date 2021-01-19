@@ -5,23 +5,13 @@
         </a>
     </div>
     <div class="side-inner">
-
-
-        <div class="tags">
-            <h3>Favourite Tags</h3>
-            <ul>
-                <li><a href="#">photography</a>,</li>
-                <li><a href="#">food</a>,</li>
-                <li><a href="#">news</a>,</li>
-                <li><a href="#">design</a>,</li>
-                <li><a href="#">web</a>,</li>
-                <li><a href="#">technology</a>,</li>
-                <li><a href="#">travel</a>,</li>
-                <li><a href="#">business</a>,</li>
-                <li><a href="#">javascript</a>,</li>
-                <li><a href="#">code</a>,</li>
-                <li><a href="#">html</a>,</li>
-            </ul>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <h2 class="col-12 text-center">Services</h2>
+                <span class="col-6 text-center "></span>
+                <a href="chambres.php" class="col-12 text-center">Chambres</a>
+                <p class="col-12 text-center ">sdsd</p>
+            </div>
         </div>
 
     </div>
