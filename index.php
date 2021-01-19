@@ -5,7 +5,7 @@ include("./nav.php");
 <main>
     <div id="landingPage1" class="container-fluid">
         <img id="logoLandingPage" src="./assets/img/logo_projet_front.png" alt="logo Hotelcop">
-        <a class="reserveButton" href="./reserve.php">Réservez</a>
+        <a id="reserveButton" class="linkButton" href="./reserve.php">Réservez</a>
     </div>
 </main>
 <section id="landingPage2" class="container-fluid">
@@ -26,6 +26,7 @@ include("./nav.php");
         </div>
     </div>
 </section>
+<!-- FIXME: -->
 <section id="landingPage3" class="container-fluid">
     <div class="sectionTitle">
         <h2>Le Séjour</h2>
@@ -33,10 +34,36 @@ include("./nav.php");
         <h3>HOTELCOP</h3>
     </div>
     <div id="journey" class="row">
-        <div id="imgRoom2" class="col-lg-3"></div>
-        <div id="imgRoom" class="col-lg-6 col-md-12 col-sm-12 col-xs-12"></div>
-        <div id="imgRoom3" class="col-lg-3"></div>
+        <div id="imgRoom2" class="col-lg-3">
+            <!-- <div id="imgRoom2Hover" class="imgHover"></div> -->
+        </div>
+
+        <div id="imgRoom1" class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <!-- <div id="imgRoom1Hover" class="imgHover"></div> -->
+            <a class="linkButton journeyButton">Découvrir</a>
+            <img src="./assets/img/room/room01.jpg" alt="chambre 01" style="height: 100%;">
+        </div>
+
+        <div id="imgRoom3" class="col-lg-3">
+            <!-- <div id="imgRoom3Hover" class="imgHover"></div> -->
+        </div>
+
     </div>
+    </div>
+</section>
+<section id="landingPage4" class="container-fluid">
+    <div class="sectionTitle">
+        <h2>L'Expérience</h2>
+        <div class="smallHr"></div>
+        <h3>HOTELCOP</h3>
+    </div>
+    <div id="experience" class="row">
+        <div id="imgExperience1" class="col-lg-5">
+            <a href="restaurant.php" class="linkButton experienceButton">Découvrir</a>
+        </div>
+        <div id="imgExperience2" class="col-lg-5 ml-auto">
+            <a href="care.php" class="linkButton experienceButton">Découvrir</a>
+        </div>
     </div>
 </section>
 <?php

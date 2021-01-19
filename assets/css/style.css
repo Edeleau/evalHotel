@@ -11,6 +11,9 @@ body{
 .disparition{
     display: none!important;
 }
+.hidden{
+    visibility: hidden!important;
+}
 /* Navbar && Sidebar */
 .navbar{
     background-color: var(--color1);
@@ -71,7 +74,7 @@ h4{
     display: flex;
     justify-content: center; 
 }
-#landingPage2, #landingPage3 {
+#landingPage2, #landingPage3, #landingPage4 {
     min-height: 100vh;
     text-align: center;
 }
@@ -98,48 +101,81 @@ h4{
     top: 5vh;
     margin-bottom: 10vh;
 }
-#journey{
+#journey, #experience{
     max-width: 70vw;
     margin-left: auto;
     margin-right: auto;
 }
-#imgRoom{
+/* FIXME: */
+/* .imgHover{
+    background-color: grey;
+    position: relative;
+    opacity: 0.7;
+    height: 100%;
+    visibility: hidden;
+} */
+#imgRoom1{
     height: 60vh;
     background-color: teal;
+    padding: 0px;
+    overflow: hidden;
 }
 #imgRoom2{
     height: 30vh;
     width: 30vw;
     background-color: paleturquoise;
     margin-top: 25vh;
+    padding: 0px;
 }
 #imgRoom3{
     height: 30vh;
     width: 30vw;
     background-color: palegreen;
     margin-top: 5vh;
+    padding: 0px;
+}
+#imgExperience1{
+    height: 40vh;
+    background-color: teal;
+}
+#imgExperience2{
+    height: 40vh;
+    background-color: teal;
 }
 
+/* Buttons */
 
-
-.reserveButton{
+.linkButton{
     background-color: var(--color1);
     border: 2px solid var(--color2);
     padding: 0.5em 0.8em 0.5em 0.8em;
     border-radius: 7px;
     text-transform: uppercase;
     color: var(--colorWhite);
-    position: fixed;
-    bottom: 15vh;
-    margin: auto;
     z-index: 1000;
 }
-.reserveButton:hover{
+.linkButton:hover{
     color: var(--colorWhite);
     background-color: var(--color2);
     border: 2px solid var(--color1);
     text-decoration: none;
 }
+#reserveButton{
+    position: fixed;
+    bottom: 15vh;
+    margin: auto;
+}
+.journeyButton{
+    position: relative;
+    top: 50%;
+}
+.experienceButton{
+    position: relative;
+    top: 80%;
+}
+
+/* Footer */
+
 footer a{
         font-size: 1rem;
         text-decoration: none;
