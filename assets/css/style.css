@@ -49,6 +49,11 @@ h3{
     font-size: 1.5em;
     margin-bottom: 2em;
 }
+h4{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    font-style: italic;
+}
 #logoLandingPage{
     margin-top: 10vh;
     max-width: 60vw;
@@ -66,10 +71,10 @@ h3{
     align-items: center;
 }
 .smallHr{
-    width: 8vw;
-    height: 0.6vh;
-    background-color: var(--color1);
-    margin: 0.8vh 0;
+    border-bottom: 3px solid var(--color1);
+    margin-bottom: 2%;
+    max-width: 10em;
+    margin: 0.5em auto 0.5em auto;
 }
 #landingPage2{
     min-height: 100vh;
