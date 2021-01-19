@@ -1,4 +1,10 @@
-    /* Navbar */
+body{
+    font-family: 'Montserrat';
+}
+
+
+
+/* Navbar */
     .navbar{
         background-color: #9bbcda;
         height: 3.3em;
@@ -20,3 +26,16 @@
         text-decoration: none;
         background-color: rgba(255, 255, 255, 0.39);
     }
+
+    /* LandingPage */
+#landingPage1{
+    background: cadetblue;
+}
+
+#logoLandingPage{
+    max-height: 100%;
+}
+
+.reserveButton{
+    background-color: cadetblue;
+}
