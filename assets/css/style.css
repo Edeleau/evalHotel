@@ -2,36 +2,42 @@
 :root{
     --color1:  #9bbcda;
     --color2:  #4f6e86;
+    --colorWhite: white;
 }
 
 body{
     font-family: 'Montserrat';
 }
-
-
-
-/* Navbar */
-    .navbar{
-        background-color: var(--color1);
-        height: 3.3em;
-
+.disparition{
+    display: none!important;
+}
+/* Navbar && Sidebar */
+.navbar{
+    background-color: var(--color1);
+    height: 3.3em;
+    padding: 0;
     }
-    /* Sidebar */
-    .side-inner .container-fluid .row span{
-        border-bottom: 3px solid white;
-        margin-bottom: 2%;
-    }
-    .side-inner{
-        color: white;
-    }
-    .side-inner a{
-        text-decoration: none;
-        color: white;
-    }
-    .side-inner a:hover{
-        text-decoration: none;
-        background-color: rgba(255, 255, 255, 0.39);
-    }
+#navbarSupportedContent{
+    height: 100vh;
+    background-color: var(--color1);
+}
+.side-inner .container-fluid .row span{
+    border-bottom: 3px solid var(--colorWhite);
+    margin-bottom: 2%;
+}
+.side-inner , nav{
+    color: var(--colorWhite);
+}
+.side-inner a, nav .navbar-collapse a{
+    padding: 10px 0 10px 0;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--colorWhite);
+}
+.side-inner a:hover, nav .navbar-collapse a:hover{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.39);
+}
 
 /* LandingPage */
 
@@ -98,14 +104,14 @@ h3{
     padding: 0.5em 0.8em 0.5em 0.8em;
     border-radius: 7px;
     text-transform: uppercase;
-    color: white;
+    color: var(--colorWhite);
     position: fixed;
     bottom: 15vh;
     margin: auto;
     z-index: 1000;
 }
 .reserveButton:hover{
-    color: white;
+    color: var(--colorWhite);
     background-color: var(--color2);
     border: 2px solid var(--color1);
     text-decoration: none;

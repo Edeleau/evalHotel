@@ -29,7 +29,29 @@ $(function () {
             }
         }
     });
+    
+    /************************* JS navbar ***************************/
+    window.onload = navBar;
+    window.onresize = navBar;
 
+    function  navBar() { 
+        let withWindow = parseInt(window.innerWidth);
+        let navbar = document.getElementById('navbarSupportedContent');
+        let toggleSidebar = document.getElementById('toggle-btn');
 
+        if (withWindow > 992) {
+            navbar.classList.add('disparition');
+            navbar.classList.remove( 'navbar-collapse');
+            toggleSidebar.classList.remove('disparition');
 
+        }
+        if (withWindow <= 992) {
+            navbar.classList.remove('disparition');
+            navbar.classList.add('navbar-expand-lg' , 'navbar-collapse');
+            toggleSidebar.classList.add('disparition');
+
+        }
+    }   
+
+    
 });
