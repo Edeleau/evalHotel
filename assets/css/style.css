@@ -1,6 +1,26 @@
+body{
+    font-family: "Montserrat", "Aileron", "Helvetica neue", Arial;
+}
 
-    /* Navbar */
+h1{
+    font-family: "Arial";
+}
+
+/* Navbar */
     .navbar{
         background-color: #9bbcda;
         height: 3.3em;
     }
+
+    /* LandingPage */
+#landingPage1{
+    background: cadetblue;
+}
+
+#logoLandingPage{
+    max-height: 100%;
+}
+
+.reserveButton{
+    background-color: cadetblue;
+}
