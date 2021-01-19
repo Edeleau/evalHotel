@@ -18,10 +18,9 @@ body{
     padding: 0;
     }
 #navbarSupportedContent{
-    height: 100vh;
     background-color: var(--color1);
 }
-.side-inner .container-fluid .row span{
+.side-inner .container-fluid .row span , nav #navbarSupportedContent .container-fluid .row span {
     border-bottom: 3px solid var(--colorWhite);
     margin-bottom: 2%;
 }
@@ -120,4 +119,23 @@ h4{
     background-color: var(--color2);
     border: 2px solid var(--color1);
     text-decoration: none;
+}
+footer a{
+        font-size: 1rem;
+        text-decoration: none;
+        color: var(--colorWhite);
+        text-align: center;
+        padding: .5rem;
+}
+footer a:hover{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.39);
+
+}
+footer{
+    padding: 1rem;
+    background-color: var(--color1);
+}
+.borderLeft{
+    border-left: solid var(--colorWhite);
 }
