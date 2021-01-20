@@ -6,24 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOTELCOP | Réservation</title>
     <?php
-        include("./link.php");
+    include("./link.php");
     ?>
-    
+
 </head>
 
 <body>
-<?php 
-include("./nav.php");
-?>
-<main>
+    <?php
+    include("./nav.php");
+    ?>
+    <div id="datePicker">
+        <input type="text" name="start">
+        <span>to</span>
+        <input type="text" name="end">
+    </div>
+    <?php
+    include("./footer.php");
+    ?>
+</body>
 
-<h1>Titre</h1>
-<p>Text Content</p>
-
-
-
-
-</main>
-<?php 
-include("./footer.php");
-?>
+</html>
