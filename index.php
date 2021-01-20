@@ -56,7 +56,7 @@
 
             <div id="imgRoom1" class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <!-- <div id="imgRoom1Hover" class="imgHover"></div> -->
-                
+                <a href="care.php" class="linkButton journeyButton">Découvrir</a>
                 <img src="./assets/img/room/room04.jpg" alt="Suite 01 " style="height: 100%;">
             </div>
 
@@ -89,6 +89,7 @@
     include("./footer.php");
     ?>
     <script src="./assets/js/index.js"></script>
+
 </body>
 
 </html>

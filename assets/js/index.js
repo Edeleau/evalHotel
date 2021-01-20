@@ -1,31 +1,4 @@
 
- 
- /************************* JS Resize ***************************/
-    window.onload = indexSize;
-    window.onresize = indexSize;
-
-    function  indexSize() { 
-        let imgRoom2 = document.getElementById('imgRoom2');
-        let imgRoom3 = document.getElementById('imgRoom3');
-        let imgTest1 = document.getElementById('imgTest1');
-        let whoWeAreContainer = document.getElementById('whoWeAreContainer');
-
-        
-
-        if (withWindow > 992) {
-            imgRoom2.classList.remove('disparition');
-            imgRoom3.classList.remove('disparition');
-            imgTest1.style.position = "relative";
-            whoWeAreContainer.style.border = "var(--color1) 2vh solid"
-        }
-        if (withWindow <= 992) {
-            imgRoom2.classList.add('disparition');
-            imgRoom3.classList.add('disparition');
-            imgTest1.style.position = "static";
-            whoWeAreContainer.style.border = "none"
-        }
-    }   
-
         /************************* Img Animations ***************************/
 
 
@@ -37,7 +10,6 @@
 
     imgRoom1.addEventListener('mouseover', imgMouseOver);
     imgRoom1.addEventListener('mouseout', imgMouseOut);
-    imgRoom1.addEventListener('click', changeImg);
     
     imgRoom2.addEventListener('mouseover', imgMouseOver2);
     imgRoom2.addEventListener('mouseout', imgMouseOut2);
@@ -63,26 +35,4 @@
         this.children[0].setAttribute('src', img1Src);
         this.children[0].setAttribute('alt', img1Alt);
     };
-
-    function imgMouseOver(){
-        this.children[0].classList.add('imgOn');
-        this.children[0].classList.remove('imgOut')
-        this.children[1].classList.add('imgOn');
-        this.children[1].classList.remove('imgOut')
-    };
-    function imgMouseOut(){
-        this.children[0].classList.add('imgOut');
-        this.children[0].classList.remove('imgOn');
-        this.children[1].classList.add('imgOut');
-        this.children[1].classList.remove('imgOn');
-    };
-    function imgMouseOver2(){
-        this.children[0].classList.add('imgOn');
-        this.children[0].classList.remove('imgOut')
-    };
-    function imgMouseOut2(){
-        this.children[0].classList.add('imgOut');
-        this.children[0].classList.remove('imgOn');
-    };
-
 

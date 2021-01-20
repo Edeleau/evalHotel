@@ -1,0 +1,15 @@
+@media (min-width: 992px) { 
+
+    #imgTest1{
+        position: static;
+    }
+    #woWeAreContainer{
+        border: none;
+    }
+
+    #imgRoom2, #imgRoom3 {
+        display: none;
+    }
+
+
+ }

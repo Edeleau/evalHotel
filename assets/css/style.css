@@ -13,6 +13,9 @@ body {
 .disparition {
     display: none !important;
 }
+.apparition {
+    display: block !important;
+}
 
 .hidden {
     visibility: hidden !important;
