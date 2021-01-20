@@ -51,14 +51,4 @@ $(function () {
         }
     }   
 
-        /************************* Img Animations ***************************/
-
-    function imgMouseOver(){
-        this.children[1].classList.add('imgOn');
-        this.children[1].classList.remove('imgOut')
-    }
-    function imgMouseOut(){
-        this.children[1].classList.add('imgOut');
-        this.children[1].classList.remove('imgOn');
-    }
 });

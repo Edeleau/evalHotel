@@ -2,6 +2,8 @@
 
 :root {
     --color1    : #9bbcda;
+    --color1opacity8   : rgb(155, 188, 218, 0.8);
+    --color1opacity2   : rgb(155, 188, 218, 0.2);
     --color2    : #4f6e86;
     --colorWhite: white;
 }
@@ -86,16 +88,23 @@ h4 {
 }
 
 #landingPage1 {
-    background     : cadetblue;
+    background     : no-repeat center url(../img/wo-we-are/hall02.jpg);
     min-height     : 100vh;
     display        : flex;
     justify-content: center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #landingPage2,
 #landingPage3,
 #landingPage4 {
     min-height: 100vh;
+}
+#landingPage3{
+    background: var(--color1opacity2);
 }
 
 .sectionTitle {
@@ -117,6 +126,7 @@ h4 {
 
 #imgTest1 {
     height          : 55vh;
+    width: auto;
     background-color: teal;
     position        : relative;
     left            : -5vw;
@@ -141,18 +151,22 @@ h4 {
 } */
 .imgOn {
     filter    : sepia(60%);
-    transition: ease-in;
+    transition: 1s;
 }
 
 .imgOut {
     filter: sepia(0%);
+    transition: 1s;
+}
+#imgTest1, #imgRoom1, #imgRoom2, #imgRoom3, #imgExperience1, #imgExperience2 {
+    overflow        : hidden;
+    padding         : 0px;
+    border: 2px solid var(--color1);
 }
 
 #imgRoom1 {
     max-height      : 60vh;
     background-color: teal;
-    padding         : 0px;
-    overflow        : hidden;
     position        : relative;
 }
 
@@ -161,7 +175,8 @@ h4 {
     width           : 30vw;
     background-color: paleturquoise;
     margin-top      : 25vh;
-    padding         : 0px;
+    border-right: none;
+    
 }
 
 #imgRoom3 {
@@ -169,7 +184,7 @@ h4 {
     width           : 30vw;
     background-color: palegreen;
     margin-top      : 5vh;
-    padding         : 0px;
+    border-left: none;
 }
 
 #imgExperience1 {
@@ -210,15 +225,17 @@ h4 {
 .journeyButton {
     position : absolute;
     transform: translateX(-50%) translateY(-50%);
-    top      : 50%;
+    top      : 80%;
     left     : 50%;
+    background: var(--color1opacity2);
 }
 
 .experienceButton {
     position : absolute;
     transform: translateX(-50%) translateY(-50%);
-    top      : 50%;
+    top      : 80%;
     left     : 50%;
+    background: var(--color1opacity2);
 }
 
 /* Footer */
