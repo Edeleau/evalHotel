@@ -83,3 +83,4 @@ include("./nav.php");
 <?php
 include("./footer.php");
 ?>
+<script src="./assets/js/index.js"></script>
