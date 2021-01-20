@@ -3,6 +3,7 @@
         <a href="#" class="burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
             <span></span>
         </a>
+        
     </div>
     <div class="side-inner">
         <div class="container-fluid">
@@ -48,4 +49,5 @@
         </div>
 
     </div>
+    <img id= "logoNavBar" src="./assets/img/logo_projet_front_small.png" alt="Logo Hotelcop">
 </nav>

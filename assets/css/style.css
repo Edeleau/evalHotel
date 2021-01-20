@@ -20,7 +20,7 @@ body {
 }
 .fadeOut {
     visibility: hidden !important;
-    transition: 0.5s;
+    transition: 0.2s;
     opacity: 0;
 }
 
@@ -60,6 +60,13 @@ nav .navbar-collapse a:hover {
     background-color: rgba(255, 255, 255, 0.39);
 }
 
+#logoNavBar {
+    height: 2em;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
 /* LandingPage */
 h2 {
     text-transform: uppercase;

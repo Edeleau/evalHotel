@@ -39,7 +39,7 @@
 
 /************************* FadeIn/Out Bouton "Reservez" ***************************/
 
-
+    let logoNavBar = document.getElementById('logoNavBar');
     let reserveBtn = document.getElementById('reserveButton');
     window.addEventListener('scroll', fadeBtn);
  
@@ -47,8 +47,18 @@
             if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
                 reserveBtn.classList.add('fadeOut');
                 reserveBtn.classList.remove('fadeIn');
+
             } else if (document.body.scrollTop < 70 || document.documentElement.scrollTop < 70) {
                 reserveBtn.classList.add('fadeIn');
                 reserveBtn.classList.remove('fadeOut');
+            }
+            if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+                logoNavBar.classList.remove('fadeOut');
+                logoNavBar.classList.add('fadeIn');
+
+            } else if (document.body.scrollTop < 350 || document.documentElement.scrollTop < 350) {
+                logoNavBar.classList.add('fadeOut');
+                logoNavBar.classList.remove('fadeIn');
+
             }
     }
