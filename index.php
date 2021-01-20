@@ -21,7 +21,6 @@
             <a id="reserveButton" class="linkButton" href="./reserve.php">Réservez</a>
         </div>
     </main>
-    <hr>
     <section id="landingPage2" class="container-fluid">
         <div class="sectionTitle">
             <h2>Tour d'horizon</h2>
@@ -29,7 +28,9 @@
             <h3>HOTELCOP</h3>
         </div>
         <div id="whoWeAreContainer" class="row">
-            <div id="imgTest1" class="col-lg-6 col-md-12 col-sm-12 col-xs-12"></div>
+            <div id="imgTest1" class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                <img src="./assets/img/wo-we-are/tour-eiffel.jpg" alt="tour eiffel" style="height: 100%;">
+            </div>
             <div id="whoWeAreText" class="col-lg-5 col-md-12">
                 <h4>Le Prestige Hotelcop</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro accusantium enim mollitia quo aliquid eaque minus magnam repellendus suscipit. Non est beatae sed praesentium omnis repellendus mollitia ullam impedit incidunt.
@@ -50,16 +51,18 @@
         <div id="journey" class="row">
             <div id="imgRoom2" class="col-lg-3">
                 <!-- <div id="imgRoom2Hover" class="imgHover"></div> -->
+                <img src="./assets/img/room/room06.jpeg" alt="Suite 02" style="height: 100%;">
             </div>
 
             <div id="imgRoom1" class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <!-- <div id="imgRoom1Hover" class="imgHover"></div> -->
                 <a class="linkButton journeyButton">Découvrir</a>
-                <img src="./assets/img/room/room01.jpg" alt="chambre 01" style="height: 100%;">
+                <img src="./assets/img/room/room04.jpg" alt="Suite 01 " style="height: 100%;">
             </div>
 
             <div id="imgRoom3" class="col-lg-3">
                 <!-- <div id="imgRoom3Hover" class="imgHover"></div> -->
+                <img src="./assets/img/room/sdb04.jpg" alt="salle de bain Suite" style="height: 100%;">
             </div>
 
         </div>
@@ -74,15 +77,18 @@
         <div id="experience" class="row">
             <div id="imgExperience1" class="col-lg-5">
                 <a href="restaurant.php" class="linkButton experienceButton">Découvrir</a>
+                <img src="./assets/img/care/soin01.jpeg" alt="Suite 01 " style="height: 100%;">
             </div>
             <div id="imgExperience2" class="col-lg-5 ml-auto">
                 <a href="care.php" class="linkButton experienceButton">Découvrir</a>
+                <img src="./assets/img/restaurant/restaurant02.jpg" alt="Suite 01 " style="height: 100%;">
             </div>
         </div>
     </section>
     <?php
     include("./footer.php");
     ?>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
