@@ -24,6 +24,7 @@
 
     imgExperience2.addEventListener('mouseover', imgMouseOver);
     imgExperience2.addEventListener('mouseout', imgMouseOut);
+        
 
     function changeImg(){
         let imgSrc = this.children[0].getAttribute('src');
@@ -36,3 +37,18 @@
         this.children[0].setAttribute('alt', img1Alt);
     };
 
+/************************* FadeIn/Out Bouton "Reservez" ***************************/
+
+
+    let reserveBtn = document.getElementById('reserveButton');
+    window.addEventListener('scroll', fadeBtn);
+ 
+    function fadeBtn(){
+            if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+                reserveBtn.classList.add('fadeOut');
+                reserveBtn.classList.remove('fadeIn');
+            } else if (document.body.scrollTop < 70 || document.documentElement.scrollTop < 70) {
+                reserveBtn.classList.add('fadeIn');
+                reserveBtn.classList.remove('fadeOut');
+            }
+    }

@@ -21,8 +21,13 @@
 
     #journey,
     #experience {
-        max-width   : 95vw;
+        max-width: 95vw;
     }
 
-
+    #imgExperience1, #imgExperience2{
+        margin-bottom: 4vh;
+    }
+    .experienceButton{
+        top: 70%;
+    }
 }
