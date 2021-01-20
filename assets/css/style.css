@@ -1,110 +1,136 @@
+@import '../../node_modules/vanillajs-datepicker/sass/datepicker-bs4.scss';
 
-:root{
-    --color1:  #9bbcda;
-    --color2:  #4f6e86;
+:root {
+    --color1    : #9bbcda;
+    --color2    : #4f6e86;
     --colorWhite: white;
 }
 
-body{
+body {
     font-family: 'Montserrat';
 }
-.disparition{
-    display: none!important;
+
+.disparition {
+    display: none !important;
 }
-.hidden{
-    visibility: hidden!important;
+
+.hidden {
+    visibility: hidden !important;
 }
+
 /* Navbar && Sidebar */
-.navbar{
+.navbar {
     background-color: var(--color1);
-    height: 3.3em;
-    padding: 0;
-    }
-#navbarSupportedContent{
+    height          : 3.3em;
+    padding         : 0;
+}
+
+#navbarSupportedContent {
     background-color: var(--color1);
 }
-.side-inner .container-fluid .row span , nav #navbarSupportedContent .container-fluid .row span {
+
+.side-inner .container-fluid .row span,
+nav #navbarSupportedContent .container-fluid .row span {
     border-bottom: 3px solid var(--colorWhite);
     margin-bottom: 2%;
 }
-.side-inner , nav{
+
+.side-inner,
+nav {
     color: var(--colorWhite);
 }
-.side-inner a, nav .navbar-collapse a{
-    padding: 10px 0 10px 0;
-    font-size: 1.5rem;
+
+.side-inner a,
+nav .navbar-collapse a {
+    padding        : 10px 0 10px 0;
+    font-size      : 1.5rem;
     text-decoration: none;
-    color: var(--colorWhite);
+    color          : var(--colorWhite);
 }
-.side-inner a:hover, nav .navbar-collapse a:hover{
-    text-decoration: none;
+
+.side-inner a:hover,
+nav .navbar-collapse a:hover {
+    text-decoration : none;
     background-color: rgba(255, 255, 255, 0.39);
 }
 
 /* LandingPage */
-h2{
+h2 {
     text-transform: uppercase;
-}
-h3{
-    text-transform: uppercase;
-    font-size: 1.5em;
-    margin-bottom: 2em;
-}
-h4{
-    font-size: 1.5em;
-    margin-bottom: 1em;
-    font-style: italic;
-}
-.smallHr{
-    border-bottom: 3px solid var(--color1);
-    margin-bottom: 2%;
-    max-width: 10em;
-    margin: 0.5em auto 0.5em auto;
-}
-#logoLandingPage{
-    margin-top: 10vh;
-    max-width: 60vw;
-    max-height: 60vh;
-    margin-bottom: auto;
-}
-#landingPage1{
-    background: cadetblue;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center; 
-}
-#landingPage2, #landingPage3, #landingPage4 {
-    min-height: 100vh;
-}
-.sectionTitle{
-    padding-top: 5.3em;
-    align-items: center;
-    text-align: center;
 }
 
-#whoWeAreContainer{
-    max-width: 70vw;
-    margin-left: auto;
-    margin-right: auto;
-    border: var(--color1) 2vh solid;
+h3 {
+    text-transform: uppercase;
+    font-size     : 1.5em;
+    margin-bottom : 2em;
 }
-#whoWeAreText{
+
+h4 {
+    font-size    : 1.5em;
+    margin-bottom: 1em;
+    font-style   : italic;
+}
+
+.smallHr {
+    border-bottom: 3px solid var(--color1);
+    margin-bottom: 2%;
+    max-width    : 10em;
+    margin       : 0.5em auto 0.5em auto;
+}
+
+#logoLandingPage {
+    margin-top   : 10vh;
+    max-width    : 60vw;
+    max-height   : 60vh;
+    margin-bottom: auto;
+}
+
+#landingPage1 {
+    background     : cadetblue;
+    min-height     : 100vh;
+    display        : flex;
+    justify-content: center;
+}
+
+#landingPage2,
+#landingPage3,
+#landingPage4 {
+    min-height: 100vh;
+}
+
+.sectionTitle {
+    padding-top: 5.3em;
+    align-items: center;
+    text-align : center;
+}
+
+#whoWeAreContainer {
+    max-width   : 70vw;
+    margin-left : auto;
+    margin-right: auto;
+    border      : var(--color1) 2vh solid;
+}
+
+#whoWeAreText {
     margin: 5vh auto 5vh auto;
 }
 
-#imgTest1{
-    height: 55vh;
+#imgTest1 {
+    height          : 55vh;
     background-color: teal;
-    position: relative;
-    left: -5vw;
-    top: 5vh;
-    margin-bottom: 10vh;
+    position        : relative;
+    left            : -5vw;
+    top             : 5vh;
+    margin-bottom   : 10vh;
 }
-#journey, #experience{
-    max-width: 70vw;
-    margin-left: auto;
+
+#journey,
+#experience {
+    max-width   : 70vw;
+    margin-left : auto;
     margin-right: auto;
 }
+
 /* FIXME: */
 /* .imgHover{
     background-color: grey;
@@ -113,92 +139,109 @@ h4{
     height: 100%;
     visibility: hidden;
 } */
-.imgOn{
-    filter: sepia(60%);
-    transition: ease-in ;
+.imgOn {
+    filter    : sepia(60%);
+    transition: ease-in;
 }
-.imgOut{
+
+.imgOut {
     filter: sepia(0%);
 }
-#imgRoom1{
-    max-height: 60vh;
+
+#imgRoom1 {
+    max-height      : 60vh;
     background-color: teal;
-    padding: 0px;
-    overflow: hidden;
-    position: relative;
+    padding         : 0px;
+    overflow        : hidden;
+    position        : relative;
 }
-#imgRoom2{
-    height: 30vh;
-    width: 30vw;
+
+#imgRoom2 {
+    height          : 30vh;
+    width           : 30vw;
     background-color: paleturquoise;
-    margin-top: 25vh;
-    padding: 0px;
+    margin-top      : 25vh;
+    padding         : 0px;
 }
-#imgRoom3{
-    height: 30vh;
-    width: 30vw;
+
+#imgRoom3 {
+    height          : 30vh;
+    width           : 30vw;
     background-color: palegreen;
-    margin-top: 5vh;
-    padding: 0px;
+    margin-top      : 5vh;
+    padding         : 0px;
 }
-#imgExperience1{
-    height: 40vh;
+
+#imgExperience1 {
+    height          : 40vh;
     background-color: teal;
 }
-#imgExperience2{
-    height: 40vh;
+
+#imgExperience2 {
+    height          : 40vh;
     background-color: teal;
 }
 
 /* Buttons */
 
-.linkButton{
+.linkButton {
     background-color: var(--color1);
-    border: 2px solid var(--color2);
-    padding: 0.5em 0.8em 0.5em 0.8em;
-    border-radius: 7px;
-    text-transform: uppercase;
-    color: var(--colorWhite);
-    z-index: 1000;
+    border          : 2px solid var(--color2);
+    padding         : 0.5em 0.8em 0.5em 0.8em;
+    border-radius   : 7px;
+    text-transform  : uppercase;
+    color           : var(--colorWhite);
+    z-index         : 1000;
 }
-.linkButton:hover{
-    color: var(--colorWhite);
+
+.linkButton:hover {
+    color           : var(--colorWhite);
     background-color: var(--color2);
-    border: 2px solid var(--color1);
-    text-decoration: none;
+    border          : 2px solid var(--color1);
+    text-decoration : none;
 }
-#reserveButton{
+
+#reserveButton {
     position: fixed;
-    bottom: 15vh;
-    margin: auto;
+    bottom  : 15vh;
+    margin  : auto;
 }
-.journeyButton{
-    position: absolute;
-    transform: translateX(-50%) translateY(-50%); top: 50%; left: 50%;
+
+.journeyButton {
+    position : absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top      : 50%;
+    left     : 50%;
 }
-.experienceButton{
-    position: absolute;
-    transform: translateX(-50%) translateY(-50%); top: 50%; left: 50%;
+
+.experienceButton {
+    position : absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top      : 50%;
+    left     : 50%;
 }
 
 /* Footer */
 
-footer a{
-        font-size: 1rem;
-        text-decoration: none;
-        color: var(--colorWhite);
-        text-align: center;
-        padding: .5rem;
-}
-footer a:hover{
+footer a {
+    font-size      : 1rem;
     text-decoration: none;
+    color          : var(--colorWhite);
+    text-align     : center;
+    padding        : .5rem;
+}
+
+footer a:hover {
+    text-decoration : none;
     background-color: rgba(255, 255, 255, 0.39);
 
 }
-footer{
-    padding: 1rem;
+
+footer {
+    padding         : 1rem;
     background-color: var(--color1);
 }
-.borderLeft{
+
+.borderLeft {
     border-left: solid var(--colorWhite);
 }

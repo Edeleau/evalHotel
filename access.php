@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -7,25 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOTELCOP | Accès</title>
     <?php
-        include("./link.php");
+    include("./link.php");
     ?>
-    
+
 </head>
 
 <body>
 
-<?php 
-include("./nav.php");
-?>
-<main>
+    <?php
+    include("./nav.php");
+    ?>
+    <main>
 
-<h1>Titre</h1>
-<p>Text Content</p>
-
-
+        <h1>Titre</h1>
+        <p>Text Content</p>
 
 
-</main>
-<?php 
-include("./footer.php");
-?>
+
+
+    </main>
+    <?php
+    include("./footer.php");
+    ?>
+</body>
+
+</html>
