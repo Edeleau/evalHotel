@@ -1,10 +1,11 @@
+@import '../../node_modules/vanillajs-datepicker/sass/datepicker-bs4.scss';
 
 :root {
-    --color1    : #9bbcda;
-    --color1opacity8   : rgb(155, 188, 218, 0.8);
-    --color1opacity2   : rgb(155, 188, 218, 0.2);
-    --color2    : #4f6e86;
-    --colorWhite: white;
+    --color1        : #9bbcda;
+    --color1opacity8: rgb(155, 188, 218, 0.8);
+    --color1opacity2: rgb(155, 188, 218, 0.2);
+    --color2        : #4f6e86;
+    --colorWhite    : white;
 }
 
 body {
@@ -87,14 +88,14 @@ h4 {
 }
 
 #landingPage1 {
-    background     : no-repeat center url(../img/wo-we-are/hall02.jpg);
-    min-height     : 100vh;
-    display        : flex;
-    justify-content: center;
+    background             : no-repeat center url(../img/wo-we-are/hall02.jpg);
+    min-height             : 100vh;
+    display                : flex;
+    justify-content        : center;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -moz-background-size   : cover;
+    -o-background-size     : cover;
+    background-size        : cover;
 }
 
 #landingPage2,
@@ -102,7 +103,8 @@ h4 {
 #landingPage4 {
     min-height: 100vh;
 }
-#landingPage3{
+
+#landingPage3 {
     background: var(--color1opacity2);
 }
 
@@ -125,7 +127,7 @@ h4 {
 
 #imgTest1 {
     height          : 55vh;
-    width: auto;
+    width           : auto;
     background-color: teal;
     position        : relative;
     left            : -5vw;
@@ -154,13 +156,19 @@ h4 {
 }
 
 .imgOut {
-    filter: sepia(0%);
+    filter    : sepia(0%);
     transition: 1s;
 }
-#imgTest1, #imgRoom1, #imgRoom2, #imgRoom3, #imgExperience1, #imgExperience2 {
-    overflow        : hidden;
-    padding         : 0px;
-    border: 2px solid var(--color1);
+
+#imgTest1,
+#imgRoom1,
+#imgRoom2,
+#imgRoom3,
+#imgExperience1,
+#imgExperience2 {
+    overflow: hidden;
+    padding : 0px;
+    border  : 2px solid var(--color1);
 }
 
 #imgRoom1 {
@@ -174,8 +182,8 @@ h4 {
     width           : 30vw;
     background-color: paleturquoise;
     margin-top      : 25vh;
-    border-right: none;
-    
+    border-right    : none;
+
 }
 
 #imgRoom3 {
@@ -183,7 +191,7 @@ h4 {
     width           : 30vw;
     background-color: palegreen;
     margin-top      : 5vh;
-    border-left: none;
+    border-left     : none;
 }
 
 #imgExperience1 {
@@ -222,18 +230,18 @@ h4 {
 }
 
 .journeyButton {
-    position : absolute;
-    transform: translateX(-50%) translateY(-50%);
-    top      : 80%;
-    left     : 50%;
+    position  : absolute;
+    transform : translateX(-50%) translateY(-50%);
+    top       : 80%;
+    left      : 50%;
     background: var(--color1opacity2);
 }
 
 .experienceButton {
-    position : absolute;
-    transform: translateX(-50%) translateY(-50%);
-    top      : 80%;
-    left     : 50%;
+    position  : absolute;
+    transform : translateX(-50%) translateY(-50%);
+    top       : 80%;
+    left      : 50%;
     background: var(--color1opacity2);
 }
 

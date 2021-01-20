@@ -78,7 +78,6 @@ $(function () {
     imgRoom1.addEventListener('mouseout', imgMouseOut);
     imgRoom1.addEventListener('click', changeImg);
     
-
     imgRoom2.addEventListener('mouseover', imgMouseOver2);
     imgRoom2.addEventListener('mouseout', imgMouseOut2);
     imgRoom2.addEventListener('click', changeImg);
@@ -96,10 +95,10 @@ $(function () {
     function changeImg(){
         let imgSrc = this.children[0].getAttribute('src');
         let imgAlt = this.children[0].getAttribute('alt');
-        let img1Src = imgRoom1.children[0].getAttribute('src');
-        let img1Alt = imgRoom1.children[0].getAttribute('alt');
-        imgRoom1.children[0].setAttribute('src', imgSrc);
-        imgRoom1.children[0].setAttribute('alt', imgAlt);
+        let img1Src = imgRoom1.children[1].getAttribute('src');
+        let img1Alt = imgRoom1.children[1].getAttribute('alt');
+        imgRoom1.children[1].setAttribute('src', imgSrc);
+        imgRoom1.children[1].setAttribute('alt', imgAlt);
         this.children[0].setAttribute('src', img1Src);
         this.children[0].setAttribute('alt', img1Alt);
     };
