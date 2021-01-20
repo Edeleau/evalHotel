@@ -73,13 +73,5 @@ $(function () {
 
     imgRoom1.addEventListener('mouseover', imgMouseOver);
     imgRoom1.addEventListener('mouseout', imgMouseOut);
-    
-    function imgMouseOver(){
-        this.children[1].classList.add('imgOn');
-        this.children[1].classList.remove('imgOut')
-    }
-    function imgMouseOut(){
-        this.children[1].classList.add('imgOut');
-        this.children[1].classList.remove('imgOn');
-    }
+
 });

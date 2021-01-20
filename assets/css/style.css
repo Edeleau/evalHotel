@@ -115,6 +115,7 @@ h4{
 } */
 .imgOn{
     filter: sepia(60%);
+    transition: ease-in ;
 }
 .imgOut{
     filter: sepia(0%);
