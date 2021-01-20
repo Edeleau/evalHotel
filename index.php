@@ -29,7 +29,7 @@
         </div>
         <div id="whoWeAreContainer" class="row">
             <div id="imgTest1" class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-                <img src="./assets/img/wo-we-are/tour-eiffel.jpg" alt="tour eiffel" style="height: 100%;">
+                <img src="./assets/img/who-we-are/tour-eiffel.jpg" alt="tour eiffel" style="height: 100%;">
             </div>
             <div id="whoWeAreText" class="col-lg-5 col-md-12">
                 <h4>Le Prestige Hotelcop</h4>

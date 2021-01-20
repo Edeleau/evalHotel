@@ -1,15 +1,28 @@
-@media (min-width: 992px) { 
+@media (max-width: 992px) {
 
-    #imgTest1{
+    #imgTest1 {
         position: static;
     }
-    #woWeAreContainer{
-        border: none;
+
+    #whoWeAreContainer {
+        max-width: 95vw;
+        border   : none;
     }
 
-    #imgRoom2, #imgRoom3 {
+    #whoWeAreText {
+        text-align: center;
+        margin    : 1vh auto 1vh auto;
+    }
+
+    #imgRoom2,
+    #imgRoom3 {
         display: none;
     }
 
+    #journey,
+    #experience {
+        max-width   : 95vw;
+    }
 
- }
+
+}
