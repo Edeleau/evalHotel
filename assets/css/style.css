@@ -42,7 +42,6 @@ body{
 }
 
 /* LandingPage */
-
 h2{
     text-transform: uppercase;
 }
@@ -76,11 +75,11 @@ h4{
 }
 #landingPage2, #landingPage3, #landingPage4 {
     min-height: 100vh;
-    text-align: center;
 }
 .sectionTitle{
     padding-top: 5.3em;
     align-items: center;
+    text-align: center;
 }
 
 #whoWeAreContainer{
@@ -115,10 +114,11 @@ h4{
     visibility: hidden;
 } */
 #imgRoom1{
-    height: 60vh;
+    max-height: 60vh;
     background-color: teal;
     padding: 0px;
     overflow: hidden;
+    position: relative;
 }
 #imgRoom2{
     height: 30vh;
@@ -166,12 +166,12 @@ h4{
     margin: auto;
 }
 .journeyButton{
-    position: relative;
-    top: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%); top: 50%; left: 50%;
 }
 .experienceButton{
-    position: relative;
-    top: 80%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%); top: 50%; left: 50%;
 }
 
 /* Footer */

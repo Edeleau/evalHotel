@@ -8,6 +8,7 @@ include("./nav.php");
         <a id="reserveButton" class="linkButton" href="./reserve.php">Réservez</a>
     </div>
 </main>
+<hr>
 <section id="landingPage2" class="container-fluid">
     <div class="sectionTitle">
         <h2>Tour d'horizon</h2>
