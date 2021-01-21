@@ -14,15 +14,17 @@ body {
 .disparition {
     display: none !important;
 }
+
 .fadeIn {
     visibility: visible !important;
     transition: 0.5s;
-    opacity: 1;
+    opacity   : 1;
 }
+
 .fadeOut {
     visibility: hidden !important;
     transition: 0.2s;
-    opacity: 0;
+    opacity   : 0;
 }
 
 /* Navbar && Sidebar */
@@ -30,6 +32,7 @@ body {
     background-color: var(--color1);
     height          : 3.3em;
     padding         : 0;
+    box-shadow      : 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 #navbarSupportedContent {
@@ -63,9 +66,8 @@ nav .navbar-collapse a:hover {
 
 #logoNavBar{
     height: 2em;
-    
-    left: 0;
-    right: 0;
+    left  : 0;
+    right : 0;
 }
 
 /* LandingPage */
@@ -90,6 +92,7 @@ h4 {
     max-width    : 10em;
     margin       : 0.5em auto 0.5em auto;
 }
+
 .photoResize {
     height: 100%;
 }
@@ -155,11 +158,13 @@ h4 {
     margin-left : auto;
     margin-right: auto;
 }
-#journey{
-    max-width   : 90vw;
+
+#journey {
+    max-width: 90vw;
 }
-#experience{
-    max-width   : 75vw;
+
+#experience {
+    max-width: 75vw;
 }
 
 /* FIXME: */
@@ -198,7 +203,7 @@ h4 {
 }
 
 #imgRoom2 {
-    max-height          : 20em;
+    max-height      : 20em;
     background-color: paleturquoise;
     margin-top     : 13em;
     border-right    : none;
@@ -206,22 +211,23 @@ h4 {
 }
 
 #imgRoom3 {
-    max-height          : 20em;
+    max-height      : 20em;
     background-color: palegreen;
     margin-top      : 2em;
     border-left     : none;
 }
 
 #imgExperience1 {
-    max-height          : 25em;
+    max-height      : 25em;
     background-color: teal;
 }
 
 #imgExperience2 {
-    max-height          : 25em;
+    max-height      : 25em;
     background-color: teal;
 }
 
+<<<<<<< HEAD
 .imgLegend{
     position  : absolute;
     transform : translateX(-50%) translateY(-50%);
@@ -254,6 +260,18 @@ h4 {
     left      : 50%;
     margin-top: -4em;
     z-index: 1000;
+=======
+.imgLegend {
+    position      : absolute;
+    transform     : translateX(-50%) translateY(-50%);
+    top           : 50%;
+    left          : 50%;
+    text-transform: uppercase;
+    color         : var(--colorWhite);
+    font-size     : 1.5em;
+    text-align    : center;
+    width         : 90%;
+>>>>>>> 90b6e088bd455c4c3617914e4878945509805688
 }
 
 /* Buttons */
@@ -281,7 +299,8 @@ h4 {
     margin  : auto;
 }
 
-.journeyButton, .experienceButton {
+.journeyButton,
+.experienceButton {
     position  : absolute;
     transform : translateX(-50%) translateY(-50%);
     top       : 65%;
