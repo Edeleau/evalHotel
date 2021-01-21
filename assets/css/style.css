@@ -227,7 +227,6 @@ h4 {
     background-color: teal;
 }
 
-<<<<<<< HEAD
 .imgLegend{
     position  : absolute;
     transform : translateX(-50%) translateY(-50%);
@@ -260,18 +259,6 @@ h4 {
     left      : 50%;
     margin-top: -4em;
     z-index: 1000;
-=======
-.imgLegend {
-    position      : absolute;
-    transform     : translateX(-50%) translateY(-50%);
-    top           : 50%;
-    left          : 50%;
-    text-transform: uppercase;
-    color         : var(--colorWhite);
-    font-size     : 1.5em;
-    text-align    : center;
-    width         : 90%;
->>>>>>> 90b6e088bd455c4c3617914e4878945509805688
 }
 
 /* Buttons */
