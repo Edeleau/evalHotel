@@ -1,0 +1,43 @@
+.sectionSize {
+    padding-top  : 5.3em;
+    margin-bottom: 2em;
+    min-height   : calc(100vh - 2em);
+}
+
+.chooseButton {
+    background-color: var(--color1opacity4);
+}
+
+.carousel-caption {
+    transform  : translateX(-50%) translateY(-50%);
+    top        : 50%;
+    left       : 50%;
+    height     : 4em;
+    line-height: 4em;
+}
+
+.carousel-caption h2 {
+    padding-bottom: 1vh;
+}
+
+.carousel-caption h2:hover {
+    text-decoration: none;
+}
+.carousel-caption a{
+    color: var(--colorWhite);
+}
+
+@media (max-width: 992px) {
+    .carousel-caption .chooseButton {
+        display: none;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.5em;
+    }
+
+    .carousel-caption h2:hover {
+        text-decoration: underline;
+    }
+    
+}

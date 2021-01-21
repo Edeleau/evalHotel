@@ -64,7 +64,7 @@ nav .navbar-collapse a:hover {
     background-color: rgba(255, 255, 255, 0.39);
 }
 
-#logoNavBar{
+#logoNavBar {
     height: 2em;
     left  : 0;
     right : 0;
@@ -121,6 +121,10 @@ h4 {
     min-height: 100vh;
 }
 
+#landingPage4 {
+    padding-bottom: 2em;
+}
+
 #landingPage3 {
     background: var(--color1opacity2);
 }
@@ -143,7 +147,7 @@ h4 {
 }
 
 #imgTest1 {
-    max-width   : 40em;
+    max-width       : 40em;
     max-height      : 35em;
     width           : auto;
     background-color: teal;
@@ -205,9 +209,8 @@ h4 {
 #imgRoom2 {
     max-height      : 20em;
     background-color: paleturquoise;
-    margin-top     : 13em;
+    margin-top      : 13em;
     border-right    : none;
-
 }
 
 #imgRoom3 {
@@ -227,38 +230,41 @@ h4 {
     background-color: teal;
 }
 
-.imgLegend{
-    position  : absolute;
-    transform : translateX(-50%) translateY(-50%);
-    top       : 50%;
-    left      : 50%;
-    width: 90%;
-    color: var(--colorWhite);
+.imgLegend {
+    position : absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top      : 50%;
+    left     : 50%;
+    width    : 90%;
+    color    : var(--colorWhite);
 
 }
-.imgLegend{
+
+.imgLegend {
     text-transform: uppercase;
-    font-size: 1.5em;
-    text-align: center;
+    font-size     : 1.5em;
+    text-align    : center;
 }
-/* TODO: */
-#linkRoom{
-    color: var(--color2);
+
+#linkRoom {
+    color    : var(--color2);
     font-size: 1.7em;
 }
+
 #linkRoomContainer {
-    padding: 2em 0;
+    padding : 2em 0;
     position: relative;
 }
-.lineUp{
-    height: 8em;
-    width: 1px;
-    border: 1px solid var(--colorWhite);
-    position: absolute;
+
+.lineUp {
+    height    : 8em;
+    width     : 1px;
+    border    : 1px solid var(--colorWhite);
+    position  : absolute;
     transform : translateX(-50%) translateY(-50%);
     left      : 50%;
     margin-top: -4em;
-    z-index: 1000;
+    z-index   : 1000;
 }
 
 /* Buttons */
@@ -295,36 +301,39 @@ h4 {
     background: var(--color1opacity2);
 }
 
-
-/* Carousel */
-
-
+.arrowColor {
+    -webkit-filter: invert(1);
+    filter        : invert(1);
+}
 
 /* Soulignement */
 
 .underline {
     position: relative;
-  }
+}
+
 .underline:hover {
     text-decoration: none;
-  }
+}
+
 .underline::after {
-    content: '';
-    transform-origin: 0 0; 
-    transform: scaleX(0);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: .05em; 
-    background: var(--color1);
-    z-index: -1;
-    opacity: 0.8;
-    transition: transform .3s;
-  }
+    content         : '';
+    transform-origin: 0 0;
+    transform       : scaleX(0);
+    position        : absolute;
+    bottom          : 0;
+    left            : 0;
+    right           : 0;
+    height          : .05em;
+    background      : var(--color1);
+    z-index         : -1;
+    opacity         : 0.8;
+    transition      : transform .3s;
+}
+
 .underline:hover::after {
     transform: scaleX(1);
-  }
+}
 
 /* Footer */
 
