@@ -76,12 +76,12 @@
             <h3>HOTELCOP</h3>
         </div>
         <div id="experience" class="row">
-            <div id="imgExperience1" class="col-xl-5 col-lg-5 col-md-7 col-sm-7 col-10 ml-auto mr-auto">
+            <div id="imgExperience1" class="col-xl-5 col-lg-5 col-md-7 col-sm-7 col-10 mx-auto">
                 <a href="care.php" class="linkButton experienceButton">Découvrir</a>
                 <img src="./assets/img/care/soin01.jpeg" class="photoResize" alt="Suite 01 " >
                 <p class="imgLegend">Spa & Bien-être</p>
             </div>
-            <div id="imgExperience2" class="col-xl-5 col-lg-5 col-md-7  col-sm-7 col-10 ml-auto mr-auto">
+            <div id="imgExperience2" class="col-xl-5 col-lg-5 col-md-7  col-sm-7 col-10 mx-auto">
                 <a href="restaurant.php" class="linkButton experienceButton">Découvrir</a>
                 <img src="./assets/img/restaurant/restaurant02.jpg" class="photoResize" alt="Suite 01 " >
                 <p class="imgLegend">Restaurant</p>
