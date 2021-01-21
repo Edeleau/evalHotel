@@ -13,7 +13,9 @@
         text-align: center;
         margin    : 1vh auto 1vh auto;
     }
-
+    #imgRoom1{
+        max-height: 30em;
+    }
     #imgRoom2,
     #imgRoom3 {
         display: none;

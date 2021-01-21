@@ -29,7 +29,7 @@
         </div>
         <div id="whoWeAreContainer" class="row">
             <div id="imgTest1" class="col-lg-7 col-md-6 ml-md-auto mr-md-auto col-sm-12 col-xs-12">
-                <img src="./assets/img/who-we-are/tour-eiffel.jpg" class="photoResize" alt="tour eiffel" >
+                <img src="./assets/img/who-we-are/tour-eiffel.jpg" class="photoResize" alt="tour eiffel">
             </div>
             <div id="whoWeAreText" class="col-lg-5 col-md-12">
                 <h4>Le Prestige Hotelcop</h4>
@@ -41,32 +41,35 @@
             </div>
         </div>
     </section>
-    <!-- FIXME: -->
     <section id="landingPage3" class="container-fluid">
         <div class="sectionTitle">
             <h2>Le Séjour</h2>
             <div class="smallHr"></div>
             <h3>HOTELCOP</h3>
         </div>
+
         <div id="journey" class="row">
-            <div id="imgRoom2" class="col-lg-3">
+            <div id="imgRoom2" class="col-lg-3 mr-auto">
                 <!-- <div id="imgRoom2Hover" class="imgHover"></div> -->
-                <img src="./assets/img/room/room06.jpeg" class="photoResize" alt="Suite 02" >
+                <img src="./assets/img/room/room06.jpeg" class="photoResize" alt="Suite 02">
             </div>
 
-            <div id="imgRoom1" class="col-lg-6 col-md-9 ml-md-auto  mr-md-auto col-sm-12 col-xs-12">
+            <div id="imgRoom1" class="col-lg-6 col-md-9 mx-md-auto col-sm-12">
                 <!-- <div id="imgRoom1Hover" class="imgHover"></div> -->
                 <a href="care.php" class="linkButton journeyButton">Découvrir</a>
-                <img src="./assets/img/room/room04.jpg" class="photoResize" alt="Suite 01 " >
+                <img src="./assets/img/room/room04.jpg" class="photoResize" alt="Suite 01 ">
                 <p class="imgLegend">Suite <br> Le grand charles</p>
             </div>
 
             <div id="imgRoom3" class="col-lg-3">
                 <!-- <div id="imgRoom3Hover" class="imgHover"></div> -->
-                <img src="./assets/img/room/sdb04.jpg" class="photoResize" alt="salle de bain Suite" >
+                <img src="./assets/img/room/sdb03.jpg" class="photoResize" alt="salle de bain Suite">
             </div>
-
         </div>
+        <!-- TODO: -->
+        <div id="linkRoomContainer" class="col-12 text-center">
+            <div class="lineUp"></div>
+            <p><a id="linkRoom" class="underline" href="room.php">Toutes nos chambres</a></p>
         </div>
     </section>
     <section id="landingPage4" class="container-fluid">
@@ -78,12 +81,12 @@
         <div id="experience" class="row">
             <div id="imgExperience1" class="col-xl-5 col-lg-5 col-md-7 col-sm-7 col-10 mx-auto">
                 <a href="care.php" class="linkButton experienceButton">Découvrir</a>
-                <img src="./assets/img/care/soin01.jpeg" class="photoResize" alt="Suite 01 " >
+                <img src="./assets/img/care/soin01.jpeg" class="photoResize" alt="Suite 01 ">
                 <p class="imgLegend">Spa & Bien-être</p>
             </div>
             <div id="imgExperience2" class="col-xl-5 col-lg-5 col-md-7  col-sm-7 col-10 mx-auto">
                 <a href="restaurant.php" class="linkButton experienceButton">Découvrir</a>
-                <img src="./assets/img/restaurant/restaurant02.jpg" class="photoResize" alt="Suite 01 " >
+                <img src="./assets/img/restaurant/restaurant02.jpg" class="photoResize" alt="Suite 01 ">
                 <p class="imgLegend">Restaurant</p>
             </div>
         </div>

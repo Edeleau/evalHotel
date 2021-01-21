@@ -11,3 +11,4 @@
 <link rel="stylesheet" href="./assets/css/sidebar.css">
 <link rel="stylesheet" href="./assets/css/style.css">
 <link rel="stylesheet" href="./assets/css/style992px.css">
+<link rel="stylesheet" href="./assets/css/style567px.css">
