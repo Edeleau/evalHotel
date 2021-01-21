@@ -7,7 +7,6 @@
     let imgRoom3 = document.getElementById('imgRoom3');
     let imgExperience1 = document.getElementById('imgExperience1');
     let imgExperience2 = document.getElementById('imgExperience2');
-
     imgRoom1.addEventListener('mouseover', imgMouseOver);
     imgRoom1.addEventListener('mouseout', imgMouseOut);
     
@@ -43,7 +42,10 @@
     let reserveBtn = document.getElementById('reserveButton');
     window.addEventListener('scroll', fadeBtn);
     fadeBtn();
+<<<<<<< HEAD
  
+=======
+>>>>>>> fbad18faa1aa7a5ca95c14326133db5a7d749fc6
     function fadeBtn(){
             if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
                 reserveBtn.classList.add('fadeOut');
