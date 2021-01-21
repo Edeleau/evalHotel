@@ -35,10 +35,11 @@
     </div>
     <div class="col-3 d-flex flex-row-reverse">
         <button class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="btn-navbar">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span> 
+        </button>
     </div>
 
-    </button>
+   
     <div class="collapse" id="navbarSupportedContent">
         <div class="container-fluid">
             <div class="row justify-content-center">

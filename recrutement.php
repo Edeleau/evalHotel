@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOTELCOP | Réservation</title>
+    <title>HOTELCOP | Recrutement</title>
     <link rel="stylesheet" href="./node_modules/vanillajs-datepicker/dist/css/datepicker-bs4.min.css">
     <?php
     include("./link.php");
@@ -27,7 +27,7 @@
                         <div class="row">
                             <div class="col-lg-4 ">
                                 <div class="booking-cta">
-                                    <h1>Faites votre réservation !</h1>
+                                    <h1>Rejoignez notre équipe !</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam numquam at</p>
                                 </div>
                             </div>
@@ -43,49 +43,40 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="email" required>
-                                                    <span class="form-label">Email</span>
+                                                    <input class="form-control" type="text" required>
+                                                    <span class="form-label">Prénom</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="tel" pattern="[0-9]{10}" required>
-                                                    <span class="form-label">Téléphone</span>
+                                                    <input class="form-control" type="text">
+                                                    <span class="form-label">Entreprise</span>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-sm-6">
-                                                <div class="form-group ">
-                                                    <span class="form-label">Chambre</span>
-                                                    <select class="form-control" name="chambre" required>
-                                                        <option value=""></option>
-                                                        <option>Classique</option>
-                                                        <option>Confort</option>
-                                                        <option>Deluxe</option>
-                                                        <option>Suite</option>
-                                                    </select>
-                                                    <span class="select-arrow"></span>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" type="email" required>
+                                                    <span class="form-label">Email</span>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-sm-6">
-                                                <div class="form-group ">
-                                                    <span class="form-label">Personnes</span>
-                                                    <select class="form-control" name="personnes" required>
-                                                        <option value=""></option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                    </select>
-                                                    <span class="select-arrow"></span>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                <input type="file" class="custom-file-input form-control" id="customFile" name="filename" required>
+                                                    <span class="form-label">CV</span>
                                                 </div>
                                             </div>
+
                                         </div>
                                         <div id="sandbox">
                                             <div class="d-flex flex-row date input-daterange">
                                                 <div class="col-md-6 pl-0">
                                                     <div class="form-group">
-                                                        <input type="text" name="range-start" class="form-control datepicker-input" required>
+                                                        <input type="text" name="range-start" class="form-control datepicker-input" style="display: none;" required>
                                                         <span class="form-label">Date d'entrée</span>
                                                     </div>
                                                 </div>
@@ -98,7 +89,7 @@
                                             </div>
                                         </div>
                                         <div class="form-btn">
-                                            <button class="submit-btn">Réservez maintenant</button>
+                                            <button class="submit-btn">Envoyez votre candidature</button>
                                         </div>
                                     </form>
                                 </div>
@@ -113,7 +104,6 @@
     include("./footer.php");
     ?>
     <script type="module" src="./assets/js/reserve.js"></script>
-    <script type="module" src="./assets/js/datepicker.js"></script>
 
 </body>
 
