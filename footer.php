@@ -10,7 +10,7 @@
                 <a href="" class="col-12">CGV</a>
             </div>
             <div class="col-3 borderLeft row m-0 align-items-center">
-                <a href="" class="col-12 ">Recrutement</a>
+                <a href="recrutement.php" class="col-12 ">Recrutement</a>
             </div>
             <div class="col-3 borderLeft row m-0 align-items-center">
                 <a href="" class="col-12">Actualité</a>
@@ -22,3 +22,4 @@
 <?php
 include("./script.php");
 ?>
+<!--<div>Icônes conçues par <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/fr/" title="Flaticon">www.flaticon.com</a></div> #}-->

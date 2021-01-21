@@ -19,9 +19,9 @@
     <?php
     include("./nav.php");
     ?>
-    <div class="container-fluid p-0">
+    <div class="container-fluid">
         <div class="row">
-            <div id="booking" class="section col-12">
+            <div id="recrute" class="section col-12">
                 <div class="section-center">
                     <div class="container">
                         <div class="row">
@@ -66,25 +66,26 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                <input type="file" class="custom-file-input form-control" id="customFile" name="filename" required>
-                                                    <span class="form-label">CV</span>
+                                                    <input class="form-control custom-file-input" type="file" id="cv" required>
+                                                    <input class="form-control" type="text" id="fakeInputCv" disabled="disabled">
+                                                    <span class="form-label">Curriculum vitæ</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input class="form-control custom-file-input" type="file" id="motivation" required>
+                                                    <input class="form-control" type="text" id="fakeInputMotivation" disabled="disabled">
+                                                    <span class="form-label">Lettre de motivation</span>
+
                                                 </div>
                                             </div>
 
                                         </div>
-                                        <div id="sandbox">
-                                            <div class="d-flex flex-row date input-daterange">
-                                                <div class="col-md-6 pl-0">
-                                                    <div class="form-group">
-                                                        <input type="text" name="range-start" class="form-control datepicker-input" style="display: none;" required>
-                                                        <span class="form-label">Date d'entrée</span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 pr-0">
-                                                    <div class="form-group">
-                                                        <input type="text" name="range-end" class="form-control datepicker-input" required>
-                                                        <span class="form-label">Date de sortie</span>
-                                                    </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" id="textArea" rows="12"></textarea>
+                                                    <span class="form-label" id="labelTextArea">Message</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,7 +104,7 @@
     <?php
     include("./footer.php");
     ?>
-    <script type="module" src="./assets/js/reserve.js"></script>
+    <script type="module" src="./assets/js/form.js"></script>
 
 </body>
 

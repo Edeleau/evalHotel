@@ -64,10 +64,10 @@ nav .navbar-collapse a:hover {
     background-color: rgba(255, 255, 255, 0.39);
 }
 
-#logoNavBar{
-    height: 2em;
-    left  : 0;
-    right : 0;
+#logoNavBar {
+    padding: 3px;
+    left   : 0;
+    right  : 0;
 }
 
 /* LandingPage */
@@ -143,7 +143,7 @@ h4 {
 }
 
 #imgTest1 {
-    max-width   : 40em;
+    max-width       : 40em;
     max-height      : 35em;
     width           : auto;
     background-color: teal;
@@ -205,7 +205,7 @@ h4 {
 #imgRoom2 {
     max-height      : 20em;
     background-color: paleturquoise;
-    margin-top     : 13em;
+    margin-top      : 13em;
     border-right    : none;
 
 }
@@ -227,38 +227,42 @@ h4 {
     background-color: teal;
 }
 
-.imgLegend{
-    position  : absolute;
-    transform : translateX(-50%) translateY(-50%);
-    top       : 50%;
-    left      : 50%;
-    width: 90%;
-    color: var(--colorWhite);
+.imgLegend {
+    position : absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top      : 50%;
+    left     : 50%;
+    width    : 90%;
+    color    : var(--colorWhite);
 
 }
-.imgLegend{
+
+.imgLegend {
     text-transform: uppercase;
-    font-size: 1.5em;
-    text-align: center;
+    font-size     : 1.5em;
+    text-align    : center;
 }
+
 /* TODO: */
-#linkRoom{
-    color: var(--color2);
+#linkRoom {
+    color    : var(--color2);
     font-size: 1.7em;
 }
+
 #linkRoomContainer {
-    padding: 2em 0;
+    padding : 2em 0;
     position: relative;
 }
-.lineUp{
-    height: 8em;
-    width: 1px;
-    border: 1px solid var(--colorWhite);
-    position: absolute;
+
+.lineUp {
+    height    : 8em;
+    width     : 1px;
+    border    : 1px solid var(--colorWhite);
+    position  : absolute;
     transform : translateX(-50%) translateY(-50%);
     left      : 50%;
     margin-top: -4em;
-    z-index: 1000;
+    z-index   : 1000;
 }
 
 /* Buttons */
@@ -304,27 +308,30 @@ h4 {
 
 .underline {
     position: relative;
-  }
+}
+
 .underline:hover {
     text-decoration: none;
-  }
+}
+
 .underline::after {
-    content: '';
-    transform-origin: 0 0; 
-    transform: scaleX(0);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: .05em; 
-    background: var(--color1);
-    z-index: -1;
-    opacity: 0.8;
-    transition: transform .3s;
-  }
+    content         : '';
+    transform-origin: 0 0;
+    transform       : scaleX(0);
+    position        : absolute;
+    bottom          : 0;
+    left            : 0;
+    right           : 0;
+    height          : .05em;
+    background      : var(--color1);
+    z-index         : -1;
+    opacity         : 0.8;
+    transition      : transform .3s;
+}
+
 .underline:hover::after {
     transform: scaleX(1);
-  }
+}
 
 /* Footer */
 
@@ -348,4 +355,21 @@ footer {
 
 .borderLeft {
     border-left: solid var(--colorWhite);
+}
+
+.panier {
+    -webkit-filter: invert(1);
+    filter        : invert(1);
+    padding       : 7px;
+    opacity       : 0.8;
+}
+
+.lienPanier {
+    width: 55px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0)!important;
+    border-color: rgba(0,0,0,0)!important; 
+    -webkit-filter: invert(1);
+    filter        : invert(1);
 }

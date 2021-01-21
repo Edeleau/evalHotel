@@ -27,19 +27,24 @@
 </aside>
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
-    <div class="col-3"></div>
-    <div class="col-6 text-center">
+    <div class="col-3 d-flex flex-row-reverse  h-100">
+        <a href="#" class="lienPanier d-block d-lg-none d-xl-none mr-auto"><img src="./assets/icone/panier.svg" class="h-100 panier" alt="panier"></a>
+
+    </div>
+    <div class="col-6 text-center h-100">
         <a href="index.php">
-            <img id="logoNavBar" src="./assets/img/logo_projet_front_small.png" alt="Logo Hotelcop">
+            <img id="logoNavBar" class="h-100" src="./assets/img/logo_projet_front_small.png" alt="Logo Hotelcop">
         </a>
     </div>
-    <div class="col-3 d-flex flex-row-reverse">
+    <div class="col-3 d-flex flex-row-reverse h-100 text-right">
+
         <button class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="btn-navbar">
-            <span class="navbar-toggler-icon"></span> 
+            <span class="navbar-toggler-icon"></span>
         </button>
+        <a href="#" class="lienPanier d-none d-lg-block d-xl-block"><img src="./assets/icone/panier.svg" class="panier  h-100" alt="panier"></a>
     </div>
 
-   
+
     <div class="collapse" id="navbarSupportedContent">
         <div class="container-fluid">
             <div class="row justify-content-center">
