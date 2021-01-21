@@ -65,9 +65,9 @@ nav .navbar-collapse a:hover {
 }
 
 #logoNavBar {
-    height: 2em;
-    left  : 0;
-    right : 0;
+    padding: 3px;
+    left   : 0;
+    right  : 0;
 }
 
 /* LandingPage */
@@ -357,4 +357,21 @@ footer {
 
 .borderLeft {
     border-left: solid var(--colorWhite);
+}
+
+.panier {
+    -webkit-filter: invert(1);
+    filter        : invert(1);
+    padding       : 7px;
+    opacity       : 0.8;
+}
+
+.lienPanier {
+    width: 55px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0)!important;
+    border-color: rgba(0,0,0,0)!important; 
+    -webkit-filter: invert(1);
+    filter        : invert(1);
 }

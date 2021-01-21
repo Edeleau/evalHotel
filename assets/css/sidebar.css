@@ -62,12 +62,6 @@ aside .toggle {
   transform        : translateX(100%);
 }
 
-.show-sidebar aside .toggle .burger:before,
-.show-sidebar aside .toggle .burger span,
-.show-sidebar aside .toggle .burger:after {
-  background: #fff;
-}
-
 .show-sidebar aside {
   -webkit-box-shadow: 10px 0 30px 0 rgba(0, 0, 0, 0.1);
   box-shadow        : 10px 0 30px 0 rgba(0, 0, 0, 0.1);
@@ -96,7 +90,7 @@ aside .side-inner {
   width        : 100%;
   height       : 2px;
   display      : block;
-  background   : #000;
+  background   : white;
   border-radius: 2px;
   position     : absolute;
   opacity      : 1;
