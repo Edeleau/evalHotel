@@ -34,7 +34,7 @@ $(function () {
     window.onload = navBar;
     window.onresize = navBar;
 
-    function  navBar() { 
+    function  navBar() {    
         let withWindow = parseInt(window.innerWidth);
         let navbar = document.getElementById('navbarSupportedContent');
         let toggleSidebar = document.getElementById('toggle-btn');
