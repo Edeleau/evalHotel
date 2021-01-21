@@ -41,7 +41,7 @@
     let logoNavBar = document.getElementById('logoNavBar');
     let reserveBtn = document.getElementById('reserveButton');
     window.addEventListener('scroll', fadeBtn);
- 
+    fadeBtn();
     function fadeBtn(){
             if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
                 reserveBtn.classList.add('fadeOut');

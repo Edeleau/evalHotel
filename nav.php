@@ -3,7 +3,7 @@
         <a href="#" class="burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
             <span></span>
         </a>
-        
+
     </div>
     <div class="side-inner">
         <div class="container-fluid">
@@ -27,8 +27,17 @@
 </aside>
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="btn-navbar">
-        <span class="navbar-toggler-icon"></span>
+    <div class="col-3"></div>
+    <div class="col-6 text-center">
+        <a href="index.php">
+            <img id="logoNavBar" src="./assets/img/logo_projet_front_small.png" alt="Logo Hotelcop">
+        </a>
+    </div>
+    <div class="col-3 d-flex flex-row-reverse">
+        <button class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="btn-navbar">
+            <span class="navbar-toggler-icon"></span>
+    </div>
+
     </button>
     <div class="collapse" id="navbarSupportedContent">
         <div class="container-fluid">
@@ -49,5 +58,6 @@
         </div>
 
     </div>
-    <img id= "logoNavBar" src="./assets/img/logo_projet_front_small.png" alt="Logo Hotelcop">
+
+
 </nav>
