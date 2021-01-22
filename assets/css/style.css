@@ -26,6 +26,9 @@ body {
     transition: 0.2s;
     opacity   : 0;
 }
+.width40{
+    width: 40%;
+}
 
 /* Navbar && Sidebar */
 .navbar {
@@ -293,8 +296,9 @@ h4 {
 }
 
 .linkButton:hover {
-    background-color: var(--color1);
+    background-color: var(--color1opacity4);
     text-decoration : none;
+    color           : var(--color2);
 }
 .linkButtonOn{
     color           : var(--color2);
@@ -303,7 +307,7 @@ h4 {
 
 }
 .linkButtonOut{
-    
+
 }
 
 #reserveButton {
@@ -353,6 +357,10 @@ h4 {
 
 .underline:hover::after {
     transform: scaleX(1);
+}
+
+.iconSize{
+    height: 2.5em;
 }
 
 /* Footer */

@@ -15,7 +15,7 @@
     <?php
     include("./nav.php");
     ?>
-    <div class="sectionSize">
+    <section class="sectionSize">
         <div class="container-fluid">
             <div class="row">
                 <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </div>
-    </div>
+</section>
     <?php
     include("./footer.php");
     ?>
