@@ -21,7 +21,6 @@
                 <a href="contact.php" class="col-12 text-center">Contact</a>
             </div>
         </div>
-
     </div>
 
 </aside>
