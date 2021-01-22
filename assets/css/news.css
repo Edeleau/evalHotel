@@ -1,0 +1,21 @@
+.first{
+    padding-top: 5.5em;
+    min-height: 100vh;
+}
+.card-header{
+    background-color: var(--color1);
+    border-bottom: 0;
+}
+.card{
+    background-color: var(--color1);
+    color: white;
+    border-radius: 0;
+    border-bottom: 2px solid var(--color2);
+}
+body{
+    background-color: var(--color1opacity2);
+}
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}

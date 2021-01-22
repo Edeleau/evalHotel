@@ -27,16 +27,15 @@
 </aside>
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
-    <div class="col-3 d-flex flex-row-reverse  h-100">
+    <div class="col-2 col-md-3 col-sm-2 col-lg-3 col-xl-3 d-flex flex-row-reverse  h-100">
         <a href="#" class="lienPanier d-block d-lg-none d-xl-none mr-auto"><img src="./assets/icone/panier.svg" class="h-100 panier" alt="panier"></a>
-
     </div>
-    <div class="col-6 text-center h-100">
+    <div class="col-8 col-md-6 col-sm-8 col-lg-6 col-xl-6 text-center h-100">
         <a href="index.php">
-            <img id="logoNavBar" class="h-100" src="./assets/img/logo_projet_front_small.png" alt="Logo Hotelcop">
+            <img id="logoNavBar" class=" img-responsive" src="./assets/img/logo_projet_front_small.png" alt="Logo Hotelcop">
         </a>
     </div>
-    <div class="col-3 d-flex flex-row-reverse h-100 text-right">
+    <div class="col-2 col-md-3 col-sm-2 col-lg-3 col-xl-3 d-flex flex-row-reverse h-100 text-right">
 
         <button class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="btn-navbar">
             <span class="navbar-toggler-icon"></span>
