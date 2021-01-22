@@ -13,7 +13,7 @@
                 <a href="recrutement.php" class="col-12 ">Recrutement</a>
             </div>
             <div class="col-3 borderLeft row m-0 align-items-center">
-                <a href="" class="col-12">Actualité</a>
+                <a href="news.php" class="col-12">Actualité</a>
                 <a href="" class="col-12">Presse</a>
             </div>
         </div>
