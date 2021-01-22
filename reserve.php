@@ -19,13 +19,8 @@
     <?php
     include("./nav.php");
     ?>
-<<<<<<< HEAD
     <div class="container-fluid p-0">
-        <div class="row static">
-=======
-    <div class="container-fluid">
-        <div class="row">
->>>>>>> 4a98c2d77a3462e7f8f031a3fcc3d125df4cd499
+        <div class="row ">
             <div id="booking" class="section col-12">
                 <div class="section-center">
                     <div class="container">
