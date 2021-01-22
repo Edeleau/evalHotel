@@ -42,7 +42,7 @@
         </div>
     </section>
     <section id="landingPage3" class="container-fluid">
-        <div class="sectionTitle">
+        <div class="sectionTitle sectionRoom">
             <h2>Le Séjour</h2>
             <div class="smallHr"></div>
             <h3>HOTELCOP</h3>

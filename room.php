@@ -16,10 +16,18 @@
     include("./nav.php");
     ?>
     <section class="sectionSize">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-xl-9 col-lg-9 col-md-9 col-12 mx-auto my-auto">
-                    <div class="container">
+                    <div class="sectionTitle pb-3">
+                        <h3 class="gammeTitle">Chambres et suites</h3>
+                        <div class="smallHr"></div>
+                        <h4 class="mb-5">Composez votre séjour parisien</h4>
+                    </div>
+                    <p class="text-center">
+Déclinées en trois catégories (Classique, Confort et Deluxe), les 41 Chambres se caractérisent par un style unique. D’une superficie moyenne de 29m², ces chambres, toutes différentes, offrent espace et confort.<br><br>
+Les Suites d’une superficie de 40m², s’ouvrent pour la plupart sur la cour intérieure de l’hôtel garantissant calme et tranquillité.
+                    <div class="container mt-2">
                         <div id="monSlider" class="carousel slide" data-ride="carousel" data-interval="false">
                             <ol class="carousel-indicators">
                                 <li data-target="#monSlider" data-slide-to="0"></li>
@@ -38,22 +46,22 @@
                                 <div class="carousel-item">
                                     <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
-                                        <h2>Chambre Confort</h2>
-                                        <a href="#" class="linkButton">En savoir plus</a>
+                                        <h2><a href="#">Chambre Confort</a></h2>
+                                        <a href="#" class="linkButton chooseButton">En savoir plus</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="./assets/img/room/sdb03.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
-                                        <h2>Chambre Deluxe</h2>
-                                        <a href="#" class="linkButton">En savoir plus</a>
+                                        <h2><a href="#">Chambre Deluxe</a></h2>
+                                        <a href="#" class="linkButton chooseButton">En savoir plus</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
-                                        <h2>Suite</h2>
-                                        <a href="#" class="linkButton">En savoir plus</a>
+                                        <h2><a href="#">Suite</a></h2>
+                                        <a href="#" class="linkButton chooseButton">En savoir plus</a>
                                     </div>
                                 </div>
                             </div>

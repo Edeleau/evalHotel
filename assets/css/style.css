@@ -180,13 +180,16 @@ h4 {
     visibility: hidden;
 } */
 .imgOn {
-    filter    : sepia(60%);
+    filter    : brightness(130%);
     transition: 1s;
 }
 
 .imgOut {
-    filter    : sepia(0%);
+    filter    : brightness(100%);
     transition: 1s;
+}
+.legendOn{
+
 }
 
 #imgTest1,
@@ -236,7 +239,6 @@ h4 {
     top      : 50%;
     left     : 50%;
     width    : 90%;
-    color    : var(--colorWhite);
 
 }
 
@@ -245,6 +247,13 @@ h4 {
     font-size     : 1.5em;
     text-align    : center;
 }
+.legendOn {
+    color    : var(--color2);
+}
+.legendOut{
+    color    : var(--colorWhite);
+}
+
 
 #linkRoom {
     color    : var(--color2);
@@ -280,10 +289,17 @@ h4 {
 }
 
 .linkButton:hover {
-    color           : var(--colorWhite);
-    background-color: var(--color2);
-    border          : 2px solid var(--color1);
+    background-color: var(--color1);
     text-decoration : none;
+}
+.linkButtonOn{
+    color           : var(--color2);
+    border          : 2px solid var(--color2);
+    background-color: var(--white);
+
+}
+.linkButtonOut{
+    
 }
 
 #reserveButton {
