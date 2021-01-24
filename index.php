@@ -58,7 +58,7 @@
                 <!-- <div id="imgRoom1Hover" class="imgHover"></div> -->
                 <a href="room.php" class="linkButton journeyButton">Découvrir</a>
                 <img src="./assets/img/room/room04.jpg" class="photoResize" alt="Suite 01">
-                <div class="imgLegend">
+                <div class="imgLegend legendOut">
                 <p>Nos Suites</p>
                 </div>
             </div>
@@ -70,7 +70,7 @@
         </div>
         <!-- TODO: -->
         <div id="linkRoomContainer" class="col-12 text-center">
-            <div class="lineUp"></div>
+            <div id="lineUpRoom1" class="lineWhite"></div>
             <p><a id="linkRoom" class="underline" href="room.php">Toutes nos chambres</a></p>
         </div>
     </section>
@@ -84,12 +84,12 @@
             <div id="imgExperience1" class="col-xl-5 col-lg-5 col-md-7 col-sm-7 col-10 mx-auto my-auto">
                 <a href="care.php" class="linkButton experienceButton">Découvrir</a>
                 <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="Suite 01 ">
-                <p class="imgLegend">Spa & Bien-être</p>
+                <p class="imgLegend legendOut">Spa & Bien-être</p>
             </div>
             <div id="imgExperience2" class="col-xl-5 col-lg-5 col-md-7  col-sm-7 col-10 mx-auto my-auto">
                 <a href="restaurant.php" class="linkButton experienceButton">Découvrir</a>
                 <img src="./assets/img/restaurant/restaurant02.jpg" class="img-fluid" alt="Suite 01 ">
-                <p class="imgLegend">Restaurant</p>
+                <p class="imgLegend legendOut">Restaurant</p>
             </div>
         </div>
     </section>

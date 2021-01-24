@@ -5,6 +5,7 @@
     --color1opacity4: rgb(155, 188, 218, 0.4);
     --color2        : #4f6e86;
     --colorWhite    : white;
+    --colorWhiteOpcity5   : rgb(255, 255, 255, 0.5);
 }
 
 body {
@@ -26,7 +27,8 @@ body {
     transition: 0.2s;
     opacity   : 0;
 }
-.width40{
+
+.width40 {
     width: 40%;
 }
 
@@ -68,13 +70,13 @@ nav .navbar-collapse a:hover {
 }
 
 #logoNavBar {
-    padding: 3px;
-    left   : 0;
-    right  : 0;
-    width: auto;
-    max-width: 100%;
+    padding   : 3px;
+    left      : 0;
+    right     : 0;
+    width     : auto;
+    max-width : 100%;
     max-height: 3em;
-    margin: auto;
+    margin    : auto;
 }
 
 /* LandingPage */
@@ -178,26 +180,34 @@ h4 {
     max-width: 75vw;
 }
 
-/* FIXME: */
-/* .imgHover{
-    background-color: grey;
-    position: relative;
-    opacity: 0.7;
-    height: 100%;
-    visibility: hidden;
-} */
+/* JS img Animations */
+
+.imgOn, .legendOn, .lineColored {
+    transition: 1s;
+}
 .imgOn {
-    filter    : brightness(130%);
-    transition: 1s;
+    filter    : contrast(40%) brightness(170%);
 }
-
+.imgOut, .legendOut, .lineWhite {
+    transition: 0.2s;
+}
 .imgOut {
-    filter    : brightness(100%);
-    transition: 1s;
+    filter    : contrast(100%) brightness(100%);
 }
-.legendOn{
+.legendOn {
+    color: var(--color2);
+}
+.legendOut {
+    color: var(--colorWhite);
+}
+.lineWhite{
+    border    : 1px solid var(--colorWhite);
+}
+.lineColored{
+    border    : 1px solid var(--color1);
+}
 
-}
+
 
 #imgTest1,
 #imgRoom1,
@@ -241,27 +251,20 @@ h4 {
 }
 
 .imgLegend {
-    position : absolute;
-    transform: translateX(-50%) translateY(-50%);
-    top      : 50%;
-    left     : 50%;
-    width    : 90%;
+    position      : absolute;
+    transform     : translateX(-50%) translateY(-50%);
+    top           : 50%;
+    left          : 50%;
+    width         : 90%;
     text-transform: uppercase;
     font-size     : 1.5em;
     text-align    : center;
 }
 
-.imgLegend p{
+.imgLegend p {
     padding: 0px;
-    margin: 0px;
+    margin : 0px;
 }
-.legendOn {
-    color    : var(--color2);
-}
-.legendOut{
-    color    : var(--colorWhite);
-}
-
 
 #linkRoom {
     color    : var(--color2);
@@ -273,10 +276,9 @@ h4 {
     position: relative;
 }
 
-.lineUp {
+#lineUpRoom1 {
     height    : 8em;
     width     : 1px;
-    border    : 1px solid var(--colorWhite);
     position  : absolute;
     transform : translateX(-50%) translateY(-50%);
     left      : 50%;
@@ -301,14 +303,22 @@ h4 {
     text-decoration : none;
     color           : var(--color2);
 }
-.linkButtonOn{
+
+.linkButtonOn {
+    padding         : 0.5em 0.8em 0.5em 0.8em;
+    border-radius   : 7px;
+    text-transform  : uppercase;
+    z-index         : 1000;
     color           : var(--color2);
     border          : 2px solid var(--color2);
-    background-color: var(--white);
-
+    background-color: var(--colorWhiteOpcity5);
+    transition: 1s;
 }
-.linkButtonOut{
-
+.linkButtonOn:hover {
+    color           : var(--colorWhite);
+    border          : 2px solid var(--color1);
+    background-color: var(--color2);
+    transition: 1s;
 }
 
 #reserveButton {
@@ -359,10 +369,12 @@ h4 {
 .underline:hover::after {
     transform: scaleX(1);
 }
-.iconContainer{
+
+.iconContainer {
     line-height: 1.2em;
 }
-.iconSize{
+
+.iconSize {
     height: 2.5em;
 }
 
@@ -400,26 +412,29 @@ footer {
 .lienPanier {
     width: 55px;
 }
+
 .navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, 0)!important;
-    border-color: rgba(0,0,0,0)!important; 
+    color         : rgba(0, 0, 0, 0) !important;
+    border-color  : rgba(0, 0, 0, 0) !important;
     -webkit-filter: invert(1);
     filter        : invert(1);
 }
-#searching{
-    padding-top: 0.25rem;
+
+#searching {
+    padding-top   : 0.25rem;
     padding-bottom: 0.25rem;
 
 }
+
 #searching input {
-    width: 300px;
-    height: 2.8rem;
-    box-sizing: border-box;
+    width        : 300px;
+    height       : 2.8rem;
+    box-sizing   : border-box;
     border-radius: 25px;
-    border: 0;
-    background: rgba(238, 238, 238, 0.308);
-    font-size: 17px;
-    transition: all 0.5s;
+    border       : 0;
+    background   : rgba(238, 238, 238, 0.308);
+    font-size    : 17px;
+    transition   : all 0.5s;
 }
 
 #searching input:hover {
