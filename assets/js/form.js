@@ -5,8 +5,10 @@ let textArea = document.getElementById('textArea');
 for (let i = 0; i < inputForm.length; i++) {
     // écoute de focus sur les input et gestion de la classe input-not-empty
     inputForm[i].addEventListener("click", function () {
-        if ((this.name == "chambre" || this.name == "personnes") && this.value != '') {
+        if ((this.name == "chambre" || this.name == "personnes" || this.name == "categorie") && this.value != '') {
             this.parentElement.classList.add('input-not-empty');
+        }else{
+            this.parentElement.classList.remove('input-not-empty');
         }
     });
     inputForm[i].addEventListener("focus", function () {
