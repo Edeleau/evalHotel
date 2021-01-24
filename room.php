@@ -26,7 +26,7 @@
                     </div>
                     <p class="text-center">
                         Déclinées en trois catégories (Classique, Confort et Deluxe), les 41 Chambres se caractérisent par un style unique. D’une superficie moyenne de 29m², ces chambres, toutes différentes, offrent espace et confort.<br><br>
-                        Les Suites d’une superficie de 40m², s’ouvrent pour la plupart sur la cour intérieure de l’hôtel garantissant calme et tranquillité.
+                        Les Suites d’une superficie de 70 à 75m², s’ouvrent pour la plupart sur la cour intérieure de l’hôtel garantissant calme et tranquillité.
                     </p>
                     <div class="container mt-2">
                         <div id="monSlider" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -40,29 +40,29 @@
                                 <div class="carousel-item active">
                                     <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
-                                        <h2><a href="room-classique.php">Chambre Classique</a></h2>
-                                        <a href="room-classique.php" class="linkButton chooseButton">En savoir plus</a>
+                                        <h2><a href="chambre-classique.php">Chambre Classique</a></h2>
+                                        <a href="chambre-classique.php" class="linkButton chooseButton">En savoir plus</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
-                                        <h2><a href="room-confort.php">Chambre Confort</a></h2>
-                                        <a href="room-confort.php" class="linkButton chooseButton">En savoir plus</a>
+                                        <h2><a href="chambre-confort.php">Chambre Confort</a></h2>
+                                        <a href="chambre-confort.php" class="linkButton chooseButton">En savoir plus</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="./assets/img/room/sdb03.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
-                                        <h2><a href="room-deluxe.php">Chambre Deluxe</a></h2>
-                                        <a href="room-deluxe.php" class="linkButton chooseButton">En savoir plus</a>
+                                        <h2><a href="chambre-deluxe.php">Chambre Deluxe</a></h2>
+                                        <a href="chambre-deluxe.php" class="linkButton chooseButton">En savoir plus</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
-                                        <h2><a href="room-suite.php">Suite</a></h2>
-                                        <a href="room-suite.php" class="linkButton chooseButton">En savoir plus</a>
+                                        <h2><a href="chambre-suite.php">Suite</a></h2>
+                                        <a href="chambre-suite.php" class="linkButton chooseButton">En savoir plus</a>
                                     </div>
                                 </div>
                             </div>

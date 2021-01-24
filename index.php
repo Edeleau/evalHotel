@@ -58,7 +58,9 @@
                 <!-- <div id="imgRoom1Hover" class="imgHover"></div> -->
                 <a href="room.php" class="linkButton journeyButton">Découvrir</a>
                 <img src="./assets/img/room/room04.jpg" class="photoResize" alt="Suite 01">
-                <p class="imgLegend">Suite <br> Le grand charles</p>
+                <div class="imgLegend">
+                <p>Nos Suites</p>
+                </div>
             </div>
 
             <div id="imgRoom3" class="col-lg-3">
