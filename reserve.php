@@ -19,7 +19,7 @@
     <?php
     include("./nav.php");
     ?>
-    <div class="container-fluid p-0">
+    <div class="container-fluid">
         <div class="row ">
             <div id="booking" class="section col-12">
                 <div class="section-center">

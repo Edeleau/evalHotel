@@ -406,3 +406,26 @@ footer {
     -webkit-filter: invert(1);
     filter        : invert(1);
 }
+#searching{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+
+}
+#searching input {
+    width: 300px;
+    height: 2.8rem;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 0;
+    background: rgba(238, 238, 238, 0.308);
+    font-size: 17px;
+    transition: all 0.5s;
+}
+
+#searching input:hover {
+    background: rgba(204, 204, 204, 0.274);
+}
+
+#searching input:focus {
+    outline: none;
+}
