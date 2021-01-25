@@ -8,7 +8,7 @@
     <?php
     include("./link.php");
     ?>
-
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
             <h3>HOTELCOP</h3>
         </div>
 
-        <div id="journey" class="row">
+        <div id="journey" class="row mx-auto">
             <div id="imgRoom2" class="col-lg-3 mr-auto">
                 <!-- <div id="imgRoom2Hover" class="imgHover"></div> -->
                 <img src="./assets/img/room/room06.jpeg" class="photoResize" alt="Suite 02">
@@ -56,7 +56,7 @@
 
             <div id="imgRoom1" class="col-lg-6 col-md-9 mx-md-auto col-sm-12">
                 <!-- <div id="imgRoom1Hover" class="imgHover"></div> -->
-                <a href="room.php" class="linkButton journeyButton">Découvrir</a>
+                <a href="room.php" class="linkButton imgButton">Découvrir</a>
                 <img src="./assets/img/room/room04.jpg" class="photoResize" alt="Suite 01">
                 <div class="imgLegend legendOut">
                 <p>Nos Suites</p>
@@ -80,14 +80,14 @@
             <div class="smallHr"></div>
             <h3>HOTELCOP</h3>
         </div>
-        <div id="experience" class="row">
+        <div id="experience" class="row mx-auto">
             <div id="imgExperience1" class="col-xl-5 col-lg-5 col-md-7 col-sm-7 col-10 mx-auto my-lg-auto my-xl-auto">
-                <a href="care.php" class="linkButton experienceButton">Découvrir</a>
+                <a href="care.php" class="linkButton imgButton">Découvrir</a>
                 <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="Suite 01 ">
                 <p class="imgLegend legendOut">Spa & Bien-être</p>
             </div>
             <div id="imgExperience2" class="col-xl-5 col-lg-5 col-md-7  col-sm-7 col-10 mx-auto my-lg-auto my-xl-auto">
-                <a href="restaurant.php" class="linkButton experienceButton">Découvrir</a>
+                <a href="restaurant.php" class="linkButton imgButton">Découvrir</a>
                 <img src="./assets/img/restaurant/restaurant02.jpg" class="img-fluid" alt="Suite 01 ">
                 <p class="imgLegend legendOut">Restaurant</p>
             </div>

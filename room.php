@@ -8,6 +8,7 @@
     <?php
     include("./link.php");
     ?>
+    <link rel="stylesheet" href="./assets/css/room.css">
 
 </head>
 
