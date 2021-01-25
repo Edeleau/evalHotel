@@ -5,7 +5,7 @@
     --color1opacity4: rgb(155, 188, 218, 0.4);
     --color2        : #4f6e86;
     --colorWhite    : white;
-    --colorWhiteOpcity5   : rgb(255, 255, 255, 0.5);
+    --colorWhiteOpacity5   : rgb(255, 255, 255, 0.5);
 }
 
 body {
@@ -115,13 +115,6 @@ h4 {
     max-width    : 60vw;
     max-height   : 60vh;
     margin-bottom: auto;
-}
-
-.sectionSize {
-    /* padding-top  : 3.3em; */
-    padding-bottom: 2em;
-    min-height   : calc(100vh);
-    background-color: var(--color1opacity2);
 }
 
 #landingPage1 {

@@ -1,0 +1,23 @@
+.careCard #imgCare1, .careCard #imgCare2, .careCard #imgCare3, .careCard #imgCare4, .careCard #imgCare5{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+#imgCare1, #imgCare2, #imgCare3, #imgCare4, #imgCare5{
+    margin-bottom: 1em;
+    max-height      : 25em;
+    background-color: teal;
+}
+
+.careCard{
+    padding: 0;
+    border: 2px solid var(--color1);
+    height: auto;
+}
+.careCard p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.care1{
+    height: auto;
+}

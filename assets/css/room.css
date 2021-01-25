@@ -1,9 +1,4 @@
-.sectionSize {
-    /* padding-top  : 3.3em; */
-    padding-bottom: 2em;
-    min-height   : calc(100vh);
-    background-color: var(--color1opacity2);
-}
+
 .chooseButton {
     background-color: var(--color1opacity4);
 }

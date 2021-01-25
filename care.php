@@ -8,7 +8,7 @@
     <?php
     include("./link.php");
     ?>
-
+    <link rel="stylesheet" href="./assets/css/care.css">
 </head>
 
 <body>
@@ -16,74 +16,75 @@
     include("./nav.php");
     ?>
     <section class="sectionSize">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-
-                    <!-- Carousel -->
-                    <div id="carousel-example" class="carousel slide" data-ride="carousel">
-
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example" data-slide-to="1"></li>
-                            <li data-target="#carousel-example" data-slide-to="2"></li>
-                            <li data-target="#carousel-example" data-slide-to="3"></li>
-                        </ol>
-
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption">
-                                    <h1>Carousel: Change Arrow Colors</h1>
-                                    <div class="carousel-caption-description">
-                                        <p>How to Change the Arrow Colors of Carousel Controls in Bootstrap 4</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption">
-                                    <h3>Caption for Image 2</h3>
-                                    <div class="carousel-caption-description">
-                                        <p>This is the caption description text for image 2.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption">
-                                    <h3>Caption for Image 3</h3>
-                                    <div class="carousel-caption-description">
-                                        <p>This is the caption description text for image 3.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption">
-                                    <h3>Caption for Image 4</h3>
-                                    <div class="carousel-caption-description">
-                                        <p>This is the caption description text for image 4.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-                        <img src="./assets/img/arrow-left.png" class="d-block w-50 arrowColor" alt="">
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-                            <img src="./assets/img/arrow-right.png" class="d-block w-50 arrowColor" alt="">
-                            <span class="sr-only">Next</span>
-                        </a>
+        <div id="care" class="container-fluid">
+            <div class="sectionTitle">
+                <h2>L'Expérience</h2>
+                <div class="smallHr"></div>
+                <h3>HOTELCOP</h3>
+            </div>
+            <div id="care1" class="row">
+                <div class="careCard col-xl-5 col-lg-10 col-md-10 col-sm-10 col-12 mx-auto">
+                    <div id="imgCare1">
+                        <a href="reserve.php" class="linkButton experienceButton">Réserver</a>
+                        <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="image soin détente">
+                        <p class="imgLegend legendOut">Soin Détente</p>
                     </div>
-                    <!-- End carousel -->
+                    <p>Durée : 1h</p>
+                    <p>Tarif : 185€</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum nam deleniti officia labore. Maiores accusamus praesentium neque molestiae voluptatibus quaerat dignissimos, voluptatum illum porro, doloribus, corrupti magni sequi voluptas.Suscipit maxime recusandae vitae voluptates ipsam minima omnis! Illo, veritatis sunt ullam facere ex nesciunt iusto quod accusamus culpa eligendi suscipit hic aut minima ipsa tenetur voluptas quo nam eius.</p>
+                </div>
+                
+                
+                <div class="careCard col-xl-5 col-lg-10 col-md-10 col-sm-10 col-12 mx-auto">
+                    <div id="imgCare2">
+                        <a href="reserve.php" class="linkButton experienceButton">Réserver</a>
+                        <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="image soin découverte">
+                        <p class="imgLegend legendOut">Soin Découverte</p>
+                    </div>
+                    <p>Durée : 1h</p>
+                    <p>Tarif : 185€</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum nam deleniti officia labore. Maiores accusamus praesentium neque molestiae voluptatibus quaerat dignissimos, voluptatum illum porro, doloribus, corrupti magni sequi voluptas.Suscipit maxime recusandae vitae </p>
+                </div>
+            </div>
+            <div id="care2" class="row">
+                <div class="careCard col-xl-5 col-lg-10 col-md-10 col-sm-10 col-12 mx-auto">
+                    <div id="imgCare3">
+                        <a href="reserve.php" class="linkButton experienceButton">Réserver</a>
+                        <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="image soin détente">
+                        <p class="imgLegend legendOut">Soin Relaxant</p>
+                    </div>
+                    <p>Durée : 1h</p>
+                    <p>Tarif : 185€</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum nam deleniti officia labore. Maiores accusamus praesentium neque molestiae voluptatibus quaerat dignissimos, voluptatum illum porro, doloribus, corrupti magni sequi voluptas.Suscipit maxime recusandae vitae voluptates ipsam minima omnis! Illo, veritatis sunt ullam facere ex nesciunt iusto quod accusamus culpa eligendi suscipit hic aut minima ipsa tenetur voluptas quo nam eius.</p>
+                </div>
+                
+                
+                <div class="careCard col-xl-5 col-lg-10 col-md-10 col-sm-10 col-12 mx-auto">
+                    <div id="imgCare4">
+                        <a href="reserve.php" class="linkButton experienceButton">Réserver</a>
+                        <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="image soin découverte">
+                        <p class="imgLegend legendOut">Soin Plaisir</p>
+                    </div>
+                    <p>Durée : 1h</p>
+                    <p>Tarif : 185€</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum nam deleniti officia labore. Maiores accusamus praesentium neque molestiae voluptatibus quaerat dignissimos, voluptatum illum porro, doloribus, corrupti magni sequi voluptas.Suscipit maxime recusandae vitae </p>
+                </div>
+            </div>
 
+            <div id="care3" class="row">
+                <div class="careCard col-xl-5 col-lg-10 col-md-10 col-sm-10 col-12 mx-auto">
+                    <div id="imgCare5">
+                        <a href="reserve.php" class="linkButton experienceButton">Réserver</a>
+                        <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="image soin détente">
+                        <p class="imgLegend legendOut">Soin Évasion</p>
+                    </div>
+                    <p>Durée : 1h</p>
+                    <p>Tarif : 185€</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum nam deleniti officia labore. Maiores accusamus praesentium neque molestiae voluptatibus quaerat dignissimos, voluptatum illum porro, doloribus, corrupti magni sequi voluptas.Suscipit maxime recusandae vitae voluptates ipsam minima omnis! Illo, veritatis sunt ullam facere ex nesciunt iusto quod accusamus culpa eligendi suscipit hic aut minima ipsa tenetur voluptas quo nam eius.</p>
                 </div>
             </div>
         </div>
-</section>
+    </section>
     <?php
     include("./footer.php");
     ?>

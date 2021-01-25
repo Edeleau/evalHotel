@@ -25,7 +25,7 @@
                         <h4 class="mb-5">Composez votre séjour parisien</h4>
                     </div>
                     <p class="text-center">
-                        Déclinées en trois catégories (Classique, Confort et Deluxe), les 41 Chambres se caractérisent par un style unique. D’une superficie moyenne de 29m², ces chambres, toutes différentes, offrent espace et confort.<br><br>
+                        Déclinées en trois catégories (Classique, Confort et Deluxe), les 41 Chambres se caractérisent par un style unique. D’une superficie moyenne de 35m², ces chambres, toutes différentes, offrent espace et confort.<br><br>
                         Les Suites d’une superficie de 70 à 75m², s’ouvrent pour la plupart sur la cour intérieure de l’hôtel garantissant calme et tranquillité.
                     </p>
                     <div class="container mt-2">
