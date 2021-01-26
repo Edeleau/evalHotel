@@ -1,12 +1,5 @@
 
-.chooseButton {
-    background-color: var(--color1opacity4);
-}
 
-.gammeTitle{
-    margin-bottom: 0em;
-    
-}
 .carouselContainer{
     min-height: 100vh;
 }

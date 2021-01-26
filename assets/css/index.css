@@ -1,0 +1,100 @@
+#logoLandingPage {
+    margin-top   : 10vh;
+    max-width    : 60vw;
+    max-height   : 60vh;
+    margin-bottom: auto;
+}
+
+#landingPage1 {
+    background             : no-repeat center url(../img/who-we-are/hall02.jpg);
+    min-height             : 100vh;
+    display                : flex;
+    justify-content        : center;
+    -webkit-background-size: cover;
+    -moz-background-size   : cover;
+    -o-background-size     : cover;
+    background-size        : cover;
+}
+
+#landingPage2,
+#landingPage3,
+#landingPage4 {
+    min-height: 100vh;
+}
+
+#landingPage4 {
+    padding-bottom: 2em;
+}
+
+#landingPage3 {
+    background: var(--color1opacity2);
+}
+
+#whoWeAreContainer {
+    max-width   : 70vw;
+    margin-left : auto;
+    margin-right: auto;
+    border      : var(--color1) 2vh solid;
+}
+
+#whoWeAreText {
+    margin: 5vh auto 5vh auto;
+}
+
+
+
+#imgTest1 {
+    max-width       : 40em;
+    max-height      : 35em;
+    width           : auto;
+    background-color: teal;
+    position        : relative;
+    left            : -5vw;
+    top             : 5vh;
+    margin-bottom   : 10vh;
+}
+
+#journey {
+    max-width: 90vw;
+}
+
+#imgRoom1 {
+    max-height      : 35em;
+    background-color: teal;
+    position        : relative;
+}
+
+#imgRoom2 {
+    max-height      : 20em;
+    background-color: paleturquoise;
+    margin-top      : 13em;
+    border-right    : none;
+}
+
+#imgRoom3 {
+    max-height      : 20em;
+    background-color: palegreen;
+    margin-top      : 2em;
+    border-left     : none;
+}
+
+#imgExperience1,
+#imgExperience2 {
+    max-height      : 25em;
+    background-color: teal;
+}
+
+#lineUpRoom1 {
+    height    : 8em;
+    width     : 1px;
+    position  : absolute;
+    transform : translateX(-50%) translateY(-50%);
+    left      : 50%;
+    margin-top: -4em;
+    z-index   : 1000;
+}
+
+#linkRoomContainer {
+    padding : 2em 0;
+    position: relative;
+}
