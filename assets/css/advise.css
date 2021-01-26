@@ -1,0 +1,44 @@
+.window {
+    position  : relative;
+    min-height: 100vh;
+
+}
+textarea{
+    min-height: 10rem;
+    max-height: 30rem;
+}
+.submit-btn {
+    color           : #fff;
+    background-color: var(--color1);
+    font-weight     : 700;
+    height          : 55px;
+    padding         : 10px 35px;
+    font-size       : 18px;
+    border          : none;
+    display         : block;
+    width           : 100%;
+    text-transform  : capitalize;
+    margin-bottom: 2rem;
+}
+li{
+    margin: 0 1rem 0 1rem;
+
+}
+li a{
+    color           : #fff;
+    background-color: var(--color1);
+    font-weight     : 700;
+    font-size       : 18px;
+    border          : none;
+    display         : block;
+    width           : 100%;
+    text-transform  : capitalize;
+}
+.nav-pills .nav-link.active{
+    color           : var(--color2);
+    background-color: var(--colorWhite);
+    border: var(--color2) 1.5px solid;
+}
+a:hover{
+    color           : var(--color2);
+}

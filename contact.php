@@ -17,7 +17,7 @@
     ?>
     <div class="container-fluid">
         <div class="row ">
-            <div id="booking" class="section col-12">
+            <div id="contact" class="section col-12">
                 <div class="section-center">
                     <div class="container">
                         <div class="row">
