@@ -2,19 +2,7 @@
     #toggle-btn , nav .flex-row-reverse #search{
         display: none;
     }
-    #imgTest1 {
-        position: static;
-    }
 
-    #whoWeAreContainer {
-        max-width: 95vw;
-        border   : none;
-    }
-
-    #whoWeAreText {
-        text-align: center;
-        margin    : 1vh auto 1vh auto;
-    }
     #imgRoom1{
         max-height: 30em;
     }
@@ -36,5 +24,14 @@
     }
     .iconContainer{
         padding: 0.5em 0;
+    }
+    #spaHours{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #spaPrices{
+        margin-right: auto;
+        margin-left: auto;
+        border-left: none;
     }
 }

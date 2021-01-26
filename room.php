@@ -8,7 +8,7 @@
     <?php
     include("./link.php");
     ?>
-    <link rel="stylesheet" href="./assets/css/room.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
 
 </head>
 
@@ -16,7 +16,7 @@
     <?php
     include("./nav.php");
     ?>
-    <section class="sectionSize">
+    <section class="sectionSize bgColor1-Op2 pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 col-lg-9 col-md-9 col-12 mx-auto my-auto">
@@ -30,7 +30,7 @@
                         Les Suites d’une superficie de 70 à 75m², s’ouvrent pour la plupart sur la cour intérieure de l’hôtel garantissant calme et tranquillité.
                     </p>
                     <div class="container mt-2">
-                        <div id="monSlider" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div id="monSlider" class="carousel slide" data-ride="carousel" data-interval="4500">
                             <ol class="carousel-indicators">
                                 <li data-target="#monSlider" data-slide-to="0"></li>
                                 <li data-target="#monSlider" data-slide-to="1"></li>

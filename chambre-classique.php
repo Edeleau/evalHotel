@@ -15,7 +15,7 @@
     <?php
     include("./nav.php");
     ?>
-    <section class="sectionSize">
+    <section class="sectionSize bgColor1-Op2">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-12 mx-auto my-auto">

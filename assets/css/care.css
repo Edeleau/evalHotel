@@ -24,3 +24,11 @@
 .care1{
     height: auto;
 }
+
+#spaHours{
+    margin-left: auto;
+}
+#spaPrices{
+    margin-right: auto;
+    border-left: 1px solid var(--color1);
+}

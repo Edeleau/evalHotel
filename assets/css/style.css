@@ -114,10 +114,14 @@ h4 {
 }
 
 .sectionSize {
-    /* padding-top  : 3.3em; */
     padding-bottom  : 2em;
     min-height      : calc(100vh);
+}
+.bgColor1-Op2 {
     background-color: var(--color1opacity2);
+}
+.bgColorWhite {
+    background-color: var(--colorWhite);
 }
 
 

@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOTELCOP | Home</title>
+    
     <?php
     include("./link.php");
     ?>
     <link rel="stylesheet" href="./assets/css/index.css">
+    <?php
+    include("./link-queries.php");
+    ?>
 </head>
 
 <body>
@@ -16,11 +20,13 @@
     include("./nav.php");
     ?>
     <main>
+        <a href="#landingPage1"></a>
         <div id="landingPage1" class="container-fluid">
             <img id="logoLandingPage" src="./assets/img/logo_projet_front.png" alt="logo Hotelcop">
             <a id="reserveButton" class="linkButton" href="./reserve.php">Réservez</a>
         </div>
     </main>
+    <a href="#landingPage2"></a>
     <section id="landingPage2" class="container-fluid">
         <div class="sectionTitle">
             <h2>Tour d'horizon</h2>
@@ -28,10 +34,10 @@
             <h3>HOTELCOP</h3>
         </div>
         <div id="whoWeAreContainer" class="row">
-            <div id="imgTest1" class="col-lg-7 col-md-6 ml-md-auto mr-md-auto col-sm-12 col-xs-12">
+            <div id="imgTest1" class="col-xl-7 ml-auto mr-auto col-12">
                 <img src="./assets/img/who-we-are/tour-eiffel.jpg" class="photoResize" alt="tour eiffel">
             </div>
-            <div id="whoWeAreText" class="col-lg-5 col-md-12">
+            <div id="whoWeAreText" class="col-xl-5 col-md-10 col-12">
                 <h4>Le Prestige Hotelcop</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro accusantium enim mollitia quo aliquid eaque minus magnam repellendus suscipit. Non est beatae sed praesentium omnis repellendus mollitia ullam impedit incidunt.
                     Laudantium, unde? Temporibus iusto facilis id repellat iste autem nobis fuga quibusdam voluptatem molestias adipisci officia, consequuntur doloribus suscipit fugit numquam molestiae? Laboriosam voluptatem numquam aliquid hic expedita et non.
@@ -41,6 +47,7 @@
             </div>
         </div>
     </section>
+    <a href="#landingPage3"></a>
     <section id="landingPage3" class="container-fluid">
         <div class="sectionTitle sectionRoom">
             <h2>Le Séjour</h2>
@@ -56,7 +63,7 @@
 
             <div id="imgRoom1" class="col-lg-6 col-md-9 mx-md-auto col-sm-12">
                 <!-- <div id="imgRoom1Hover" class="imgHover"></div> -->
-                <a href="room.php" class="linkButton imgButton">Découvrir</a>
+                <a href="chambre-suite.php" class="linkButton imgButton">Découvrir</a>
                 <img src="./assets/img/room/room04.jpg" class="photoResize" alt="Suite 01">
                 <div class="imgLegend legendOut">
                 <p>Nos Suites</p>

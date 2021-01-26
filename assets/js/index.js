@@ -63,3 +63,43 @@
 
             }
     }
+
+    // const landingPage2 = document.querySelector('#landingPage2');
+    // const topPos2 = landingPage2.getBoundingClientRect().top + window.pageYOffset;
+
+    // const landingPage3 = document.querySelector('#landingPage3');
+    // const topPos3 = landingPage3.getBoundingClientRect().top + window.pageYOffset;
+
+    // const landingPage4 = document.querySelector('#landingPage4');
+    // const topPos4 = landingPage4.getBoundingClientRect().top + window.pageYOffset;
+
+    // window.addEventListener('scroll', fScrollTo);
+
+    // function fScrollTo() {
+    //     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 && document.body.scrollTop < 1000 || document.documentElement.scrollTop < 1000) {
+    //         window.scrollTo({
+    //             top: topPos2,
+    //             behavior: 'smooth'
+    //             })
+    //     } else if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    //         window.scrollTo({
+    //             top: topPos3,
+    //             behavior: 'smooth'
+    //             })
+    //         }
+    // }
+    
+//     let anchorlinks = document.querySelectorAll('a[href^="#"]')
+ 
+// for (let item of anchorlinks) { // relitere 
+//     item.addEventListener('click', (e)=> {
+//         let hashval = item.getAttribute('href')
+//         let target = document.querySelector(hashval)
+//         target.scrollIntoView({
+//             behavior: 'smooth',
+//             block: 'start'
+//         })
+//         history.pushState(null, null, hashval)
+//         e.preventDefault()
+//     })
+// }
