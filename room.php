@@ -9,7 +9,9 @@
     include("./link.php");
     ?>
     <link rel="stylesheet" href="./assets/css/carousel.css">
-
+    <?php
+    include("./link-queries.php");
+    ?>
 </head>
 
 <body>

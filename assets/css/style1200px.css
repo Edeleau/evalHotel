@@ -14,5 +14,8 @@
         text-align: center;
         margin    : 0 auto 1vh auto;
     }
-    
+    .carteDescription{
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
 }

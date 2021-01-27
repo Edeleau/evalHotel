@@ -1,0 +1,27 @@
+.sectionTitle {
+    margin-bottom: 1em;
+}
+.sectionSize{
+    margin-bottom: 5em;
+}
+.bgColor1-Op2{
+    background-color: var(--color1opacity2);
+}
+.linkRestaurant{
+    color    : var(--color1);
+    font-size: 1.3em;
+}
+.linkRestaurant:hover {
+    color    : var(--color1);
+}
+.linkRestaurantContainer{
+    margin-top: 1em;
+}
+h5{
+    font-size: 1.5em;
+}
+.carteDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

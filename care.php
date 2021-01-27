@@ -42,7 +42,7 @@
                                     <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/sdb03.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
