@@ -7,6 +7,7 @@
     <title>HOTELCOP</title>
     <?php
     include("./link.php");
+    include("./link-queries.php");
     ?>
 
 </head>
@@ -85,7 +86,7 @@
                     </div>
                     <h4 class="text-center mt-5 gammeTitle">Equipements & Services</h4>
                     <div class="smallHr mb-4"></div>
-                    <div class="mx-auto width40">
+                    <div class="mx-auto roomServices">
                         <p>- Configuration: 1 chambre, 1 espace bureau, 1 dressing, 1 salle de bain</p>
                         <p>- Mobilier d’exception créé par le designer contemporain Philippe Starck</p>
                         <p>- Minibar réfrigéré avec une sélection de produits artisanaux français</p>

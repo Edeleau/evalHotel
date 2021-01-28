@@ -3,7 +3,8 @@
     --color1opacity8    : rgb(155, 188, 218, 0.8);
     --color1opacity2    : rgb(155, 188, 218, 0.2);
     --color1opacity4    : rgb(155, 188, 218, 0.4);
-    --color2            : #4f6e86;
+    /* --color2            : #4f6e86; */
+    --color2            : #5d91b8;
     --colorWhite        : white;
     --colorWhiteOpacity5: rgb(255, 255, 255, 0.5);
 }
@@ -29,7 +30,7 @@ body {
     opacity   : 0;
 }
 
-.width40 {
+.roomServices {
     width: 40%;
 }
 

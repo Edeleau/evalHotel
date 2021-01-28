@@ -57,12 +57,10 @@
 
         <div id="journey" class="row mx-auto">
             <div id="imgRoom2" class="col-lg-3 mr-auto">
-                <!-- <div id="imgRoom2Hover" class="imgHover"></div> -->
                 <img src="./assets/img/room/room06.jpeg" class="photoResize" alt="Suite 02">
             </div>
 
             <div id="imgRoom1" class="col-lg-6 col-md-9 mx-md-auto col-sm-12">
-                <!-- <div id="imgRoom1Hover" class="imgHover"></div> -->
                 <a href="chambre-suite.php" class="linkButton imgButton">Découvrir</a>
                 <img src="./assets/img/room/room04.jpg" class="photoResize" alt="Suite 01">
                 <div class="imgLegend legendOut">
@@ -71,7 +69,6 @@
             </div>
 
             <div id="imgRoom3" class="col-lg-3">
-                <!-- <div id="imgRoom3Hover" class="imgHover"></div> -->
                 <img src="./assets/img/room/sdb03.jpg" class="photoResize" alt="salle de bain Suite">
             </div>
         </div>
