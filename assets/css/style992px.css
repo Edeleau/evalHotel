@@ -34,4 +34,7 @@
         margin-left: auto;
         border-left: none;
     }
+    .roomServices{
+        width: 80%;
+    }
 }
