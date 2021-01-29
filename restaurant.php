@@ -19,18 +19,24 @@
     include("./nav.php");
     ?>
     <section class="sectionSize">
-        <div class="container">
+        <div class="sectionTitle col-10 mx-auto mb-5">
+            <h2 class="gammeTitle">Restaurant</h2>
+            <div class="smallHr"></div>
+            <h4>Un cadre idylique pour une dégustation atypique</h4>
+        </div>
+        <div id="restaurantOverview">
+            <div class="col-11 mx-auto text-center">
+                <p>Une table parisienne à deux pas de la Seine, dans le cadre de l'élégant Hôtel 5 étoiles : Hotelcop, vous comblera été comme hiver
+                    avec sa « terrasse-jardin », son ambiance velours,
+                    son coin cheminée et son piano-bar.</p>
+                <p>Le chef Damian Vera propose une cuisine goûteuse et gourmande, composée exclusivement à partir de produits rigoureusement sélectionnés.</p>
+            </div>
+        </div>
+        <div id="restaurantGamme" class="container">
             <div class="row ml-0 mr-0">
-                <div class="sectionTitle col-10 mx-auto">
-                    <h2 class="gammeTitle">Restaurant</h2>
-                    <div class="smallHr"></div>
+                <div class="sectionTitle col-12 mx-auto mb-5">
                     <h4>Découvrez notre offre gourmande</h4>
-                </div>
-                <div class="col-11 mx-auto text-center mb-5">
-                    <p>Une table parisienne à deux pas de la Seine, dans le cadre de l'élégant Hôtel 5 étoiles : Hotelcop, vous comblera été comme hiver
-                        avec sa « terrasse-jardin », son ambiance velours,
-                        son coin cheminée et son piano-bar.</p>
-                    <p>Le chef Damian Vera propose une cuisine goûteuse et gourmande, composée exclusivement à partir de produits rigoureusement sélectionnés.</p>
+                    <div class="smallHr mb-3"></div>
                 </div>
                 <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0 d-xl-none ">
                     <img src="./assets/img/restaurant/restaurant02.jpg" class="img-fluid" alt="Suite 01 ">

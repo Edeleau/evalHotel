@@ -1,27 +1,54 @@
 .sectionTitle {
     margin-bottom: 1em;
 }
-.sectionSize{
+
+.sectionSize {
     margin-bottom: 5em;
 }
-.bgColor1-Op2{
-    background-color: var(--color1opacity2);
+
+#restaurantOverview {
+    background             : url("../img/who-we-are/hall01.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size   : cover;
+    -o-background-size     : cover;
+    background-size        : cover;
+    height: 76vh;
+    color: var(--colorWhite);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    font-size: 1.3em;
 }
-.linkRestaurant{
+
+#restaurantOverview p {
+    width: 60%;
+    margin: auto;
+}
+
+#restaurantGamme h4{
+    margin-bottom: 0em;
+}
+
+.linkRestaurant {
     color    : var(--color1);
     font-size: 1.3em;
 }
+
 .linkRestaurant:hover {
-    color    : var(--color1);
+    color: var(--color1);
 }
-.linkRestaurantContainer{
+
+.linkRestaurantContainer {
     margin-top: 1em;
 }
-h5{
+
+h5 {
     font-size: 1.5em;
 }
-.carteDescription{
-    display: flex;
-    flex-direction: column;
+
+.carteDescription {
+    display        : flex;
+    flex-direction : column;
     justify-content: center;
 }
