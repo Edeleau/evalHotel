@@ -1,7 +1,4 @@
 @media (max-width: 992px) {
-    #toggle-btn , nav .flex-row-reverse #search{
-        display: none;
-    }
 
     #imgRoom1{
         max-height: 30em;

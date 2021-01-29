@@ -1,0 +1,65 @@
+.title {
+    padding-top     : 5.3em;
+    margin          : 0;
+}
+.window{
+    min-height:100vh;
+    width: 100%;
+}
+p {
+    text-align: justify;
+}
+p.text-center{
+    font-size: 1.3em;
+}
+.text-caroussel {
+    padding: 20px 15px;
+    height : 100%;
+}
+
+.img-bg1,
+.img-bg2 {
+    background-position    : center center;
+    background-repeat      : no-repeat;
+    -webkit-background-size: cover;
+    background-size        : cover;
+    display                : block;
+    min-height             : 320px;
+    height                 : 320px;
+
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 10%;
+}
+.img-bg1 {
+    background-image: url(./../img/who-we-are/diapo1.jpg);
+}
+
+.img-bg2 {
+    background-image: url(./../img/who-we-are/diapo2.jpg);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .text-caroussel {
+        padding: 20px 80px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .text-caroussel {
+        padding: 20px 130px;
+    }
+
+    .img-bg1,
+    .img-bg2 {
+        min-height: 520px;
+        height    : 100%;
+    }
+}
+
+@media (min-width: 768px) {}
+.img-bg1,
+.img-bg2 {
+    min-height: 520px;
+    height    : 100%;
+}
