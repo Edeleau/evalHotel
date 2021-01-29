@@ -38,7 +38,7 @@ aside {
   -webkit-transform : translateX(-100%);
   -ms-transform     : translateX(-100%);
   transform         : translateX(-100%);
-  background-color  : #4f6e86;
+  background-color  : var(--color2);
   -webkit-transition: 1s -webkit-transform cubic-bezier(0.23, 1, 0.32, 1);
   transition        : 1s -webkit-transform cubic-bezier(0.23, 1, 0.32, 1);
   -o-transition     : 1s transform cubic-bezier(0.23, 1, 0.32, 1);
@@ -154,4 +154,9 @@ aside .side-inner {
 
 .burger:focus {
   outline: none;
+}
+@media (max-width: 992px) {
+  #toggle-btn , nav .flex-row-reverse #search{
+      display: none;
+  }
 }

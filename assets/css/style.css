@@ -392,6 +392,7 @@ footer {
     background: rgba(221, 215, 215, 0.5);
 }
 #searching input::placeholder{
+    text-align: center;
     color: var(--colorWhite);
     padding-left: .5rem;
 }

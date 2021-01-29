@@ -1,12 +1,10 @@
 .window {
-    position  : relative;
-    min-height: 100vh;
+    position     : relative;
+    min-height   : 100vh;
+    margin-bottom: 3rem;
 
 }
-textarea{
-    min-height: 10rem;
-    max-height: 30rem;
-}
+
 .submit-btn {
     color           : #fff;
     background-color: var(--color1);
@@ -18,13 +16,15 @@ textarea{
     display         : block;
     width           : 100%;
     text-transform  : capitalize;
-    margin-bottom: 2rem;
+    margin-bottom   : 2rem;
 }
-li{
+
+li {
     margin: 0 1rem 0 1rem;
 
 }
-li a{
+
+li a {
     color           : #fff;
     background-color: var(--color1);
     font-weight     : 700;
@@ -34,11 +34,42 @@ li a{
     width           : 100%;
     text-transform  : capitalize;
 }
-.nav-pills .nav-link.active{
+
+.nav-pills .nav-link.active {
     color           : var(--color2);
     background-color: var(--colorWhite);
-    border: var(--color2) 1.5px solid;
+    border          : var(--color2) 1.5px solid;
 }
-a:hover{
-    color           : var(--color2);
+.nav-link{
+    border          : rgba(0, 0, 0, 0) 1.5px solid;
+
+}
+a:hover {
+    color: var(--color2);
+}
+
+.avis {
+    border       : 1.5px solid var(--color1);
+    padding      : 2rem;
+    margin-bottom: 3rem;
+    border-radius: .25rem;
+}
+
+h4 {
+    color: var(--color2);
+}
+
+.signature {
+    color: var(--color2);
+}
+
+.booking-form {
+    border   : 1.5px solid var(--color1);
+    border-radius: .25rem;
+    max-width: 100%;
+    margin   : auto;
+    padding  : 40px 30px;
+}
+.tab-content{
+    padding: 0;
 }
