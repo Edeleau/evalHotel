@@ -3,7 +3,6 @@
     --color1opacity8    : rgb(155, 188, 218, 0.8);
     --color1opacity2    : rgb(155, 188, 218, 0.2);
     --color1opacity4    : rgb(155, 188, 218, 0.4);
-    /* --color2            : #4f6e86; */
     --color2            : #5d91b8;
     --colorWhite        : white;
     --colorWhiteOpacity5: rgb(255, 255, 255, 0.5);
@@ -105,7 +104,7 @@ h5 {
     margin-bottom: 1em;
     font-style   : italic;
     font-weight: 400;
-    color: var(--color1);
+    color: var(--color2);
 }
 
 .smallHr {
@@ -184,18 +183,18 @@ h5 {
 }
 .linkButtonOn {
     padding         : 0.5em 0.8em 0.5em 0.8em;
-    border-radius   : 7px;
+    border-radius   : 3px;
     text-transform  : uppercase;
     z-index         : 1000;
     color           : var(--color2);
-    border          : 2px solid var(--color2);
-    background-color: var(--colorWhiteOpcity5);
+    border          : 1.5px solid var(--color2);
+    background-color: var(--colorWhiteOpacity5);
     transition      : 1s;
 }
 
 .linkButtonOn:hover {
     color           : var(--colorWhite);
-    border          : 2px solid var(--color1);
+    border          : 1.5px solid var(--color1);
     background-color: var(--color2);
     transition      : 1s;
 }
@@ -255,18 +254,20 @@ h5 {
 
 .linkButton {
     background-color: var(--color1);
-    border          : 2px solid var(--color2);
+    border          : 1.5px solid var(--colorWhite);
     padding         : 0.5em 0.8em 0.5em 0.8em;
-    border-radius   : 7px;
+    border-radius   : 3px;
     text-transform  : uppercase;
     color           : var(--colorWhite);
     z-index         : 1000;
 }
 
 .linkButton:hover {
-    background-color: var(--color1opacity4);
+    background-color: var(--colorWhiteOpacity5);
     text-decoration : none;
     color           : var(--color2);
+    border          : 1.5px solid var(--color2);
+
 }
 
 .chooseButton {

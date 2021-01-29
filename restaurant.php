@@ -51,7 +51,7 @@
                     </div>
                     <div class="carteDescription text-center col-xl-6 col-12 mx-auto ml-0 mr-0 px-5">
                         <h5>Carte Dégustation</h5>
-                        Une carte riche et colorée aux saveur d'autres mondes,
+                        <p> Une carte riche et colorée aux saveur d'autres mondes. Proposé en 6 escales, ce menu gourmand dévoile des produits d’exception – dont certains issus du jardin du Chef - sublimés par d’audacieuses associations de saveurs.</p>
                         <p class="linkRestaurantContainer text-center"><a class="linkRestaurant underline" href="./assets/doc/carte_suggestions_web.pdf">Découvrir</a></p>
                     </div>
                     <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0 d-xl-none ">
