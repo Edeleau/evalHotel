@@ -155,8 +155,60 @@ aside .side-inner {
 .burger:focus {
   outline: none;
 }
+
+.panier {
+  -webkit-filter: invert(1);
+  filter        : invert(1);
+  padding       : 7px;
+  opacity       : 0.8;
+}
+
+.lienPanier {
+  width: 55px;
+}
+
+.navbar-light .navbar-toggler {
+  color         : rgba(0, 0, 0, 0) !important;
+  border-color  : rgba(0, 0, 0, 0) !important;
+  -webkit-filter: invert(1);
+  filter        : invert(1);
+}
+
+#searching {
+  padding-top   : 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+#searching input {
+  width        : 250px;
+  height       : 2.3rem;
+  box-sizing   : border-box;
+  border-radius: 13px;
+  border       : 0;
+  background   : var(--color1);
+  font-size    : 17px;
+  transition   : all 0.5s;
+}
+
+#searching input:hover {
+  background: rgba(221, 215, 215, 0.5);
+}
+
+#searching input::placeholder {
+  text-align  : center;
+  color       : var(--colorWhite);
+  padding-left: .5rem;
+}
+
+#searching input:focus {
+  outline: none;
+}
+
 @media (max-width: 992px) {
-  #toggle-btn , nav .flex-row-reverse #search{
-      display: none;
+
+  #toggle-btn,
+  nav .flex-row-reverse #search {
+    display: none;
   }
 }

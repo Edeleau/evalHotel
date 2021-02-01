@@ -85,13 +85,13 @@
                                                 <div class="col-md-6 pl-0">
                                                     <div class="form-group">
                                                         <input type="text" name="range-start" class="form-control datepicker-input" required>
-                                                        <span class="form-label">Date d'entrée</span>
+                                                        <span class="form-label">Date entrée</span>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 pr-0">
                                                     <div class="form-group">
                                                         <input type="text" name="range-end" class="form-control datepicker-input" required>
-                                                        <span class="form-label">Date de sortie</span>
+                                                        <span class="form-label">Date sortie</span>
                                                     </div>
                                                 </div>
                                             </div>

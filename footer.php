@@ -1,20 +1,35 @@
 <footer>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-3 row m-0 align-items-center">
-                <a href="contact.php" class="col-12">Contact</a>
-                <a href="access.php" class="col-12">Accès</a>
+            <div class="col-12 order-2 order-lg-1  col-lg-3 col-xl-3 row imgFooter">
+                <a href="https://snap.com/fr-FR" target="_blank"><img src="./assets/icone/016-snapchat.png" alt="snapchat"></a>
+                <a href="https://www.tripadvisor.fr/" target="_blank"><img src="./assets/icone/019-tripadvisor.png" alt="tripadvisor"></a>
+                <a href="https://twitter.com/?lang=fr" target="_blank"><img src="./assets/icone/027-twitter.png" alt="twitter"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./assets/icone/049-facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="./assets/icone/060-instagram.png" alt="instagram"></a>
             </div>
-            <div class="col-3 borderLeft row m-0 align-items-center">
-                <a href="./mentions-legales.php" class="col-12">Mentions légales</a>
-                <a href="./cgv.php" class="col-12">CGV</a>
-            </div>
-            <div class="col-3 borderLeft row m-0 align-items-center">
-                <a href="recrutement.php" class="col-12 ">Recrutement</a>
-            </div>
-            <div class="col-3 borderLeft row m-0 align-items-center">
-                <a href="actu.php" class="col-12">Actualité</a>
-                <a href="presse.php" class="col-12">Presse</a>
+            <div class="col-12 order-1 order-lg-2 col-lg-9 col-xl-9 row justify-content-end select">
+                <div>
+                    <a href="contact.php">Contact</a>
+                </div>
+                <div class="borderLeft">
+                    <a href="access.php">Accès</a>
+                </div>
+                <div class="borderLeft">
+                    <a href="./mentions-legales.php">Mentions légales</a>
+                </div>
+                <div class="borderLeft">
+                    <a href="./cgv.php">CGV</a>
+                </div>
+                <div class="borderLeft">
+                    <a href="recrutement.php">Recrutement</a>
+                </div>
+                <div class="borderLeft">
+                    <a href="actu.php">Actualité</a>
+                </div>
+                <div class="borderLeft">
+                    <a href="presse.php">Presse</a>
+                </div>
             </div>
         </div>
     </div>

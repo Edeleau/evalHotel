@@ -29,26 +29,34 @@ $(function () {
             }
         }
     });
-    
-    /************************* JS navbar ***************************/
+
+    /************************* JS navbar && footer ***************************/
     window.onload = navBar;
     window.onresize = navBar;
 
-    function  navBar() {    
+    function navBar() {
         let withWindow = parseInt(window.innerWidth);
         let navbar = document.getElementById('navbarSupportedContent');
         let toggleSidebar = document.getElementById('toggle-btn');
+        let footer = document.querySelectorAll('.select div');
+        console.log(footer);
 
         if (withWindow > 992) {
             navbar.classList.add('disparition');
-            navbar.classList.remove( 'navbar-collapse');
+            navbar.classList.remove('navbar-collapse');
             toggleSidebar.classList.remove('disparition');
+            footer.forEach(element => {
+                element.classList.remove('col-12','text-center');
+            });
         }
         if (withWindow <= 992) {
             navbar.classList.remove('disparition');
-            navbar.classList.add('navbar-expand-lg' , 'navbar-collapse');
+            navbar.classList.add('navbar-expand-lg', 'navbar-collapse');
             toggleSidebar.classList.add('disparition');
+            footer.forEach(element => {
+                element.classList.add('col-12','text-center');
+            });
         }
-    }   
+    }
 
 });
