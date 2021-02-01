@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOTELCOP | Home</title>
-
+    
     <?php
     include("./link.php");
     ?>
@@ -20,39 +20,10 @@
     include("./nav.php");
     ?>
     <main>
+        <a href="#landingPage1"></a>
         <div id="landingPage1" class="container-fluid">
-            <div class="container containerLandingPage1">
-                <div class="row ml-0 mr-0">
-                    <div class="col-12 p-0">
-                        <div class="container mt-2 pl-0 pr-0">
-                            <div id="monSlider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4500">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#monSlider" data-slide-to="0"></li>
-                                    <li data-target="#monSlider" data-slide-to="1"></li>
-                                    <li data-target="#monSlider" data-slide-to="2"></li>
-                                    <li data-target="#monSlider" data-slide-to="3"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active indexBgImg1"></div>
-                                    <div class="carousel-item indexBgImg2"></div>
-                                    <div class="carousel-item indexBgImg3"></div>
-                                    <div class="carousel-item indexBgImg4"></div>
-                                </div>
-                                <a class="carousel-control-prev" href="#monSlider" role="button" data-slide="prev">
-                                    <img src="./assets/img/arrow-left.png" class="d-block arrowIndexWidth arrowColor" alt="arrow left">
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#monSlider" role="button" data-slide="next">
-                                    <img src="./assets/img/arrow-right.png" class="d-block arrowIndexWidth arrowColor" alt="arrow right">
-                                    <span class="sr-only">Next</span>
-                                </a>
-                                <img id="logoLandingPage" src="./assets/img/logo_projet_front.png" alt="logo Hotelcop">
-                                <a id="reserveButton" class="linkButton" href="./reserve.php">Réservez</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <img id="logoLandingPage" src="./assets/img/logo_projet_front.png" alt="logo Hotelcop">
+            <a id="reserveButton" class="linkButton" href="./reserve.php">Réservez</a>
         </div>
     </main>
     <a href="#landingPage2"></a>
@@ -93,7 +64,7 @@
                 <a href="chambre-suite.php" class="linkButton imgButton">Découvrir</a>
                 <img src="./assets/img/room/room04.jpg" class="photoResize" alt="Suite 01">
                 <div class="imgLegend legendOut">
-                    <p>Nos Suites</p>
+                <p>Nos Suites</p>
                 </div>
             </div>
 

@@ -1,19 +1,24 @@
 #logoLandingPage {
-    margin-top   : 10vh;
+    /* margin-top   : 10vh; */
     max-width    : 60vw;
     max-height   : 60vh;
-    margin-bottom: auto;
+    /* margin-bottom: auto; */
+    position: absolute;
+    z-index: 100;
+    transform : translateX(-50%) translateY(-50%);
+    top       : 40%;
+    left      : 50%;
 }
 
 #landingPage1 {
-    background             : no-repeat center url(../img/who-we-are/hall02.jpg);
     min-height             : 100vh;
-    display                : flex;
-    justify-content        : center;
-    -webkit-background-size: cover;
-    -moz-background-size   : cover;
-    -o-background-size     : cover;
-    background-size        : cover;
+    padding: 0;
+}
+.carouselContainer{
+    min-height: 100vh;
+}
+.arrowIndexWidth{
+    width: 30%;
 }
 
 #landingPage2,
@@ -31,11 +36,11 @@
 }
 
 #whoWeAreContainer {
-    max-width   : 70vw;
+    max-width    : 70vw;
     margin-bottom: 2em;
-    margin-left : auto;
-    margin-right: auto;
-    border      : var(--color1) 2vh solid;
+    margin-left  : auto;
+    margin-right : auto;
+    border       : var(--color1) 2vh solid;
 }
 
 #whoWeAreText {
@@ -57,6 +62,10 @@
 
 #journey {
     max-width: 90vw;
+}
+
+#experience {
+    margin-top: 5em;
 }
 
 #imgRoom1 {
@@ -98,4 +107,36 @@
 #linkRoomContainer {
     padding : 2em 0;
     position: relative;
+}
+#landingPage1 .container{
+    max-width: 100%;
+    padding: 0;
+}
+
+.indexBgImg1,
+.indexBgImg2,
+.indexBgImg3,
+.indexBgImg4 {
+    -webkit-background-size: cover;
+    -moz-background-size   : cover;
+    -o-background-size     : cover;
+    background-size        : cover;
+    height                 : 100vh;
+    position               : relative;
+}
+
+.indexBgImg1 {
+    background: url("../img/who-we-are/hall01.jpg") no-repeat center;
+}
+
+.indexBgImg2 {
+    background: url("../img/who-we-are/hall01.jpg") no-repeat center;
+}
+
+.indexBgImg3 {
+    background: url("../img/who-we-are/hall01.jpg") no-repeat center;
+}
+
+.indexBgImg4 {
+    background: url("../img/who-we-are/hall01.jpg") no-repeat center;
 }

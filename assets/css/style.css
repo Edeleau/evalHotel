@@ -185,7 +185,7 @@ h5 {
     padding         : 0.5em 0.8em 0.5em 0.8em;
     border-radius   : 3px;
     text-transform  : uppercase;
-    z-index         : 1000;
+    z-index         : 2;
     color           : var(--color2);
     border          : 1.5px solid var(--color2);
     background-color: var(--colorWhiteOpacity5);
@@ -259,7 +259,7 @@ h5 {
     border-radius   : 3px;
     text-transform  : uppercase;
     color           : var(--colorWhite);
-    z-index         : 1000;
+    z-index         : 2;
 }
 
 .linkButton:hover {
@@ -275,8 +275,9 @@ h5 {
 }
 #reserveButton {
     position: fixed;
-    bottom  : 15vh;
-    margin  : auto;
+    transform : translateX(-50%) translateY(-50%);
+    top       : 80%;
+    left      : 50%;
 }
 
 .imgButton {
