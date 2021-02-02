@@ -88,6 +88,7 @@ if (urlcourante.includes('recrutement.php')) {
         let motivationExtension = motivation.substring(motivation.lastIndexOf('.') + 1);
 
         let erreur = '';
+
         if (nom == '') {
             erreur += 'Entrez votre nom. ';
         }
@@ -103,15 +104,12 @@ if (urlcourante.includes('recrutement.php')) {
         } else {
             erreur += 'Adresse e-mail non valide. ';
         }
-
-        validate();
         if (cvExtension == '' || motivationExtension == '') {
             erreur += 'Fichier pour le CV et la lettre de motivation obligatoire. ';
         } else if (cvExtension !== 'docx' && cvExtension !== 'pdf' || motivationExtension !== 'docx' && motivationExtension !== 'pdf') {
             erreur += 'Nous prenons que les fichiers PDF et DOCX. ';
         }
         if (erreur !== '') {
-            alert(erreur);
             e.preventDefault;
             return false;
         }
@@ -158,7 +156,6 @@ if (urlcourante.includes('contact.php')) {
             erreur += 'Définissez un sujet pour votre message. ';
         }
         if (erreur !== '') {
-            alert(erreur);
             e.preventDefault;
             return false;
         }
@@ -226,7 +223,6 @@ if (urlcourante.includes('reserve.php')) {
         }
         console.log(rangeEnd , rangeStart);
         if (erreur !== '') {
-            alert(erreur);
             e.preventDefault;
             return false;
         }
