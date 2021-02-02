@@ -1,0 +1,41 @@
+.containerPayment, .containerPresta{
+ border: 2px solid var(--color1opacity4);
+}
+.cartTitle{
+    background-color: var(--color1opacity2);
+}
+.article{
+    border-top: 1px solid var(--color1opacity4); 
+    padding: 0.5em 0 0.5em 2em;
+}
+.articleDetail p{
+    padding: 0.3em 0 0.3em 2em;
+    margin: 0;
+}
+h5{
+    max-height: 3em;
+    margin-bottom: 0em;
+    line-height: 3em;
+}
+
+.containerPresta{
+    margin-left: auto;
+    height: 100%;
+}
+.containerPayment{
+    margin-right: auto;
+}
+a {
+    color: var(--color2);
+}
+.linkButton{
+    margin-bottom: 1em;
+}
+
+input[type=checkbox] {
+    margin-top: 0.3em;
+    margin-right: 0.5em;
+}
+.totalPrice{
+    font-size: 1.2em;
+}

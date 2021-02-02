@@ -27,7 +27,7 @@
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
     <div class="col-2 col-md-3 col-sm-2 col-lg-3 col-xl-3 d-flex flex-row-reverse  h-100">
-        <a href="#" class="lienPanier d-block d-lg-none d-xl-none mr-auto"><img src="./assets/icone/panier.svg" class="h-100 panier" alt="panier"></a>
+        <a href="cart.php" class="lienPanier d-block d-lg-none d-xl-none mr-auto"><img src="./assets/icone/panier.svg" class="h-100 panier" alt="panier"></a>
     </div>
     <div class="col-8 col-md-6 col-sm-8 col-lg-6 col-xl-6 text-center h-100">
         <a href="index.php">
@@ -39,7 +39,7 @@
         <button class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="btn-navbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a href="#" class="lienPanier d-none d-lg-block d-xl-block"><img src="./assets/icone/panier.svg" class="panier  h-100" alt="panier"></a>
+        <a href="cart.php" class="lienPanier d-none d-lg-block d-xl-block"><img src="./assets/icone/panier.svg" class="panier  h-100" alt="panier"></a>
         <div id="search">
             <form name="search" id="searching" method="post" action="">
                 <input class="gSearch" type="search" size="60" placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">

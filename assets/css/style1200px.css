@@ -2,9 +2,11 @@
     .mb-4vh {
         margin-bottom: 4vh;
     }
-    #imgTest1 {
+    #imgWhoWeAre1 {
         position: static!important;
         margin-bottom   : 5vh;
+        overflow: hidden;
+        padding: 0;
     }
     #whoWeAreContainer {
         max-width: 95vw;
@@ -18,4 +20,11 @@
         margin-top: 2em;
         margin-bottom: 2em;
     }  
+    .containerPresta, .containerPayment{
+        margin: auto;
+        height: 100%;
+    }
+    .containerPayment{
+        margin-top: 2em;
+    }
 }

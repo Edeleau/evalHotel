@@ -63,15 +63,12 @@
             <h3>HOTELCOP</h3>
         </div>
         <div id="whoWeAreContainer" class="row">
-            <div id="imgTest1" class="col-xl-7 ml-auto mr-auto col-12">
+            <div id="imgWhoWeAre1" class="col-xl-7 ml-auto mr-auto col-12">
                 <img src="./assets/img/who-we-are/tour-eiffel.jpg" class="photoResize" alt="tour eiffel">
             </div>
-            <div id="whoWeAreText" class="col-xl-5 col-md-10 col-12">
+            <div id="whoWeAreText" class="col-xl-4 col-11 pl-0">
                 <h4>Le Prestige Hotelcop</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro accusantium enim mollitia quo aliquid eaque minus magnam repellendus suscipit. Non est beatae sed praesentium omnis repellendus mollitia ullam impedit incidunt.
-                    Laudantium, unde? Temporibus iusto facilis id repellat iste autem nobis fuga quibusdam voluptatem molestias adipisci officia, consequuntur doloribus suscipit fugit numquam molestiae? Laboriosam voluptatem numquam aliquid hic expedita et non.
-                    Voluptatem eaque saepe neque tempore ullam placeat earum nisi atque. Minus magnam repellendus nobis provident voluptates incidunt, culpa in laborum temporibus voluptatibus quidem sed expedita et porro ex accusamus aspernatur.
-                    Error cumque, debitis ut fuga, voluptas tempora consectetur reiciendis maxime id necessitatibus ullam a provident. Laboriosam tempore, alias cumque earum incidunt facilis illo dolorem dolores nesciunt nulla quasi aliquam est?
+                <p>L'hôtel Hotelcop situé dans le 8ème arrondissement à deux pas du pont d'Alma impose une vision inédite de l‘hôtellerie parisienne : faire découvrir « le Paris des parisiens ». L’hôtel aux prestations haut de gamme revendique une authentique simplicité. Dans son décor architectural ou le classique est confronté à d’audacieuses touches modernes, l’épicurisme est une religion : chambres et suites d'hôtel de luxe à Paris, sports et soins personnalisés, piscine hors du commun, café et restaurant chic, bar lounge parisien, terrasse luxuriante. Ce lieu de vie hybride et complet du 8ème arrondissement de Paris accueille riverains, touristes, femmes et hommes d’affaires en toute harmonie. 
                 </p>
             </div>
         </div>

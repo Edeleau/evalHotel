@@ -1,8 +1,6 @@
 #logoLandingPage {
-    /* margin-top   : 10vh; */
     max-width    : 60vw;
     max-height   : 60vh;
-    /* margin-bottom: auto; */
     position: absolute;
     z-index: 100;
     transform : translateX(-50%) translateY(-50%);
@@ -36,20 +34,20 @@
 }
 
 #whoWeAreContainer {
-    max-width    : 70vw;
+    max-width    : 65vw;
     margin-bottom: 2em;
     margin-left  : auto;
     margin-right : auto;
-    border       : var(--color1) 2vh solid;
+    border       : var(--color1opacity4) 1.5vh solid;
 }
 
 #whoWeAreText {
-    margin: 5vh auto 5vh auto;
+    margin: 5vh auto 5vh 0;
 }
 
 
 
-#imgTest1 {
+#imgWhoWeAre1 {
     max-width       : 40em;
     max-height      : 35em;
     width           : auto;
@@ -58,6 +56,7 @@
     left            : -5vw;
     top             : 5vh;
     margin-bottom   : 10vh;
+    padding: 0;
 }
 
 #journey {
