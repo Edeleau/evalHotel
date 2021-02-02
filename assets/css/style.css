@@ -126,7 +126,7 @@ h5 {
 
 .sectionSize {
     padding-bottom  : 2em;
-    min-height      : calc(100vh);
+    min-height      : 100vh;
 }
 .bgColor1-Op2 {
     background-color: var(--color1opacity2);

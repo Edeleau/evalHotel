@@ -8,7 +8,7 @@
     <?php
     include("./link.php");
     ?>
-    <link rel="stylesheet" href="./assets/css/presse.css">
+    <link rel="stylesheet" href="./assets/css/actu.css">
 </head>
 
 <body>
