@@ -5,7 +5,7 @@ body {
 body:before {
   position          : absolute;
   content           : "";
-  z-index           : 1;
+  z-index           : 1000;
   top               : 0;
   left              : 0;
   right             : 0;
@@ -24,10 +24,12 @@ body.show-sidebar:before {
 }
 
 
-aside,
-main {
+aside{
   height    : 100vh;
   min-height: 580px;
+}
+#navbar{
+  height: 100vh;
 }
 
 aside {
@@ -204,7 +206,51 @@ aside .side-inner {
 #searching input:focus {
   outline: none;
 }
-
+.dropdown-menu {
+  padding: 0;
+  min-width: 40px;
+  background-color: var(--color1);
+  color:var(--colorWhite) ;
+  border-left: white 1px solid;
+  border-right: white 1px solid;
+  border-bottom: white 1px solid;
+  border-top: white 0 solid;
+  margin-top: -.8em;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+}
+.dropdown-item{
+  padding: .25rem 0;
+}
+.dropdown-menu a:hover {
+  background-color: var(--color2);
+  color:var(--colorWhite) ;
+}
+.dropdown-menu a {
+  color:var(--colorWhite) ;
+}
+.nav-link{
+  padding: .2rem 0;
+}
+.dropdown-toggle{
+  text-align: center;
+  width: 40px;
+  text-decoration: none;
+  color: var(--colorWhite);
+  border: white 1px solid;
+  border-radius: 5px 5px 5px 5px;
+  margin: 0 1rem 0 0;
+}
+.dropdown-toggle:hover{
+  color: var(--colorWhite);
+}
+.dropdown-toggle::after {
+  content: none;
+}
+.dropdown{
+  margin-left: 1rem;
+  margin-top:.65rem;
+}
 @media (max-width: 992px) {
 
   #toggle-btn,

@@ -2,7 +2,6 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 order-2 order-lg-1  col-lg-3 col-xl-3 row imgFooter">
-                <a href="https://snap.com/fr-FR" target="_blank"><img src="./assets/icone/016-snapchat.png" alt="snapchat"></a>
                 <a href="https://www.tripadvisor.fr/" target="_blank"><img src="./assets/icone/019-tripadvisor.png" alt="tripadvisor"></a>
                 <a href="https://twitter.com/?lang=fr" target="_blank"><img src="./assets/icone/027-twitter.png" alt="twitter"></a>
                 <a href="https://www.facebook.com/" target="_blank"><img src="./assets/icone/049-facebook.png" alt="facebook"></a>

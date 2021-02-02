@@ -36,13 +36,13 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="text" required>
+                                                    <input class="form-control" type="text" name="nom" required>
                                                     <span class="form-label">Nom</span>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="email" required>
+                                                    <input class="form-control" type="email" name="email" required>
                                                     <span class="form-label">Email</span>
                                                 </div>
                                             </div>
@@ -50,7 +50,7 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="tel" pattern="[0-9]{10}" required>
+                                                    <input class="form-control" type="tel" pattern="[0-9]{10}" name="telephone" required>
                                                     <span class="form-label">Téléphone</span>
                                                 </div>
                                             </div>
@@ -97,7 +97,7 @@
                                             </div>
                                         </div>
                                         <div class="form-btn">
-                                            <button class="submit-btn">Réservez maintenant</button>
+                                            <button class="submit-btn" id="submit">Réservez maintenant</button>
                                         </div>
                                     </form>
                                 </div>

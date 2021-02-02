@@ -20,14 +20,13 @@
     <?php
     include("./nav.php");
     ?>
-    <section class="sectionSize container-fluid">
-        <div class="row ">
+    <section class="sectionSize container-fluid ">
+        <div class="row">
             <div class="sectionTitle col-12 mx-auto mb-5">
                 <h4>Récapitulatif de réservation</h4>
-                <div class="smallHr mb-3"></div>
+                <div class="smallHr mb-5"></div>
             </div>
             <div class="containerPresta col-xl-5 col-10 p-0 row">
-
                 <div class="cartTitle col-8 m-0">
                     <h5 class="pl-5">Prestation</h5>
                 </div>
@@ -65,7 +64,7 @@
                 <div class="cartTitle">
                     <h5>Total à payer</h5>
                 </div>
-                <p class="totalPrice pt-5"><strong>4050.00€</strong></p>
+                <p class="totalPrice pt-4"><strong>4050.00€</strong></p>
                 <form action="#" method="POST">
                     <div class="d-flex justify-content-around p-3 mx-auto">
                         <input type="checkbox" name="cgvAgreement" id="cgvAgreement" required>

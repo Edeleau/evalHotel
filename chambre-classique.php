@@ -30,16 +30,16 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/classique01.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/classique02.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/sdb03.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/classique03.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/classique04.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#monSlider" role="button" data-slide="prev">
@@ -57,9 +57,10 @@
                         <div class="smallHr mb-4"></div>
                         <p class="text-center"> Imaginée comme un atelier d’artiste, la Chambre Classique est un véritable havre de paix baigné de lumière naturelle.
                         </p>
-                        <p class="pb-4">
+                        <p >
                             La Chambre Classique constitue le pied-à-terre idéal pour un séjour parisien inoubliable. Cette chambre élégante dispose d’une guitare acoustique pour laisser libre cours à votre créativité et d’une sélection d’œuvres d’art de la collection privée de l’hôtel. Nous disposons de 32 unités dans cette catégorie.
                         </p>
+                        <p class="pb-4"> Actuellement, profitez de cette chambre à partir de 630€ la nuit.</p>
                         <a href="reserve.php" class="linkButton">Réserver</a>
                         <div class="row mt-5">
                             <div class="col-xl-2 col-lg-3 col-12 d-flex ml-auto  justify-content-center iconContainer">

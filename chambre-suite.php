@@ -30,16 +30,16 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/suite04.jpg" class="d-block w-100 img-fluid" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/suite01.jpg" class="d-block w-100 img-fluid" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/sdb03.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/suite02.jpg" class="d-block w-100 img-fluid" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/suite03.jpg" class="d-block w-100 img-fluid" alt="...">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#monSlider" role="button" data-slide="prev">
@@ -57,9 +57,11 @@
                         <div class="smallHr mb-4"></div>
                         <p class="text-center"> Dotée d’un salon séparé, nos Suites offrent une ambiance raffinée et artistique reflétant le style des années 40 et 50.
                         </p>
-                        <p class="pb-4">
+                        <p>
                             Bois noble, œuvres d’art et architecture singulière répondent à un équipement technologique de pointe, dont une télévision dissimulée derrière un miroir. Comme toutes les suites de l’hôtel, elle renferme également une guitare acoustique. Nous disposons de 14 unités dans cette catégorie.
                         </p>
+                        <p class="pb-4">Actuellement, profitez de nos suites à partir de 1650€ la nuit.</p>
+
                         <a href="reserve.php" class="linkButton">Réserver</a>
                         <div class="row mt-5">
                             <div class="col-xl-2 col-lg-3 col-12 d-flex ml-auto  justify-content-center iconContainer">

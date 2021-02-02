@@ -1,6 +1,5 @@
 .section {
     position  : relative;
-    min-height: 100vh;
 }
 
 .section .section-center {
@@ -14,22 +13,22 @@
 }
 
 #booking {
-    margin-top         : 3.3em;
+    min-height: calc((100vh) - (4em));
     background-image   : url(../img/reserve/luxury.jpg);
     background-size    : cover;
     background-position: center;
 }
 
 #recrute {
-    margin-top         : 3.3em;
+    min-height: calc((100vh) - (4em));
     background-image   : url(../img/recrutement/Hotel-de-Crillon-les-artisans-du-palace.jpg);
     background-size    : cover;
     background-position: center;
 }
 
 #contact {
-    margin-top         : 3.3em;
-    background-image   : url(../img/recrutement/Hotel-de-Crillon-les-artisans-du-palace.jpg);
+    min-height: calc((100vh) - (4em));
+    background-image   : url(../img/contact/contact.jpg);
     background-size    : cover;
     background-position: center;
 }
