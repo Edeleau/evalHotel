@@ -8,6 +8,7 @@
     <div class="side-inner">
         <div class="container-fluid">
             <div class="row justify-content-center">
+                <a href="index.php" class="col-12 mt-3 text-center">Accueil</a>
                 <h2 class="col-12 text-center mt-3">SERVICES</h2>
                 <span class="col-6 text-center mb-2"></span>
                 <a href="room.php" class="col-12 mt-3 text-center">Chambres</a>
@@ -40,6 +41,16 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a href="#" class="lienPanier d-none d-lg-block d-xl-block"><img src="./assets/icone/panier.svg" class="panier  h-100" alt="panier"></a>
+        <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle align-items-center" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                FR
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#" title=" english">EN</a>
+                <a class="dropdown-item" href="#" title=" português">PT</a>
+                <a class="dropdown-item" href="#" title=" Русский">RU</a>
+            </div>
+        </div>
         <div id="search">
             <form name="search" id="searching" method="post" action="">
                 <input class="gSearch" type="search" size="60" placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">
@@ -49,13 +60,14 @@
 
 
     <div class="collapse" id="navbarSupportedContent">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
+        <div class="container-fluid" id="navbar">
+            <div class="row justify-content-center mb-auto">
                 <div id="search">
                     <form name="search" id="searching" method="post" action="">
                         <input class="gSearch" type="search" size="60" placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">
                     </form>
                 </div>
+                <a href="index.php" class="col-12 mt-3 text-center">Accueil</a>
                 <h2 class="col-12 text-center mt-3">SERVICES</h2>
                 <span class="col-6 text-center mb-2"></span>
                 <a href="room.php" class="col-12 mt-3 text-center">Chambres</a>

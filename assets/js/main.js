@@ -39,7 +39,6 @@ $(function () {
         let navbar = document.getElementById('navbarSupportedContent');
         let toggleSidebar = document.getElementById('toggle-btn');
         let footer = document.querySelectorAll('.select div');
-        console.log(footer);
 
         if (withWindow > 992) {
             navbar.classList.add('disparition');

@@ -33,13 +33,13 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="text" required>
+                                                    <input class="form-control" type="text" name="nom" required>
                                                     <span class="form-label">Nom</span>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="text" required>
+                                                    <input class="form-control" type="text" name="prenom" required>
                                                     <span class="form-label">Prénom</span>
                                                 </div>
                                             </div>
@@ -47,13 +47,13 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="text" required>
+                                                    <input class="form-control" type="text" name="entreprise" required>
                                                     <span class="form-label">Entreprise</span>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="email" required>
+                                                    <input class="form-control" type="email" name="email" required>
                                                     <span class="form-label">Email</span>
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="text" required>
+                                                    <input class="form-control" type="text" name="pays" required>
                                                     <span class="form-label">Pays</span>
                                                 </div>
                                             </div>
@@ -82,7 +82,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="text" required>
+                                                    <input class="form-control" type="text" name="sujet" required>
                                                     <span class="form-label">Sujet</span>
                                                 </div>
                                             </div>
@@ -96,7 +96,7 @@
                                             </div>
                                         </div>
                                         <div class="form-btn">
-                                            <button class="submit-btn">Envoyez votre avis</button>
+                                            <button class="submit-btn" id="submit">Envoyez votre avis</button>
                                         </div>
                                     </form>
                                 </div>

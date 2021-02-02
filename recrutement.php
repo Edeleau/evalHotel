@@ -37,13 +37,13 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="text" required>
+                                                    <input class="form-control" type="text" name="nom" required>
                                                     <span class="form-label">Nom</span>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="text" required>
+                                                    <input class="form-control" type="text" name="prenom" required>
                                                     <span class="form-label">Prénom</span>
                                                 </div>
                                             </div>
@@ -51,13 +51,13 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="text">
+                                                    <input class="form-control" type="text" name="entreprise">
                                                     <span class="form-label">Entreprise</span>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="email" required>
+                                                    <input class="form-control" type="email" name="email" required>
                                                     <span class="form-label">Email</span>
                                                 </div>
                                             </div>
@@ -66,14 +66,14 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control custom-file-input" type="file" id="cv" required>
+                                                    <input class="form-control custom-file-input" type="file" name="cv" id="cv" required>
                                                     <input class="form-control" type="text" id="fakeInputCv" disabled="disabled">
                                                     <span class="form-label">Curriculum vitæ</span>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <input class="form-control custom-file-input" type="file" id="motivation" required>
+                                                    <input class="form-control custom-file-input" type="file" id="motivation" name="motivation" required>
                                                     <input class="form-control" type="text" id="fakeInputMotivation" disabled="disabled">
                                                     <span class="form-label">Lettre de motivation</span>
 
@@ -84,13 +84,13 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <textarea class="form-control" id="textArea" rows="12"></textarea>
+                                                    <textarea class="form-control" id="textArea" name="message" rows="12"></textarea>
                                                     <span class="form-label" id="labelTextArea">Message</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="form-btn">
-                                            <button class="submit-btn">Envoyez votre candidature</button>
+                                            <button class="submit-btn" id="submit">Envoyez votre candidature</button>
                                         </div>
                                     </form>
                                 </div>
