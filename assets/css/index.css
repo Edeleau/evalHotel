@@ -28,8 +28,8 @@
 }
 
 #landingPage4 {
-    padding-bottom  : 2em;
-    min-height      : calc(100vh - 13em);
+    padding-bottom: 2em;
+    min-height    : calc(100vh - 13em);
 }
 
 #landingPage3 {
@@ -64,6 +64,7 @@
 
 #journey {
     max-width: 90vw;
+    height   : 100%;
 }
 
 #experience {
@@ -77,17 +78,26 @@
 }
 
 #imgRoom2 {
-    max-height      : 20em;
-    background-color: paleturquoise;
-    margin-top      : 13em;
-    border-right    : none;
+    max-height      : 35em;
+
+}
+#imgRoom3 {
+    max-height      : 35em;
 }
 
-#imgRoom3 {
-    max-height      : 20em;
-    background-color: palegreen;
-    margin-top      : 2em;
-    border-left     : none;
+#imgRoom2 img {
+    position: absolute;
+    width  : 100%;
+    bottom: 5%;
+
+}
+
+#imgRoom3 img{
+    max-height      : 35em;
+    position: absolute;
+    width  : 100%;
+    top: 5%;
+    left: 0;
 }
 
 #imgExperience1,
@@ -100,7 +110,6 @@
     height    : 8em;
     width     : 1px;
     position  : absolute;
-    transform : translateX(-50%) translateY(-50%);
     left      : 50%;
     margin-top: -4em;
     z-index   : 1000;
@@ -134,7 +143,7 @@
 
 .indexBgImg2 {
     background: url("../img/who-we-are/hall01.jpg") no-repeat center;
-}   
+}
 
 .indexBgImg3 {
     background: url("../img/who-we-are/whoweare05.jpg") no-repeat center;
@@ -153,10 +162,11 @@
     align-items     : center;
 }
 
-.newsletterIndexContainer label, .newsletterIndexContainer p {
+.newsletterIndexContainer label,
+.newsletterIndexContainer p {
     color    : var(--color2);
     font-size: 1.5em;
-    padding: 0em;
+    padding  : 0em;
 }
 
 
@@ -170,22 +180,25 @@
     font-size    : 17px;
     transition   : all 0.5s;
 }
+
 .newsletterIndexContainer input[type="submit"] {
-    width        : auto;
-    height       : 2.3rem;
+    width : auto;
+    height: 2.3rem;
 
     box-sizing   : border-box;
     border-radius: 7px;
     border       : 0;
     background   : var(--color1);
-    font-size  : 0.9em;
+    font-size    : 0.9em;
     transition   : all 0.5s;
-    color: var(--colorWhite);
+    color        : var(--colorWhite);
 }
-.newsletterIndexContainer input[type="submit"]:hover{
-    background   : var(--color2);
+
+.newsletterIndexContainer input[type="submit"]:hover {
+    background: var(--color2);
 
 }
+
 .newsletterIndexContainer input::placeholder {
     color      : var(--colorWhite);
     font-size  : 0.9em;

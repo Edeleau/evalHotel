@@ -83,7 +83,7 @@
 
         <div id="journey" class="row mx-auto">
             <div id="imgRoom2" class="col-lg-3 mr-auto">
-                <img src="./assets/img/room/suite02.jpg" class="photoResize" alt="Suite 02">
+                <img src="./assets/img/room/suite02.jpg"  alt="Suite 02">
             </div>
 
             <div id="imgRoom1" class="col-lg-6 col-md-9 mx-md-auto col-sm-12">
@@ -95,7 +95,7 @@
             </div>
 
             <div id="imgRoom3" class="col-lg-3">
-                <img src="./assets/img/room/suite01.jpg" class="photoResize" alt="Suite 1">
+                <img src="./assets/img/room/suite01.jpg" alt="Suite 1">
             </div>
         </div>
         <div id="linkRoomContainer" class="col-12 text-center">
