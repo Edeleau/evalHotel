@@ -46,7 +46,7 @@
                     <p>Installé au calme de l’agitation parisienne, découvrez des
                         grands classiques et des créations maison concoctés
                         au feu de bois par notre Chef et son équipe.</p>
-                    <p class="linkRestaurantContainer text-center"><a class="linkRestaurant underline" href="./assets/doc/carte_suggestions_web.pdf">Découvrir</a></p>
+                    <p class="linkRestaurantContainer text-center"><a class="linkRestaurant underline" href="./assets/doc/carte_suggestions_web.pdf" target="_blank">Découvrir</a></p>
                 </div>
                 <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0 d-xl-block d-none">
                     <img src="./assets/img/restaurant/restaurant06.jpg" class="img-fluid" alt="plat 1">
@@ -58,7 +58,7 @@
                     <div class="carteDescription text-center col-xl-6 col-12 mx-auto ml-0 mr-0 px-5">
                         <h5>Carte Dégustation</h5>
                         <p> Une carte riche et colorée aux saveur d'autres mondes. Proposé en 6 escales, ce menu gourmand dévoile des produits d’exception – dont certains issus du jardin du Chef - sublimés par d’audacieuses associations de saveurs.</p>
-                        <p class="linkRestaurantContainer text-center"><a class="linkRestaurant underline" href="./assets/doc/carte_suggestions_web.pdf">Découvrir</a></p>
+                        <p class="linkRestaurantContainer text-center"><a class="linkRestaurant underline" href="./assets/doc/carte_suggestions_web.pdf" target="_blank">Découvrir</a></p>
                     </div>
                     <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0 d-xl-none ">
                         <img src="./assets/img/restaurant/restaurant14.jpg" class="img-fluid" alt="plat 3">
@@ -66,7 +66,7 @@
                     <div class="carteDescription text-center col-xl-6 col-12 mx-auto ml-0 mr-0 px-5">
                         <h5>Carte Restaurant</h5>
                         <p> Notre chef Damian Vera et son équipe sont impatients d’accueillir les amoureux de la gastronomie. Découvrez une cuisine créative et raffinée, dans une ambiance intime et chaleureuse.</p>
-                        <p class="linkRestaurantContainer text-center"><a class="linkRestaurant underline" href="./assets/doc/carte_suggestions_web.pdf">Découvrir</a></p>
+                        <p class="linkRestaurantContainer text-center"><a class="linkRestaurant underline" href="./assets/doc/carte_suggestions_web.pdf" target="_blank">Découvrir</a></p>
                     </div>
                     <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0 d-xl-block d-none">
                         <img src="./assets/img/restaurant/restaurant14.jpg" class="img-fluid" alt="plat 3 ">
