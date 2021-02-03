@@ -26,20 +26,27 @@
                                 <li data-target="#monSlider" data-slide-to="0"></li>
                                 <li data-target="#monSlider" data-slide-to="1"></li>
                                 <li data-target="#monSlider" data-slide-to="2"></li>
-                                <li data-target="#monSlider" data-slide-to="3"></li>
+                                <li data-target="#monSlider" data-slide-to="4"></li>
+                                <li data-target="#monSlider" data-slide-to="5"></li>
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/confort01.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/confort02.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/sdb03.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/confort03.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/confort04.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/room/confort05.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/room/confort06.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#monSlider" role="button" data-slide="prev">
@@ -57,9 +64,10 @@
                         <div class="smallHr mb-4"></div>
                         <p class="text-center"> La décoration de la Chambre Confort s’inspire du style emblématique des années 40 et 50.
                         </p>
-                        <p class="pb-4">
+                        <p>
                             La Chambre Confort vous offre un écrin intime et élégant pour votre séjour dans la Ville Lumière. Cette superbe chambre bénéficie d’une guitare acoustique et d’une sélection d’œuvres d‘art de la collection privée de l’hôtel. Nous disposons de 31 unités dans cette catégorie..
                         </p>
+                        <p class="pb-4">Actuellement, profitez de cette chambre à partir de 780€ la nuit.</p>
                         <a href="reserve.php" class="linkButton">Réserver</a>
                         <div class="row mt-5">
                             <div class="col-xl-2 col-lg-3 col-12 d-flex ml-auto  justify-content-center iconContainer">

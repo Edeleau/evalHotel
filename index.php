@@ -63,15 +63,12 @@
             <h3>HOTELCOP</h3>
         </div>
         <div id="whoWeAreContainer" class="row">
-            <div id="imgTest1" class="col-xl-7 ml-auto mr-auto col-12">
+            <div id="imgWhoWeAre1" class="col-xl-7 ml-auto mr-auto col-12">
                 <img src="./assets/img/who-we-are/tour-eiffel.jpg" class="photoResize" alt="tour eiffel">
             </div>
-            <div id="whoWeAreText" class="col-xl-5 col-md-10 col-12">
+            <div id="whoWeAreText" class="col-xl-4 col-11 pl-0">
                 <h4>Le Prestige Hotelcop</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro accusantium enim mollitia quo aliquid eaque minus magnam repellendus suscipit. Non est beatae sed praesentium omnis repellendus mollitia ullam impedit incidunt.
-                    Laudantium, unde? Temporibus iusto facilis id repellat iste autem nobis fuga quibusdam voluptatem molestias adipisci officia, consequuntur doloribus suscipit fugit numquam molestiae? Laboriosam voluptatem numquam aliquid hic expedita et non.
-                    Voluptatem eaque saepe neque tempore ullam placeat earum nisi atque. Minus magnam repellendus nobis provident voluptates incidunt, culpa in laborum temporibus voluptatibus quidem sed expedita et porro ex accusamus aspernatur.
-                    Error cumque, debitis ut fuga, voluptas tempora consectetur reiciendis maxime id necessitatibus ullam a provident. Laboriosam tempore, alias cumque earum incidunt facilis illo dolorem dolores nesciunt nulla quasi aliquam est?
+                <p>L'hôtel Hotelcop situé dans le 8ème arrondissement à deux pas du pont d'Alma impose une vision inédite de l‘hôtellerie parisienne : faire découvrir « le Paris des parisiens ». L’hôtel aux prestations haut de gamme revendique une authentique simplicité. Dans son décor architectural ou le classique est confronté à d’audacieuses touches modernes, l’épicurisme est une religion : chambres et suites d'hôtel de luxe à Paris, sports et soins personnalisés, piscine hors du commun, café et restaurant chic, bar lounge parisien, terrasse luxuriante. Ce lieu de vie hybride et complet du 8ème arrondissement de Paris accueille riverains, touristes, femmes et hommes d’affaires en toute harmonie. 
                 </p>
             </div>
         </div>
@@ -86,19 +83,19 @@
 
         <div id="journey" class="row mx-auto">
             <div id="imgRoom2" class="col-lg-3 mr-auto">
-                <img src="./assets/img/room/room06.jpeg" class="photoResize" alt="Suite 02">
+                <img src="./assets/img/room/suite02.jpg" class="photoResize" alt="Suite 02">
             </div>
 
             <div id="imgRoom1" class="col-lg-6 col-md-9 mx-md-auto col-sm-12">
                 <a href="chambre-suite.php" class="linkButton imgButton">Découvrir</a>
-                <img src="./assets/img/room/room04.jpg" class="photoResize" alt="Suite 01">
+                <img src="./assets/img/room/suite08.jpg" class="w-100" alt="Suite 8">
                 <div class="imgLegend legendOut">
                     <p>Nos Suites</p>
                 </div>
             </div>
 
             <div id="imgRoom3" class="col-lg-3">
-                <img src="./assets/img/room/sdb03.jpg" class="photoResize" alt="salle de bain Suite">
+                <img src="./assets/img/room/suite01.jpg" class="photoResize" alt="Suite 1">
             </div>
         </div>
         <div id="linkRoomContainer" class="col-12 text-center">
@@ -115,16 +112,25 @@
         <div id="experience" class="row mx-auto">
             <div id="imgExperience1" class="col-xl-5 col-lg-5 col-md-7 col-sm-7 col-10 mx-auto my-lg-auto my-xl-auto">
                 <a href="care.php" class="linkButton imgButton">Découvrir</a>
-                <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="Suite 01 ">
+                <img src="./assets/img/care/care05.jpg" class="img-fluid" alt="Spa & Bien-être">
                 <p class="imgLegend legendOut">Spa & Bien-être</p>
             </div>
             <div id="imgExperience2" class="col-xl-5 col-lg-5 col-md-7  col-sm-7 col-10 mx-auto my-lg-auto my-xl-auto">
                 <a href="restaurant.php" class="linkButton imgButton">Découvrir</a>
-                <img src="./assets/img/restaurant/restaurant02.jpg" class="img-fluid" alt="Suite 01 ">
+                <img src="./assets/img/restaurant/restaurant03.jpg" class="img-fluid" alt="restaurant ">
                 <p class="imgLegend legendOut">Restaurant</p>
             </div>
         </div>
+        
     </section>
+    <div class="newsletterIndexContainer text-center">
+            <form action="#" method="POST" class="my-auto">
+                <label for="newsletterIndex">Abonnez-vous à notre Newsletter</label>
+                <br>
+                <input id="newsletterIndex" type="email" name="emailNewsletter" placeholder="Mon adresse Email">
+                <input class="newsletterIndexSubmit" type="submit" value="Envoyer">
+            </form>
+        </div>
     <?php
     include("./footer.php");
     ?>

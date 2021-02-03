@@ -41,28 +41,28 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/classique02.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
                                         <h2><a href="chambre-classique.php">Chambre Classique</a></h2>
                                         <a href="chambre-classique.php" class="linkButton chooseButton">En savoir plus</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/confort01.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
                                         <h2><a href="chambre-confort.php">Chambre Confort</a></h2>
                                         <a href="chambre-confort.php" class="linkButton chooseButton">En savoir plus</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/sdb03.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/deluxe01.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
                                         <h2><a href="chambre-deluxe.php">Chambre Deluxe</a></h2>
                                         <a href="chambre-deluxe.php" class="linkButton chooseButton">En savoir plus</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/suite02.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption">
                                         <h2><a href="chambre-suite.php">Suite</a></h2>
                                         <a href="chambre-suite.php" class="linkButton chooseButton">En savoir plus</a>

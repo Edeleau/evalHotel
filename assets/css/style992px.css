@@ -37,4 +37,11 @@
     .arrowIndexWidth{
         width: 40%;
     }
+    #restaurantOverview{
+        font-size: 1em;
+    }
+    #restaurantOverview p {
+        width: 90%;
+        margin: auto;
+    }
 }

@@ -1,0 +1,17 @@
+@media (max-width: 1630px){
+    .mb-4vh {
+        margin-bottom: 4vh;
+    }
+    #imgWhoWeAre1 {
+        position: static!important;
+        margin-bottom   : 5vh;
+    }
+    #whoWeAreContainer {
+        max-width: 95vw;
+        border   : none;
+    }
+    #whoWeAreText {
+        text-align: left;
+        margin    : 0 auto 1vh auto;
+    }
+}

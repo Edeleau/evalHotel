@@ -126,7 +126,7 @@ h5 {
 
 .sectionSize {
     padding-bottom  : 2em;
-    min-height      : 100vh;
+    min-height      : calc(100vh - 4em);
 }
 .bgColor1-Op2 {
     background-color: var(--color1opacity2);
@@ -263,10 +263,10 @@ h5 {
 }
 
 .linkButton:hover {
-    background-color: var(--colorWhiteOpacity5);
+    background-color: var(--color1);
     text-decoration : none;
-    color           : var(--color2);
-    border          : 1.5px solid var(--color2);
+    color           : var(--colorWhite);
+    border          : 1.5px solid var(--colorWhite);
 
 }
 

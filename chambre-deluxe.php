@@ -30,16 +30,16 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/deluxe01.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/deluxe02.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/sdb03.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/deluxe03.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/room/deluxe04.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#monSlider" role="button" data-slide="prev">
@@ -57,9 +57,11 @@
                         <div class="smallHr mb-4"></div>
                         <p class="text-center"> Cette chambre à la décoration inspirée des années 40 et 50 incarne le mariage parfait du confort, de la technologie et du service «Palace».
                         </p>
-                        <p class="pb-4">
+                        <p>
                             Des œuvres d’art ornent les murs et offrent à ces chambres un style des plus singuliers. Une guitare acoustique est également là pour laisser libre cours à la création musicale de nos hôtes.
                         </p>
+                        <p class="pb-4">Actuellement, profitez de cette chambre à partir de 1100€ la nuit.</p>
+
                         <a href="reserve.php" class="linkButton">Réserver</a>
                         <div class="row mt-5">
                             <div class="col-xl-2 col-lg-3 col-12 d-flex ml-auto  justify-content-center iconContainer">
