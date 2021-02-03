@@ -9,7 +9,7 @@
 }
 
 .card {
-    background-color: var(--color1);
+    background-color: var(--color1opacity8);
     color           : white;
     border-radius   : 0;
 }

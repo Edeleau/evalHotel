@@ -16,7 +16,7 @@
     include("./nav.php");
     ?>
     <div class="container-fluid">
-        <div class="row ">
+        <div class="row first">
             <div id="contact" class="section col-12">
                 <div class="section-center">
                     <div class="container">
@@ -24,7 +24,7 @@
                             <div class="col-lg-4 ">
                                 <div class="booking-cta">
                                     <h1>Contactez nous !</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam numquam at</p>
+                                    <p>Remplissez les informations ci-dessous pour nous contacter par e-mail. Nous serons attentif à vous répondre dans les plus brefs délais. Tous les champs sont obligatoires.</p>
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-8 col-md-offset-1">

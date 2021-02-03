@@ -20,15 +20,15 @@
     include("./nav.php");
     ?>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row first">
             <div id="recrute" class="section col-12">
                 <div class="section-center">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-4 ">
+                            <div class="col-lg-4">
                                 <div class="booking-cta">
                                     <h1>Rejoignez notre équipe !</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam numquam at</p>
+                                    <p>L'Hotelcop offre un environnement de travail unique : un univers riche. Un univers où les hommes et les femmes font la différence. Chaque talent est, plus qu’ailleurs, au cœur de la réussite de notre Maison.</p>
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-8 col-md-offset-1">
