@@ -36,16 +36,16 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/care/care05.jpg" class="d-block w-100" alt="piscine">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/care/care11.jpg" class="d-block w-100" alt="spa">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room04.jpg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/care/care01.jpg" class="d-block w-100" alt="soin 2">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./assets/img/room/room06.jpeg" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/care/care06.jpg" class="d-block w-100" alt="soin 3">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#monSlider" role="button" data-slide="prev">
@@ -111,7 +111,7 @@
                 <div class="careCard col-xl-5 col-lg-10 col-md-10 col-sm-10 col-12 mx-auto mb-4vh">
                     <div id="imgCare1">
                         <a href="reserve.php" class="linkButton imgButton">Réserver</a>
-                        <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="image soin détente">
+                        <img src="./assets/img/care/care01.jpg" class="img-fluid" alt="image soin détente">
                         <p class="imgLegend legendOut">Soin Détente</p>
                     </div>
                     <p>Durée : 1h</p>
@@ -123,7 +123,7 @@
                 <div class="careCard col-xl-5 col-lg-10 col-md-10 col-sm-10 col-12 mx-auto">
                     <div id="imgCare2">
                         <a href="reserve.php" class="linkButton imgButton">Réserver</a>
-                        <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="image soin découverte">
+                        <img src="./assets/img/care/care08.jpg" class="img-fluid" alt="image soin découverte">
                         <p class="imgLegend legendOut">Soin Découverte</p>
                     </div>
                     <p>Durée : 1h30</p>
@@ -137,7 +137,7 @@
                 <div class="careCard col-xl-5 col-lg-10 col-md-10 col-sm-10 col-12 mx-auto mb-4vh">
                     <div id="imgCare3">
                         <a href="reserve.php" class="linkButton imgButton">Réserver</a>
-                        <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="image soin relaxant">
+                        <img src="./assets/img/care/care03.jpg" class="img-fluid" alt="image soin relaxant">
                         <p class="imgLegend legendOut">Soin Relaxant</p>
                     </div>
                     <p>Durée : 1h20</p>
@@ -151,7 +151,7 @@
                 <div class="careCard col-xl-5 col-lg-10 col-md-10 col-sm-10 col-12 mx-auto">
                     <div id="imgCare4">
                         <a href="reserve.php" class="linkButton imgButton">Réserver</a>
-                        <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="image soin découverte">
+                        <img src="./assets/img/care/care06.jpg" class="img-fluid" alt="image soin découverte">
                         <p class="imgLegend legendOut">Soin Plaisir</p>
                     </div>
                     <p>Durée : 1h30</p>
@@ -167,7 +167,7 @@
                 <div class="careCard col-xl-5 col-lg-10 col-md-10 col-sm-10 col-12 mx-auto">
                     <div id="imgCare5">
                         <a href="reserve.php" class="linkButton imgButton">Réserver</a>
-                        <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="image soin détente">
+                        <img src="./assets/img/care/care02.jpg" class="img-fluid" alt="image soin détente">
                         <p class="imgLegend legendOut">Soin Évasion</p>
                     </div>
                     <p>Durée : 1h30 à 2h</p>

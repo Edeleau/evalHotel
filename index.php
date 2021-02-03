@@ -88,14 +88,14 @@
 
             <div id="imgRoom1" class="col-lg-6 col-md-9 mx-md-auto col-sm-12">
                 <a href="chambre-suite.php" class="linkButton imgButton">Découvrir</a>
-                <img src="./assets/img/room/suite03.jpg" class="photoResize" alt="Suite 01">
+                <img src="./assets/img/room/suite08.jpg" class="w-100" alt="Suite 8">
                 <div class="imgLegend legendOut">
                     <p>Nos Suites</p>
                 </div>
             </div>
 
             <div id="imgRoom3" class="col-lg-3">
-                <img src="./assets/img/room/suite01.jpg" class="photoResize" alt="salle de bain Suite">
+                <img src="./assets/img/room/suite01.jpg" class="photoResize" alt="Suite 1">
             </div>
         </div>
         <div id="linkRoomContainer" class="col-12 text-center">
@@ -112,16 +112,25 @@
         <div id="experience" class="row mx-auto">
             <div id="imgExperience1" class="col-xl-5 col-lg-5 col-md-7 col-sm-7 col-10 mx-auto my-lg-auto my-xl-auto">
                 <a href="care.php" class="linkButton imgButton">Découvrir</a>
-                <img src="./assets/img/care/soin01.jpeg" class="img-fluid" alt="Suite 01 ">
+                <img src="./assets/img/care/care05.jpg" class="img-fluid" alt="Spa & Bien-être">
                 <p class="imgLegend legendOut">Spa & Bien-être</p>
             </div>
             <div id="imgExperience2" class="col-xl-5 col-lg-5 col-md-7  col-sm-7 col-10 mx-auto my-lg-auto my-xl-auto">
                 <a href="restaurant.php" class="linkButton imgButton">Découvrir</a>
-                <img src="./assets/img/restaurant/restaurant03.jpg" class="img-fluid" alt="Suite 01 ">
+                <img src="./assets/img/restaurant/restaurant03.jpg" class="img-fluid" alt="restaurant ">
                 <p class="imgLegend legendOut">Restaurant</p>
             </div>
         </div>
+        
     </section>
+    <div class="newsletterIndexContainer text-center">
+            <form action="#" method="POST" class="my-auto">
+                <label for="newsletterIndex">Abonnez-vous à notre Newsletter</label>
+                <br>
+                <input id="newsletterIndex" type="email" name="emailNewsletter" placeholder="Mon adresse Email">
+                <input class="newsletterIndexSubmit" type="submit" value="Envoyer">
+            </form>
+        </div>
     <?php
     include("./footer.php");
     ?>

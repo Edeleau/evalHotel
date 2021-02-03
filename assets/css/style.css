@@ -263,10 +263,10 @@ h5 {
 }
 
 .linkButton:hover {
-    background-color: var(--colorWhiteOpacity5);
+    background-color: var(--color1);
     text-decoration : none;
-    color           : var(--color2);
-    border          : 1.5px solid var(--color2);
+    color           : var(--colorWhite);
+    border          : 1.5px solid var(--colorWhite);
 
 }
 

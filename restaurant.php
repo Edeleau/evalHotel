@@ -25,7 +25,7 @@
             <h4>Un cadre idylique pour une dégustation atypique</h4>
         </div>
         <div id="restaurantOverview">
-            <div class="col-11 mx-auto text-center">
+            <div class="col-12 mx-auto text-center">
                 <p>Une table parisienne à deux pas de la Seine, dans le cadre de l'élégant Hôtel 5 étoiles : Hotelcop, vous comblera été comme hiver
                     avec sa « terrasse-jardin », son ambiance velours,
                     son coin cheminée et son piano-bar.</p>
@@ -39,7 +39,7 @@
                     <div class="smallHr mb-3"></div>
                 </div>
                 <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0 d-xl-none ">
-                    <img src="./assets/img/restaurant/restaurant02.jpg" class="img-fluid" alt="Suite 01 ">
+                    <img src="./assets/img/restaurant/restaurant06.jpg" class="img-fluid" alt="plat 1">
                 </div>
                 <div class="carteDescription text-center col-xl-6 col-12 mx-auto ml-0 mr-0 px-5">
                     <h5>Carte Brasserie</h5>
@@ -49,11 +49,11 @@
                     <p class="linkRestaurantContainer text-center"><a class="linkRestaurant underline" href="./assets/doc/carte_suggestions_web.pdf">Découvrir</a></p>
                 </div>
                 <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0 d-xl-block d-none">
-                    <img src="./assets/img/restaurant/restaurant02.jpg" class="img-fluid" alt="Suite 01 ">
+                    <img src="./assets/img/restaurant/restaurant06.jpg" class="img-fluid" alt="plat 1">
                 </div>
                 <div class="row ml-0 mr-0">
                     <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0">
-                        <img src="./assets/img/restaurant/restaurant02.jpg" class="img-fluid" alt="Suite 01 ">
+                        <img src="./assets/img/restaurant/restaurant13.jpg" class="img-fluid" alt="plat 2">
                     </div>
                     <div class="carteDescription text-center col-xl-6 col-12 mx-auto ml-0 mr-0 px-5">
                         <h5>Carte Dégustation</h5>
@@ -61,7 +61,7 @@
                         <p class="linkRestaurantContainer text-center"><a class="linkRestaurant underline" href="./assets/doc/carte_suggestions_web.pdf">Découvrir</a></p>
                     </div>
                     <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0 d-xl-none ">
-                        <img src="./assets/img/restaurant/restaurant02.jpg" class="img-fluid" alt="Suite 01 ">
+                        <img src="./assets/img/restaurant/restaurant14.jpg" class="img-fluid" alt="plat 3">
                     </div>
                     <div class="carteDescription text-center col-xl-6 col-12 mx-auto ml-0 mr-0 px-5">
                         <h5>Carte Restaurant</h5>
@@ -69,7 +69,7 @@
                         <p class="linkRestaurantContainer text-center"><a class="linkRestaurant underline" href="./assets/doc/carte_suggestions_web.pdf">Découvrir</a></p>
                     </div>
                     <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0 d-xl-block d-none">
-                        <img src="./assets/img/restaurant/restaurant02.jpg" class="img-fluid" alt="Suite 01 ">
+                        <img src="./assets/img/restaurant/restaurant14.jpg" class="img-fluid" alt="plat 3 ">
                     </div>
                 </div>
             </div>

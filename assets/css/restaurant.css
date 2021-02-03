@@ -7,7 +7,7 @@
 }
 
 #restaurantOverview {
-    background             : url("../img/who-we-are/hall01.jpg") no-repeat center center fixed;
+    background             : url("../img/restaurant/restaurant01.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size   : cover;
     -o-background-size     : cover;
@@ -19,10 +19,11 @@
     align-items: center;
     margin-top: 2em;
     font-size: 1.3em;
+    text-shadow: 1px 1px 1px var(--color2);
 }
 
 #restaurantOverview p {
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 

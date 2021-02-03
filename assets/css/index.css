@@ -1,21 +1,23 @@
 #logoLandingPage {
-    max-width    : 60vw;
-    max-height   : 60vh;
-    position: absolute;
-    z-index: 100;
+    max-width : 60vw;
+    max-height: 60vh;
+    position  : absolute;
+    z-index   : 100;
     transform : translateX(-50%) translateY(-50%);
     top       : 40%;
     left      : 50%;
 }
 
 #landingPage1 {
-    min-height             : 100vh;
-    padding: 0;
+    min-height: 100vh;
+    padding   : 0;
 }
-.carouselContainer{
+
+.carouselContainer {
     min-height: 100vh;
 }
-.arrowIndexWidth{
+
+.arrowIndexWidth {
     width: 30%;
 }
 
@@ -26,7 +28,8 @@
 }
 
 #landingPage4 {
-    padding-bottom: 2em;
+    padding-bottom  : 2em;
+    min-height      : calc(100vh - 13em);
 }
 
 #landingPage3 {
@@ -56,7 +59,7 @@
     left            : -5vw;
     top             : 5vh;
     margin-bottom   : 10vh;
-    padding: 0;
+    padding         : 0;
 }
 
 #journey {
@@ -107,9 +110,10 @@
     padding : 2em 0;
     position: relative;
 }
-#landingPage1 .container{
+
+#landingPage1 .container {
     max-width: 100%;
-    padding: 0;
+    padding  : 0;
 }
 
 .indexBgImg1,
@@ -125,17 +129,66 @@
 }
 
 .indexBgImg1 {
-    background: url("../img/who-we-are/hall01.jpg") no-repeat center;
+    background: url("../img/who-we-are/whoweare07.jpg") no-repeat center;
 }
 
 .indexBgImg2 {
     background: url("../img/who-we-are/hall01.jpg") no-repeat center;
-}
+}   
 
 .indexBgImg3 {
-    background: url("../img/who-we-are/hall01.jpg") no-repeat center;
+    background: url("../img/who-we-are/whoweare05.jpg") no-repeat center;
 }
 
 .indexBgImg4 {
-    background: url("../img/who-we-are/hall01.jpg") no-repeat center;
+    background: url("../img/restaurant/restaurant11.jpg") no-repeat center;
+}
+
+.newsletterIndexContainer {
+    height          : 8em;
+    width           : 100%;
+    background-color: var(--color1opacity2);
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.newsletterIndexContainer label, .newsletterIndexContainer p {
+    color    : var(--color2);
+    font-size: 1.5em;
+    padding: 0em;
+}
+
+
+.newsletterIndexContainer input[type="email"] {
+    width        : 250px;
+    height       : 2.3rem;
+    box-sizing   : border-box;
+    border-radius: 7px;
+    border       : 0;
+    background   : var(--color1opacity4);
+    font-size    : 17px;
+    transition   : all 0.5s;
+}
+.newsletterIndexContainer input[type="submit"] {
+    width        : auto;
+    height       : 2.3rem;
+
+    box-sizing   : border-box;
+    border-radius: 7px;
+    border       : 0;
+    background   : var(--color1);
+    font-size  : 0.9em;
+    transition   : all 0.5s;
+    color: var(--colorWhite);
+}
+.newsletterIndexContainer input[type="submit"]:hover{
+    background   : var(--color2);
+
+}
+.newsletterIndexContainer input::placeholder {
+    color      : var(--colorWhite);
+    font-size  : 0.9em;
+    text-align : center;
+    font-family: "Montserrat";
 }

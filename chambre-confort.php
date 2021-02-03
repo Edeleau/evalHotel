@@ -26,7 +26,8 @@
                                 <li data-target="#monSlider" data-slide-to="0"></li>
                                 <li data-target="#monSlider" data-slide-to="1"></li>
                                 <li data-target="#monSlider" data-slide-to="2"></li>
-                                <li data-target="#monSlider" data-slide-to="3"></li>
+                                <li data-target="#monSlider" data-slide-to="4"></li>
+                                <li data-target="#monSlider" data-slide-to="5"></li>
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -40,6 +41,12 @@
                                 </div>
                                 <div class="carousel-item">
                                     <img src="./assets/img/room/confort04.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/room/confort05.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/room/confort06.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#monSlider" role="button" data-slide="prev">
