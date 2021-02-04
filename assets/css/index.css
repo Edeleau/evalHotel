@@ -47,7 +47,6 @@
 }
 
 #landingPage2,
-#landingPage3,
 #landingPage4 {
     min-height: 100vh;
 }
@@ -196,55 +195,3 @@
     background: url("../img/restaurant/restaurant11.jpg") no-repeat center;
 }
 
-.newsletterIndexContainer {
-    height          : 8em;
-    width           : 100%;
-    background-color: var(--color1opacity2);
-    display         : flex;
-    justify-content : center;
-    align-items     : center;
-}
-
-.newsletterIndexContainer label,
-.newsletterIndexContainer p {
-    color    : var(--color2);
-    font-size: 1.5em;
-    padding  : 0em;
-}
-
-
-.newsletterIndexContainer input[type="email"] {
-    width        : 250px;
-    height       : 2.3rem;
-    box-sizing   : border-box;
-    border-radius: 7px;
-    border       : 0;
-    background   : var(--color1opacity4);
-    font-size    : 17px;
-    transition   : all 0.5s;
-}
-
-.newsletterIndexContainer input[type="submit"] {
-    width : auto;
-    height: 2.3rem;
-
-    box-sizing   : border-box;
-    border-radius: 7px;
-    border       : 0;
-    background   : var(--color1);
-    font-size    : 0.9em;
-    transition   : all 0.5s;
-    color        : var(--colorWhite);
-}
-
-.newsletterIndexContainer input[type="submit"]:hover {
-    background: var(--color2);
-
-}
-
-.newsletterIndexContainer input::placeholder {
-    color      : var(--colorWhite);
-    font-size  : 0.9em;
-    text-align : center;
-    font-family: "Montserrat";
-}

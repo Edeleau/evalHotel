@@ -126,6 +126,7 @@
         </div>
 
     </section>
+<<<<<<< HEAD
     <div class="newsletterIndexContainer text-center">
         <form action="#" method="POST" class="my-auto">
             <label for="newsletterIndex">Abonnez-vous à notre Newsletter</label>
@@ -134,6 +135,9 @@
             <input class="newsletterIndexSubmit" type="submit" value="Envoyer">
         </form>
     </div>
+=======
+    
+>>>>>>> fa470570d7445269029241ada4b5135065e8103f
     <?php
     include("./footer.php");
     ?>

@@ -24,6 +24,58 @@ body.show-sidebar:before {
 }
 
 
+/* Navbar && Sidebar */
+.navbar {
+  background-color: var(--color1);
+  height          : 3.3em;
+  padding         : 0;
+  box-shadow      : 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#navbarSupportedContent {
+  background-color: var(--color1);
+}
+
+.side-inner .container-fluid .row span,
+nav #navbarSupportedContent .container-fluid .row span {
+  border-bottom: 3px solid var(--colorWhite);
+  margin-bottom: 2%;
+}
+
+.side-inner,
+nav {
+  color: var(--colorWhite);
+}
+
+.side-inner a,
+nav .navbar-collapse a {
+  padding        : 10px 0 10px 0;
+  font-size      : 1.5rem;
+  text-decoration: none;
+  color          : var(--colorWhite);
+}
+
+.side-inner a:hover,
+nav .navbar-collapse a:hover {
+  text-decoration : none;
+  background-color: rgba(255, 255, 255, 0.39);
+}
+
+a.reserveNav{
+  margin-top: 1em;
+  padding: 10px 30px 10px 30px!important;
+ border: solid var(--colorWhite) 1px;
+}
+#logoNavBar {
+  padding   : 3px;
+  left      : 0;
+  right     : 0;
+  width     : auto;
+  max-width : 100%;
+  max-height: 3em;
+  margin    : auto;
+}
+
 aside{
   height    : 100vh;
   min-height: 580px;
@@ -176,13 +228,13 @@ aside .side-inner {
   filter        : invert(1);
 }
 
-#searching {
+.searching {
   padding-top   : 0.5rem;
   padding-bottom: 0.5rem;
 
 }
 
-#searching input {
+.searching input {
   width        : 250px;
   height       : 2.3rem;
   box-sizing   : border-box;
@@ -193,17 +245,16 @@ aside .side-inner {
   transition   : all 0.5s;
 }
 
-#searching input:hover {
+.searching input:hover {
   background: rgba(221, 215, 215, 0.5);
 }
-
-#searching input::placeholder {
+.searching input::placeholder {
   text-align  : center;
   color       : var(--colorWhite);
   padding-left: .5rem;
 }
 
-#searching input:focus {
+.searching input:focus {
   outline: none;
 }
 .dropdown-menu {
@@ -254,7 +305,7 @@ aside .side-inner {
 @media (max-width: 992px) {
 
   #toggle-btn,
-  nav .flex-row-reverse #search {
+  nav .flex-row-reverse .search {
     display: none;
   }
 }
