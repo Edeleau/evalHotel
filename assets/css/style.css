@@ -6,6 +6,7 @@
     --color2            : #5d91b8;
     --colorWhite        : white;
     --colorWhiteOpacity5: rgb(255, 255, 255, 0.5);
+    --colorWhiteOpacity8: rgb(255, 255, 255, 0.8);
 }
 
 body {
@@ -13,25 +14,6 @@ body {
     font-weight: 400;
 }
 
-.disparition {
-    display: none !important;
-}
-
-.fadeIn {
-    visibility: visible !important;
-    transition: 0.5s;
-    opacity   : 1;
-}
-
-.fadeOut {
-    visibility: hidden !important;
-    transition: 0.2s;
-    opacity   : 0;
-}
-
-.roomServices {
-    width: 40%;
-}
 
 /* Navbar && Sidebar */
 .navbar {
@@ -122,7 +104,10 @@ h5 {
 
 .gammeTitle {
     margin-bottom: 0em;
+}
 
+.roomServices {
+    width: 40%;
 }
 
 .sectionSize {
@@ -132,20 +117,31 @@ h5 {
 .bgColor1-Op2 {
     background-color: var(--color1opacity2);
 }
+.bgColor1{
+    background-color: var(--color1);
+}
 .bgColorWhite {
     background-color: var(--colorWhite);
 }
 
 
-#experience,
-#care1,
-#care2,
-#care3 {
-    max-width: 75vw;
+/* ***************** JS img Animations ***************** */
+
+.disparition {
+    display: none !important;
 }
 
+.fadeIn {
+    visibility: visible !important;
+    transition: 0.5s;
+    opacity   : 1;
+}
 
-/* JS img Animations */
+.fadeOut {
+    visibility: hidden !important;
+    transition: 0.2s;
+    opacity   : 0;
+}
 
 .imgOn,
 .legendOn,
@@ -182,6 +178,7 @@ h5 {
 .lineColored {
     border: 1px solid var(--color1);
 }
+
 .linkButtonOn {
     padding         : 0.5em 0.8em 0.5em 0.8em;
     border-radius   : 3px;
@@ -189,18 +186,21 @@ h5 {
     z-index         : 2;
     color           : var(--color2);
     border          : 1.5px solid var(--color2);
-    background-color: var(--colorWhite);
+    background: var(--colorWhiteOpacity8);
     transition      : 1s;
+}
+.imgButtonOut {
+    background: var(--color1opacity2);
 }
 
 .linkButtonOn:hover {
     color           : var(--colorWhite);
     border          : 1.5px solid var(--color1);
-    background-color: var(--color2);
+    background: var(--color2);
     transition      : 1s;
 }
 
-/* Image treatment */
+/* ***************** IMAGE TREATMENT ***************** */
 
 .photoResize {
     height   : 100%;
@@ -231,27 +231,24 @@ h5 {
     font-size: 1.7em;
 }
 
-
-
-
-/* Buttons */
+/* *********************** BUTTONS ************************/
 
 .linkButton {
-    background-color: var(--color1);
     border          : 1.5px solid var(--colorWhite);
     padding         : 0.5em 0.8em 0.5em 0.8em;
     border-radius   : 3px;
     text-transform  : uppercase;
     color           : var(--colorWhite);
     z-index         : 2;
+    transition: 0.5s;
 }
 
 .linkButton:hover {
-    background-color: var(--color1);
+    background-color: var(--color2);
     text-decoration : none;
     color           : var(--colorWhite);
     border          : 1.5px solid var(--colorWhite);
-
+    transition: 1s;
 }
 
 .chooseButton {
@@ -262,6 +259,7 @@ h5 {
     transform : translateX(-50%) translateY(-50%);
     top       : 80%;
     left      : 50%;
+    background-color: var(--color1);
 }
 #reserveButton:hover {
     background-color: var(--color2);
@@ -272,7 +270,6 @@ h5 {
     transform : translateX(-50%) translateY(-50%);
     top       : 65%;
     left      : 50%;
-    background: var(--color1opacity2);
 }
 
 .arrowColor {
@@ -280,7 +277,7 @@ h5 {
     filter        : invert(1);
 }
 
-/* Soulignement */
+/* *********************** Soulignement *********************** */
 
 .underline {
     position: relative;
@@ -317,7 +314,7 @@ h5 {
     height: 2.5em;
 }
 
-/* Footer */
+/* *********************** Footer *********************** */
 
 footer .select a {
     font-size      : 1rem;

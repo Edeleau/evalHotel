@@ -61,7 +61,7 @@
                             La Chambre Classique constitue le pied-à-terre idéal pour un séjour parisien inoubliable. Cette chambre élégante dispose d’une guitare acoustique pour laisser libre cours à votre créativité et d’une sélection d’œuvres d’art de la collection privée de l’hôtel. Nous disposons de 32 unités dans cette catégorie.
                         </p>
                         <p class="pb-4"> Actuellement, profitez de cette chambre à partir de 630€ la nuit.</p>
-                        <a href="reserve.php" class="linkButton">Réserver</a>
+                        <a href="reserve.php" class="linkButton bgColor1">Réserver</a>
                         <div class="row mt-5">
                             <div class="col-xl-2 col-lg-3 col-12 d-flex ml-auto  justify-content-center iconContainer">
                                 <img src="./assets/img/icon/icon-person.png" class="iconSize my-auto" alt="nombre de personne">

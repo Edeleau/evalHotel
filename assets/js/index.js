@@ -9,8 +9,8 @@
     let imgExperience2 = document.getElementById('imgExperience2');
     let lineUpRoom1 = document.getElementById('lineUpRoom1');
 
-    imgRoom1.addEventListener('mouseover', imgMouseOver);
-    imgRoom1.addEventListener('mouseout', imgMouseOut);
+    imgRoom1.addEventListener('mouseover', imgMouseOver1);
+    imgRoom1.addEventListener('mouseout', imgMouseOut1);
     
     imgRoom2.children[0].addEventListener('mouseover', imgMouseOver2);
     imgRoom2.children[0].addEventListener('mouseout', imgMouseOut2);

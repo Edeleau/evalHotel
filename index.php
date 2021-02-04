@@ -87,7 +87,7 @@
             </div>
 
             <div id="imgRoom1" class="col-lg-6 col-md-9 mx-md-auto col-sm-12">
-                <a href="chambre-suite.php" class="linkButton imgButton">Découvrir</a>
+                <a href="chambre-suite.php" class="linkButton imgButton imgButtonOut">Découvrir</a>
                 <img src="./assets/img/room/suite08.jpg" class="w-100" alt="Suite 8">
                 <div class="imgLegend legendOut">
                    <p>Nos Suites</p>
@@ -111,12 +111,12 @@
         </div>
         <div id="experience" class="row mx-auto">
             <div id="imgExperience1" class="col-xl-5 col-lg-5 col-md-7 col-sm-7 col-10 mx-auto my-lg-auto my-xl-auto">
-                <a href="care.php" class="linkButton imgButton">Découvrir</a>
+                <a href="care.php" class="linkButton imgButton imgButtonOut">Découvrir</a>
                 <img src="./assets/img/care/care05.jpg" class="img-fluid" alt="Spa & Bien-être">
                 <p class="imgLegend legendOut">Spa & Bien-être</p>
             </div>
             <div id="imgExperience2" class="col-xl-5 col-lg-5 col-md-7  col-sm-7 col-10 mx-auto my-lg-auto my-xl-auto">
-                <a href="restaurant.php" class="linkButton imgButton">Découvrir</a>
+                <a href="restaurant.php" class="linkButton imgButton imgButtonOut">Découvrir</a>
                 <img src="./assets/img/restaurant/restaurant03.jpg" class="img-fluid" alt="restaurant ">
                 <p class="imgLegend legendOut">Restaurant</p>
             </div>
