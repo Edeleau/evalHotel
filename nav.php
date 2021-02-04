@@ -20,6 +20,7 @@
                 <a href="advise.php" class="col-12 text-center">Avis</a>
                 <a href="event.php" class="col-12 text-center">Évènement</a>
                 <a href="contact.php" class="col-12 text-center">Contact</a>
+                <a href="reserve.php" class="text-center reserveNav">RESERVER</a>
             </div>
         </div>
     </div>
@@ -51,8 +52,8 @@
                 <a class="dropdown-item" href="#" title=" Русский">RU</a>
             </div>
         </div>
-        <div id="search">
-            <form name="search" id="searching" method="post" action="">
+        <div class="search">
+            <form name="search" class="searching" method="post">
                 <input class="gSearch" type="search" size="60" placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">
             </form>
         </div>
@@ -62,8 +63,8 @@
     <div class="collapse" id="navbarSupportedContent">
         <div class="container-fluid" id="navbar">
             <div class="row justify-content-center mb-auto">
-                <div id="search">
-                    <form name="search" id="searching" method="post" action="">
+                <div class="search">
+                    <form name="search" class="searching" method="post">
                         <input class="gSearch" type="search" size="60" placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">
                     </form>
                 </div>
@@ -79,7 +80,7 @@
                 <a href="advise.php" class="col-12 text-center">Avis</a>
                 <a href="event.php" class="col-12 text-center">Évènement</a>
                 <a href="contact.php" class="col-12 text-center p-3">Contact</a>
-
+                <a href="reserve.php" class=" text-center reserveNav">Réserver</a>
             </div>
         </div>
 

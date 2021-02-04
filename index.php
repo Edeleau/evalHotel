@@ -68,7 +68,7 @@
             </div>
             <div id="whoWeAreText" class="col-xl-4 col-11 pl-0">
                 <h4>Le Prestige Hotelcop</h4>
-                <p>L'hôtel Hotelcop situé dans le 8ème arrondissement à deux pas du pont d'Alma impose une vision inédite de l‘hôtellerie parisienne : faire découvrir « le Paris des parisiens ». L’hôtel aux prestations haut de gamme revendique une authentique simplicité. Dans son décor architectural ou le classique est confronté à d’audacieuses touches modernes, l’épicurisme est une religion : chambres et suites d'hôtel de luxe à Paris, sports et soins personnalisés, piscine hors du commun, café et restaurant chic, bar lounge parisien, terrasse luxuriante. Ce lieu de vie hybride et complet du 8ème arrondissement de Paris accueille riverains, touristes, femmes et hommes d’affaires en toute harmonie. 
+                <p>L'hôtel Hotelcop situé dans le 8ème arrondissement à deux pas du pont d'Alma impose une vision inédite de l‘hôtellerie parisienne : faire découvrir « le Paris des parisiens ». L’hôtel aux prestations haut de gamme revendique une authentique simplicité. Dans son décor architectural ou le classique est confronté à d’audacieuses touches modernes, l’épicurisme est une religion : chambres et suites d'hôtel de luxe à Paris, sports et soins personnalisés, piscine hors du commun, café et restaurant chic, bar lounge parisien, terrasse luxuriante. Ce lieu de vie hybride et complet du 8ème arrondissement de Paris accueille riverains, touristes, femmes et hommes d’affaires en toute harmonie.
                 </p>
             </div>
         </div>
@@ -83,14 +83,14 @@
 
         <div id="journey" class="row mx-auto">
             <div id="imgRoom2" class="col-lg-3 mr-auto">
-                <img src="./assets/img/room/suite02.jpg"  alt="Suite 02">
+                <img src="./assets/img/room/suite02.jpg" alt="Suite 02">
             </div>
 
             <div id="imgRoom1" class="col-lg-6 col-md-9 mx-md-auto col-sm-12">
                 <a href="chambre-suite.php" class="linkButton imgButton">Découvrir</a>
                 <img src="./assets/img/room/suite08.jpg" class="w-100" alt="Suite 8">
                 <div class="imgLegend legendOut">
-                   <p>Nos Suites</p>
+                    <p>Nos Suites</p>
                 </div>
             </div>
 
@@ -121,16 +121,9 @@
                 <p class="imgLegend legendOut">Restaurant</p>
             </div>
         </div>
-        
+
     </section>
-    <div class="newsletterIndexContainer text-center">
-            <form action="#" method="POST" class="my-auto">
-                <label for="newsletterIndex">Abonnez-vous à notre Newsletter</label>
-                <br>
-                <input id="newsletterIndex" type="email" name="emailNewsletter" placeholder="Mon adresse Email">
-                <input class="newsletterIndexSubmit" type="submit" value="Envoyer">
-            </form>
-        </div>
+    
     <?php
     include("./footer.php");
     ?>

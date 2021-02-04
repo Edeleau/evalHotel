@@ -33,79 +33,33 @@ body {
     width: 40%;
 }
 
-/* Navbar && Sidebar */
-.navbar {
-    background-color: var(--color1);
-    height          : 3.3em;
-    padding         : 0;
-    box-shadow      : 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
-}
-
-#navbarSupportedContent {
-    background-color: var(--color1);
-}
-
-.side-inner .container-fluid .row span,
-nav #navbarSupportedContent .container-fluid .row span {
-    border-bottom: 3px solid var(--colorWhite);
-    margin-bottom: 2%;
-}
-
-.side-inner,
-nav {
-    color: var(--colorWhite);
-}
-
-.side-inner a,
-nav .navbar-collapse a {
-    padding        : 10px 0 10px 0;
-    font-size      : 1.5rem;
-    text-decoration: none;
-    color          : var(--colorWhite);
-}
-
-.side-inner a:hover,
-nav .navbar-collapse a:hover {
-    text-decoration : none;
-    background-color: rgba(255, 255, 255, 0.39);
-}
-
-#logoNavBar {
-    padding   : 3px;
-    left      : 0;
-    right     : 0;
-    width     : auto;
-    max-width : 100%;
-    max-height: 3em;
-    margin    : auto;
-}
-
 /* LandingPage */
 
 h2 {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight   : 400;
 }
 
 h3 {
     text-transform: uppercase;
     font-size     : 1.5em;
     margin-bottom : 2em;
-    font-weight: 400;
+    font-weight   : 400;
 }
 
 h4 {
     font-size    : 1.7em;
     margin-bottom: 1em;
     font-style   : italic;
-    font-weight: 300;
+    font-weight  : 300;
 }
+
 h5 {
     font-size    : 1.2em;
     margin-bottom: 1em;
     font-style   : italic;
-    font-weight: 400;
-    color: var(--color2);
+    font-weight  : 400;
+    color        : var(--color2);
 }
 
 .smallHr {
@@ -126,12 +80,14 @@ h5 {
 }
 
 .sectionSize {
-    padding-bottom  : 2em;
-    min-height      : calc(100vh - 4em);
+    padding-bottom: 2em;
+    min-height    : calc(100vh - 4em);
 }
+
 .bgColor1-Op2 {
     background-color: var(--color1opacity2);
 }
+
 .bgColorWhite {
     background-color: var(--colorWhite);
 }
@@ -182,6 +138,7 @@ h5 {
 .lineColored {
     border: 1px solid var(--color1);
 }
+
 .linkButtonOn {
     padding         : 0.5em 0.8em 0.5em 0.8em;
     border-radius   : 3px;
@@ -257,12 +214,14 @@ h5 {
 .chooseButton {
     background-color: var(--color1opacity4);
 }
+
 #reserveButton {
-    position: fixed;
-    transform : translateX(-50%) translateY(-50%);
-    top       : 80%;
-    left      : 50%;
+    position : fixed;
+    transform: translateX(-50%) translateY(-50%);
+    top      : 80%;
+    left     : 50%;
 }
+
 #reserveButton:hover {
     background-color: var(--color2);
 }
@@ -325,7 +284,7 @@ footer .select a {
     color          : var(--colorWhite);
     text-align     : center;
     padding        : .5rem;
-    margin: 0 1rem;
+    margin         : 0 1rem;
 }
 
 footer .select a:hover {
@@ -334,30 +293,93 @@ footer .select a:hover {
 }
 
 footer {
-    position: relative;
+    position        : relative;
     padding         : 1rem;
     background-color: var(--color1);
 }
-footer a{
+
+footer a {
     line-height: 2rem;
 }
-footer img{
-    float: left;
-    margin-right: .75rem;
-    height: 2rem;
+footer a:not([href]):not([class]) {
+    color: var(--colorWhite);
+    cursor: pointer;
+}
+footer img {
+    float         : left;
+    margin-right  : .75rem;
+    height        : 2rem;
     -webkit-filter: invert(1);
     filter        : invert(1);
 }
+
 .borderLeft {
     border-left: solid var(--colorWhite);
+}
+
+.newsletterIndexContainer {
+    height          : 0px;
+    width           : 100%;
+    background-color: var(--color1opacity2);
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.newsletterIndexContainer label,
+.newsletterIndexContainer p {
+    color    : var(--color2);
+    font-size: 1.5em;
+    padding  : 0em;
+}
+
+
+.newsletterIndexContainer input[type="email"] {
+    width        : 250px;
+    height       : 2.3rem;
+    box-sizing   : border-box;
+    border-radius: 7px;
+    border       : 0;
+    background   : var(--color1opacity4);
+    font-size    : 17px;
+    transition   : all 0.5s;
+}
+
+.newsletterIndexContainer input[type="submit"] {
+    width : auto;
+    height: 2.3rem;
+
+    box-sizing   : border-box;
+    border-radius: 7px;
+    border       : 0;
+    background   : var(--color1);
+    font-size    : 0.9em;
+    transition   : all 0.5s;
+    color        : var(--colorWhite);
+}
+
+.newsletterIndexContainer input[type="submit"]:hover {
+    background: var(--color2);
+
+}
+
+.newsletterIndexContainer input::placeholder {
+    color      : var(--colorWhite);
+    font-size  : 0.9em;
+    text-align : center;
+    font-family: "Montserrat";
+}
+#newsletter{
+    display: none;
 }
 @media (max-width: 992px) {
     .borderLeft {
         border-left: none;
-        margin-top: .5rem;
+        margin-top : .5rem;
     }
-    .imgFooter{
+
+    .imgFooter {
         justify-content: center;
-        margin-top: 1rem;
+        margin-top     : 1rem;
     }
 }
