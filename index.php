@@ -48,6 +48,9 @@
                                 </a>
                                 <img id="logoLandingPage" src="./assets/img/logo_projet_front.png" alt="logo Hotelcop">
                                 <a id="reserveButton" class="linkButton" href="./reserve.php">Réservez</a>
+                                <div id="warning" href="./reserve.php">
+                                    <p>Ce site web est développé dans le cadre d'un projet personnel d'école et aucunement dans un but commercial. Toutes les informations présentes sur ce site web sont purement fictives et n'ont aucune réalité juridique. <a>J'ai compris.</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -123,7 +126,18 @@
         </div>
 
     </section>
+<<<<<<< HEAD
+    <div class="newsletterIndexContainer text-center">
+        <form action="#" method="POST" class="my-auto">
+            <label for="newsletterIndex">Abonnez-vous à notre Newsletter</label>
+            <br>
+            <input id="newsletterIndex" type="email" name="emailNewsletter" placeholder="Mon adresse Email">
+            <input class="newsletterIndexSubmit" type="submit" value="Envoyer">
+        </form>
+    </div>
+=======
     
+>>>>>>> fa470570d7445269029241ada4b5135065e8103f
     <?php
     include("./footer.php");
     ?>

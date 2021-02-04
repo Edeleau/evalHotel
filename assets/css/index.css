@@ -1,3 +1,28 @@
+#warning {
+    position        : fixed;
+    transform       : translateX(-50%) translateY(-50%);
+    top             : calc(100% - 3.2em);
+    left            : 50%;
+    background-color: var(--color2opacity5);
+    color: var(--colorWhite);
+    height: 7em;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+#warning p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2em;
+}
+#warning p a{
+    color: var(--colorWhite);
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
 #logoLandingPage {
     max-width : 60vw;
     max-height: 60vh;
