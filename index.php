@@ -90,7 +90,7 @@
                 <a href="chambre-suite.php" class="linkButton imgButton">Découvrir</a>
                 <img src="./assets/img/room/suite08.jpg" class="w-100" alt="Suite 8">
                 <div class="imgLegend legendOut">
-                    <p>Nos Suites</p>
+                   <p>Nos Suites</p>
                 </div>
             </div>
 

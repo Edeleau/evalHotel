@@ -182,6 +182,7 @@
     <?php
     include("./footer.php");
     ?>
+    <script src="./assets/js/care.js"></script>
 </body>
 
 </html>
