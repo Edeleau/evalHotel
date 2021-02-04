@@ -7,6 +7,8 @@
     --colorWhite        : white;
     --colorWhiteOpacity5: rgb(255, 255, 255, 0.5);
     --colorWhiteOpacity8: rgb(255, 255, 255, 0.8);
+    --color2opacity5    : rgb(93, 145, 184, 0.8);
+
 }
 
 body {
@@ -62,32 +64,33 @@ nav .navbar-collapse a:hover {
     margin    : auto;
 }
 
-/* LandingPage */
+/************************* Page Content ***************************/
 
 h2 {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight   : 400;
 }
 
 h3 {
     text-transform: uppercase;
     font-size     : 1.5em;
     margin-bottom : 2em;
-    font-weight: 400;
+    font-weight   : 400;
 }
 
 h4 {
     font-size    : 1.7em;
     margin-bottom: 1em;
     font-style   : italic;
-    font-weight: 300;
+    font-weight  : 300;
 }
+
 h5 {
     font-size    : 1.2em;
     margin-bottom: 1em;
     font-style   : italic;
-    font-weight: 400;
-    color: var(--color2);
+    font-weight  : 400;
+    color        : var(--color2);
 }
 
 .smallHr {
@@ -111,15 +114,18 @@ h5 {
 }
 
 .sectionSize {
-    padding-bottom  : 2em;
-    min-height      : calc(100vh - 4em);
+    padding-bottom: 2em;
+    min-height    : calc(100vh - 4em);
 }
+
 .bgColor1-Op2 {
     background-color: var(--color1opacity2);
 }
-.bgColor1{
+
+.bgColor1 {
     background-color: var(--color1);
 }
+
 .bgColorWhite {
     background-color: var(--colorWhite);
 }
@@ -149,14 +155,14 @@ h5 {
     transition: 1s;
 }
 
-.imgOn {
-    filter: contrast(40%) brightness(170%);
-}
-
 .imgOut,
 .legendOut,
 .lineWhite {
     transition: 0.2s;
+}
+
+.imgOn {
+    filter: contrast(40%) brightness(170%);
 }
 
 .imgOut {
@@ -179,25 +185,26 @@ h5 {
     border: 1px solid var(--color1);
 }
 
-.linkButtonOn {
-    padding         : 0.5em 0.8em 0.5em 0.8em;
-    border-radius   : 3px;
-    text-transform  : uppercase;
-    z-index         : 2;
-    color           : var(--color2);
-    border          : 1.5px solid var(--color2);
-    background: var(--colorWhiteOpacity8);
-    transition      : 1s;
-}
 .imgButtonOut {
     background: var(--color1opacity2);
 }
 
+.linkButtonOn {
+    padding       : 0.5em 0.8em 0.5em 0.8em;
+    border-radius : 3px;
+    text-transform: uppercase;
+    z-index       : 2;
+    color         : var(--color2);
+    border        : 1.5px solid var(--color2);
+    background    : var(--colorWhiteOpacity8);
+    transition    : 1s;
+}
+
 .linkButtonOn:hover {
-    color           : var(--colorWhite);
-    border          : 1.5px solid var(--color1);
+    color     : var(--colorWhite);
+    border    : 1.5px solid var(--color1);
     background: var(--color2);
-    transition      : 1s;
+    transition: 1s;
 }
 
 /* ***************** IMAGE TREATMENT ***************** */
@@ -234,13 +241,13 @@ h5 {
 /* *********************** BUTTONS ************************/
 
 .linkButton {
-    border          : 1.5px solid var(--colorWhite);
-    padding         : 0.5em 0.8em 0.5em 0.8em;
-    border-radius   : 3px;
-    text-transform  : uppercase;
-    color           : var(--colorWhite);
-    z-index         : 2;
-    transition: 0.5s;
+    border        : 1.5px solid var(--colorWhite);
+    padding       : 0.5em 0.8em 0.5em 0.8em;
+    border-radius : 3px;
+    text-transform: uppercase;
+    color         : var(--colorWhite);
+    z-index       : 2;
+    transition    : 0.5s;
 }
 
 .linkButton:hover {
@@ -248,28 +255,30 @@ h5 {
     text-decoration : none;
     color           : var(--colorWhite);
     border          : 1.5px solid var(--colorWhite);
-    transition: 1s;
+    transition      : 1s;
 }
 
 .chooseButton {
     background-color: var(--color1opacity4);
 }
+
 #reserveButton {
-    position: fixed;
-    transform : translateX(-50%) translateY(-50%);
-    top       : 80%;
-    left      : 50%;
+    position        : fixed;
+    transform       : translateX(-50%) translateY(-50%);
+    top             : 80%;
+    left            : 50%;
     background-color: var(--color1);
 }
+
 #reserveButton:hover {
     background-color: var(--color2);
 }
 
 .imgButton {
-    position  : absolute;
-    transform : translateX(-50%) translateY(-50%);
-    top       : 65%;
-    left      : 50%;
+    position : absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top      : 65%;
+    left     : 50%;
 }
 
 .arrowColor {
@@ -322,7 +331,7 @@ footer .select a {
     color          : var(--colorWhite);
     text-align     : center;
     padding        : .5rem;
-    margin: 0 1rem;
+    margin         : 0 1rem;
 }
 
 footer .select a:hover {
@@ -331,30 +340,35 @@ footer .select a:hover {
 }
 
 footer {
-    position: relative;
+    position        : relative;
     padding         : 1rem;
     background-color: var(--color1);
 }
-footer a{
+
+footer a {
     line-height: 2rem;
 }
-footer img{
-    float: left;
-    margin-right: .75rem;
-    height: 2rem;
+
+footer img {
+    float         : left;
+    margin-right  : .75rem;
+    height        : 2rem;
     -webkit-filter: invert(1);
     filter        : invert(1);
 }
+
 .borderLeft {
     border-left: solid var(--colorWhite);
 }
+
 @media (max-width: 992px) {
     .borderLeft {
         border-left: none;
-        margin-top: .5rem;
+        margin-top : .5rem;
     }
-    .imgFooter{
+
+    .imgFooter {
         justify-content: center;
-        margin-top: 1rem;
+        margin-top     : 1rem;
     }
 }
