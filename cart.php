@@ -74,7 +74,7 @@
                     <input class="linkButton" type="submit" value="Valider">
                 </form>
             </div>
-
+        </div>
     </section>
     <?php
     include("./footer.php");
