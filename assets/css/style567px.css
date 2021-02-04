@@ -7,8 +7,21 @@
     #imgRoom1{
         max-height: 25em;
     }
+    #imgRoom1 .linkButton, #imgRoom1 .linkButtonOn {
+        display: none;
+    }
     
     #imgExperience1, #imgExperience2{
         max-height: 20em;
+    }
+    #lineUpRoom1 {
+        height    : 6em;
+        width     : 1px;
+        left      : 50%;
+        top: -4em;
+        z-index   : 1000;
+    }
+    #linkRoom{
+        font-size: 1.4em;
     }
 }

@@ -81,6 +81,7 @@ nav .navbar-collapse a:hover {
 }
 
 /* LandingPage */
+
 h2 {
     text-transform: uppercase;
     font-weight: 400;
@@ -206,23 +207,6 @@ h5 {
     transform: translateX(0%) translateY(0%);
     top      : 50%;
     left     : 50%;
-}
-
-#imgTest1,
-#imgRoom1,
-#imgRoom2 img,
-#imgRoom3 img,
-#imgExperience1,
-#imgExperience2,
-#imgCare1,
-#imgCare2,
-#imgCare3,
-#imgCare4,
-#imgCare5 {
-    overflow: hidden;
-    padding : 0px;
-    border  : 2px solid var(--color1);
-    position: relative;
 }
 
 
