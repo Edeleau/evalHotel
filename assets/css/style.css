@@ -300,6 +300,10 @@ footer a:not([href]):not([class]) {
     color: var(--colorWhite);
     cursor: pointer;
 }
+footer a:not([href]):not([class]):hover {
+    color: var(--colorWhite);
+    cursor: pointer;
+}
 footer img {
     float         : left;
     margin-right  : .75rem;
