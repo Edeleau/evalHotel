@@ -75,7 +75,7 @@
                 </div>
                 <div class="search">
                     <form name="search" class="searching my-auto" method="post">
-                        <input class="gSearch" type="search" size="60" placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">
+                        <input class="gSearch" type="search"  placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">
 
                         <input class="newsletterNavSubmit" type="submit" value="  ">
                     </form>
