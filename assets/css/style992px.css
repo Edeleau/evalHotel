@@ -1,8 +1,9 @@
 @media (max-width: 992px) {
 
-    #imgRoom1{
+    #imgRoom1 {
         max-height: 30em;
     }
+
     #imgRoom2,
     #imgRoom3 {
         display: none;
@@ -13,35 +14,56 @@
         max-width: 95vw;
     }
 
-    #imgExperience1, #imgExperience2{
+    #imgExperience1,
+    #imgExperience2 {
         margin-bottom: 4vh;
     }
-    .experienceButton{
+
+    .experienceButton {
         top: 70%;
     }
-    .iconContainer{
+
+    .iconContainer {
         padding: 0.5em 0;
     }
-    #spaHours{
-        margin-left: auto;
+
+    #spaHours {
+        margin-left : auto;
         margin-right: auto;
     }
-    #spaPrices{
+
+    #spaPrices {
         margin-right: auto;
-        margin-left: auto;
-        border-left: none;
+        margin-left : auto;
+        border-left : none;
     }
-    .roomServices{
+
+    .roomServices {
         width: 80%;
     }
-    .arrowIndexWidth{
+
+    .arrowIndexWidth {
         width: 40%;
     }
-    #restaurantOverview{
+
+    #restaurantOverview {
         font-size: 1em;
     }
+
     #restaurantOverview p {
-        width: 90%;
+        width : 90%;
         margin: auto;
+    }
+
+    #warning {
+        top   : calc(100% - 4.2em);
+        height: 8em;
+    }
+
+    #warning p {
+        width     : 70%;
+        text-align: center;
+        margin    : auto;
+        font-size : 1em;
     }
 }

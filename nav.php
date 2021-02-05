@@ -62,10 +62,12 @@
 
     <div class="collapse" id="navbarSupportedContent">
         <div class="container-fluid" id="navbar">
-            <div class="row justify-content-center mb-auto">
+            <div class="row justify-content-around mb-auto">
                 <div class="search">
-                    <form name="search" class="searching" method="post">
+                    <form name="search" class="searching my-auto" method="post">
                         <input class="gSearch" type="search" size="60" placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">
+
+                        <input class="newsletterNavSubmit" type="submit" value="  ">
                     </form>
                 </div>
                 <a href="index.php" class="col-12 mt-3 text-center">Accueil</a>

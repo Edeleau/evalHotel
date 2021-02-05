@@ -349,7 +349,7 @@ footer img {
     transition   : all 0.5s;
 }
 
-.newsletterIndexContainer input[type="submit"] {
+.newsletterIndexSubmit {
     width : auto;
     height: 2.3rem;
 
@@ -357,12 +357,13 @@ footer img {
     border-radius: 7px;
     border       : 0;
     background   : var(--color1);
-    font-size    : 0.9em;
+    font-size    : 17px;
     transition   : all 0.5s;
     color        : var(--colorWhite);
 }
 
-.newsletterIndexContainer input[type="submit"]:hover {
+
+.newsletterIndexSubmit:hover {
     background: var(--color2);
 
 }

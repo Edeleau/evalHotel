@@ -234,18 +234,19 @@ aside .side-inner {
 
 }
 
-.searching input {
+.searching input[type=search]{
   width        : 250px;
   height       : 2.3rem;
   box-sizing   : border-box;
   border-radius: 13px;
-  border       : 0;
   background   : var(--color1);
   font-size    : 17px;
   transition   : all 0.5s;
+  border: 1px solid var(--colorWhiteOpacity5);
+
 }
 
-.searching input:hover {
+.searching input[type=search]:hover {
   background: rgba(221, 215, 215, 0.5);
 }
 .searching input::placeholder {
@@ -256,6 +257,22 @@ aside .side-inner {
 
 .searching input:focus {
   outline: none;
+}
+.newsletterNavSubmit {
+  width : 2rem;
+  height: 2rem;
+  box-sizing   : border-box;
+  border-radius: 7px;
+  border       : 0;
+  font-size    : 17px;
+  transition   : all 0.5s;
+  color        : var(--colorWhite);
+  background-image: url("../img/icon/search.png");
+  background-size: cover;
+  background-color: var(--color1);
+}
+.newsletterNavSubmit:hover{
+  background-color: var(--colorWhiteOpacity5);
 }
 .dropdown-menu {
   padding: 0;

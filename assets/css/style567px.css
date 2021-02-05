@@ -24,4 +24,10 @@
     #linkRoom{
         font-size: 1.4em;
     }
+    #warning p {
+        width     : 80%;
+        text-align: center;
+        margin    : auto;
+        font-size : 0.8em;
+    }
 }
