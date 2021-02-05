@@ -1,0 +1,19 @@
+a {
+    color      : black;
+    font-family: "Montserrat";
+}
+a:hover {
+    color      : var(--color2);
+    font-family: "Montserrat";
+}
+
+ul li {
+    list-style-type: none;
+}
+
+h5 a{
+    color: var(--color2);
+}
+h5 a:hover{
+    color: var(--color1);
+}

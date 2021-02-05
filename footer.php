@@ -23,6 +23,9 @@
                     <a href="access.php">Accès</a>
                 </div>
                 <div class="borderLeft">
+                    <a href="plan-site.php">Plan du site</a>
+                </div>
+                <div class="borderLeft">
                     <a href="./mentions-legales.php">Mentions légales</a>
                 </div>
                 <div class="borderLeft">

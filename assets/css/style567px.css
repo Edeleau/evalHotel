@@ -4,30 +4,51 @@
         max-height: 25em;
 
     }
-    #imgRoom1{
+
+    #imgRoom1 {
         max-height: 25em;
     }
-    #imgRoom1 .linkButton, #imgRoom1 .linkButtonOn {
+
+    #imgRoom1 .linkButton,
+    #imgRoom1 .linkButtonOn {
         display: none;
     }
-    
-    #imgExperience1, #imgExperience2{
+
+    #imgExperience1,
+    #imgExperience2 {
         max-height: 20em;
     }
+
     #lineUpRoom1 {
-        height    : 6em;
-        width     : 1px;
-        left      : 50%;
-        top: -4em;
-        z-index   : 1000;
+        height : 6em;
+        width  : 1px;
+        left   : 50%;
+        top    : -4em;
+        z-index: 1000;
     }
-    #linkRoom{
+
+    #linkRoom {
         font-size: 1.4em;
     }
+
     #warning p {
         width     : 80%;
         text-align: center;
         margin    : auto;
         font-size : 0.8em;
     }
+
+    #experience .linkButton,  .careCard .linkButton{
+        padding: 0.3em 0.4em 0.3em 0.4em;
+    }
+    #experience .imgButton,  .careCard .imgButton {
+        top: 75%;
+    }
+    #experience .linkButtonOn,  .careCard .linkButtonOn{
+        padding: 0.3em 0.4em 0.3em 0.4em;
+    }
+    .imgLegend {
+        font-size: 1em;
+    }
+
 }
