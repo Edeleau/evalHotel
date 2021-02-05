@@ -60,9 +60,19 @@
     </div>
 
 
-    <div class="collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="container-fluid" id="navbar">
-            <div class="row justify-content-center mb-auto">
+            <div class="row justify-content-center mb-auto  scroll">
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle align-items-center" href="#" id="navbarDropdownNavLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        FR
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#" title=" english">EN</a>
+                        <a class="dropdown-item" href="#" title=" português">PT</a>
+                        <a class="dropdown-item" href="#" title=" Русский">RU</a>
+                    </div>
+                </div>
                 <div class="search">
                     <form name="search" class="searching" method="post">
                         <input class="gSearch" type="search" size="60" placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">
@@ -80,7 +90,7 @@
                 <a href="advise.php" class="col-12 text-center">Avis</a>
                 <a href="event.php" class="col-12 text-center">Évènement</a>
                 <a href="contact.php" class="col-12 text-center p-3">Contact</a>
-                <a href="reserve.php" class=" text-center reserveNav">Réserver</a>
+                <a href="reserve.php" class="col-5 text-center reserveNav pb-5">Réserver</a>
             </div>
         </div>
 

@@ -79,9 +79,6 @@
     <?php
     include("./footer.php");
     ?>
-    <script type="module" src="./assets/js/form.js"></script>
-    <script type="module" src="./assets/js/datepicker.js"></script>
-
 </body>
 
 </html>

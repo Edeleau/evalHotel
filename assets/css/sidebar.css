@@ -48,7 +48,7 @@ nav {
 }
 
 .side-inner a,
-nav .navbar-collapse a {
+nav .navbar-collapse a:not(.nav-link):not(.dropdown-item) {
   padding        : 10px 0 10px 0;
   font-size      : 1.5rem;
   text-decoration: none;
@@ -80,8 +80,17 @@ aside{
   height    : 100vh;
   min-height: 580px;
 }
-#navbar{
+.scroll{
+  overflow-y: scroll !important;
   height: 100vh;
+  padding-bottom: 4em;
+  position: relative;
+}
+#navbar{
+  height: 100%;
+}
+.scroll::-webkit-scrollbar { 
+  display: none; 
 }
 
 aside {
@@ -302,10 +311,18 @@ aside .side-inner {
   margin-left: 1rem;
   margin-top:.65rem;
 }
+.scroll .nav-item.dropdown{
+  position: absolute;
+  top: 2%;
+  right: 5%;
+}
+.scroll .dropdown-menu{
+  margin-top: -.2em;
+}
 @media (max-width: 992px) {
 
   #toggle-btn,
-  nav .flex-row-reverse .search {
+  nav .flex-row-reverse .search , #navbarDropdownMenuLink{
     display: none;
   }
 }
