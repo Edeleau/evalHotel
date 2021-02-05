@@ -29,9 +29,9 @@
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
     <div class="col-2 col-md-3 col-sm-2 col-lg-3 col-xl-3 d-flex flex-row-reverse  h-100">
-        <a href="cart.php" class="lienPanier d-block d-lg-none d-xl-none mr-auto"><img src="./assets/icone/panier.svg" class="h-100 panier" alt="panier"></a>
+        <a href="cart.php" class="lienPanier d-block d-lg-none d-xl-none mr-auto"><img src="./assets/icone/panier.svg" class="h-100 panier ml-2" alt="panier"></a>
     </div>
-    <div class="col-8 col-md-6 col-sm-8 col-lg-6 col-xl-6 text-center h-100">
+    <div class="col-8 col-md-6 col-sm-8 col-lg-6 col-xl-6 text-center h-100 d-flex justify-content-center align-items-center">
         <a href="index.php">
             <img id="logoNavBar" class=" img-responsive" src="./assets/img/logo_projet_front_small.png" alt="Logo Hotelcop">
         </a>

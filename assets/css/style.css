@@ -82,6 +82,9 @@ h5 {
 .bgColorWhite {
     background-color: var(--colorWhite);
 }
+.roomSection{
+    padding-top: 3.3em;
+}
 
 
 /* ***************** JS img Animations ***************** */

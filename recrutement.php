@@ -90,7 +90,7 @@
                                             </div>
                                         </div>
                                         <div class="form-btn">
-                                            <button class="submit-btn" id="submit">Envoyez votre candidature</button>
+                                            <button class="submit-btn" id="submit">Postuler</button>
                                         </div>
                                     </form>
                                 </div>

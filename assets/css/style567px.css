@@ -1,5 +1,7 @@
 @media (max-width: 576px) {
-
+    h4{
+        font-size: 1.35em;
+    }
     #imgTest1 {
         max-height: 25em;
 
@@ -50,5 +52,6 @@
     .imgLegend {
         font-size: 1em;
     }
+
 
 }

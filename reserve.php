@@ -97,7 +97,7 @@
                                             </div>
                                         </div>
                                         <div class="form-btn">
-                                            <button class="submit-btn" id="submit">Réservez maintenant</button>
+                                            <button class="submit-btn" id="submit">Réserver</button>
                                         </div>
                                     </form>
                                 </div>

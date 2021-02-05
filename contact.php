@@ -96,7 +96,7 @@
                                             </div>
                                         </div>
                                         <div class="form-btn">
-                                            <button class="submit-btn" id="submit">Envoyez votre avis</button>
+                                            <button class="submit-btn" id="submit">Envoyer</button>
                                         </div>
                                     </form>
                                 </div>

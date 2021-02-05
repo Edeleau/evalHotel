@@ -31,7 +31,7 @@
                         Déclinées en trois catégories (Classique, Confort et Deluxe), les 41 Chambres se caractérisent par un style unique. D’une superficie moyenne de 35m², ces chambres, toutes différentes, offrent espace et confort.<br><br>
                         Les Suites d’une superficie de 70 à 75m², s’ouvrent pour la plupart sur la cour intérieure de l’hôtel garantissant calme et tranquillité.
                     </p>
-                    <div class="container mt-2">
+                    <div class="container mt-2 p-0">
                         <div id="monSlider" class="carousel slide" data-ride="carousel" data-interval="4500">
                             <ol class="carousel-indicators">
                                 <li data-target="#monSlider" data-slide-to="0"></li>

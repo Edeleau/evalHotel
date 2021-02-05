@@ -22,7 +22,9 @@ body.show-sidebar:before {
   opacity   : 1;
   visibility: visible;
 }
-
+a{
+  color: var(--colorWhite);
+}
 
 /* Navbar && Sidebar */
 .navbar {

@@ -35,7 +35,7 @@
         <div id="restaurantGamme" class="container">
             <div class="row ml-0 mr-0">
                 <div class="sectionTitle col-12 mx-auto mb-5">
-                    <h4>Découvrez notre offre gourmande</h4>
+                    <h4>Notre offre gourmande</h4>
                     <div class="smallHr mb-3"></div>
                 </div>
                 <div class="col-xl-6 col-12 mx-auto ml-0 mr-0 p-0 d-xl-none ">
