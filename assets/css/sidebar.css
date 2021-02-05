@@ -61,11 +61,12 @@ nav .navbar-collapse a:hover {
   background-color: rgba(255, 255, 255, 0.39);
 }
 
-a.reserveNav{
+a.reserveNav {
   margin-top: 1em;
-  padding: 10px 30px 10px 30px!important;
- border: solid var(--colorWhite) 1px;
+  padding   : 10px 30px 10px 30px !important;
+  border    : solid var(--colorWhite) 1px;
 }
+
 #logoNavBar {
   padding   : 3px;
   left      : 0;
@@ -76,21 +77,24 @@ a.reserveNav{
   margin    : auto;
 }
 
-aside{
+aside {
   height    : 100vh;
   min-height: 580px;
 }
-.scroll{
-  overflow-y: scroll !important;
-  height: 100vh;
+
+.scroll {
+  overflow-y    : scroll !important;
+  height        : 100vh;
   padding-bottom: 4em;
-  position: relative;
+  position      : relative;
 }
-#navbar{
+
+#navbar {
   height: 100%;
 }
-.scroll::-webkit-scrollbar { 
-  display: none; 
+
+.scroll::-webkit-scrollbar {
+  display: none;
 }
 
 aside {
@@ -243,7 +247,7 @@ aside .side-inner {
 
 }
 
-.searching input[type=search]{
+.searching input[type=search] {
   width        : 250px;
   height       : 2.3rem;
   box-sizing   : border-box;
@@ -251,13 +255,23 @@ aside .side-inner {
   background   : var(--color1);
   font-size    : 17px;
   transition   : all 0.5s;
-  border: 1px solid var(--colorWhiteOpacity5);
+  border       : 1px solid var(--colorWhiteOpacity5);
 
+}
+
+.scroll .search {
+  text-align: center;
+  width     : 100%;
+}
+
+.scroll .gSearch {
+  width: 40%!important;
 }
 
 .searching input[type=search]:hover {
   background: rgba(221, 215, 215, 0.5);
 }
+
 .searching input::placeholder {
   text-align  : center;
   color       : var(--colorWhite);
@@ -267,79 +281,94 @@ aside .side-inner {
 .searching input:focus {
   outline: none;
 }
+
 .newsletterNavSubmit {
-  width : 2rem;
-  height: 2rem;
-  box-sizing   : border-box;
-  border-radius: 7px;
-  border       : 0;
-  font-size    : 17px;
-  transition   : all 0.5s;
-  color        : var(--colorWhite);
+  width           : 2rem;
+  height          : 2rem;
+  box-sizing      : border-box;
+  border-radius   : 7px;
+  border          : 0;
+  font-size       : 17px;
+  transition      : all 0.5s;
+  color           : var(--colorWhite);
   background-image: url("../img/icon/search.png");
-  background-size: cover;
+  background-size : cover;
   background-color: var(--color1);
 }
-.newsletterNavSubmit:hover{
+
+.newsletterNavSubmit:hover {
   background-color: var(--colorWhiteOpacity5);
 }
+
 .dropdown-menu {
-  padding: 0;
-  min-width: 40px;
+  padding         : 0;
+  min-width       : 40px;
   background-color: var(--color1);
-  color:var(--colorWhite) ;
-  border-left: white 1px solid;
-  border-right: white 1px solid;
-  border-bottom: white 1px solid;
-  border-top: white 0 solid;
-  margin-top: -.8em;
-  border-radius: 0 0 5px 5px;
-  text-align: center;
+  color           : var(--colorWhite);
+  border-left     : white 1px solid;
+  border-right    : white 1px solid;
+  border-bottom   : white 1px solid;
+  border-top      : white 0 solid;
+  margin-top      : -.8em;
+  border-radius   : 0 0 5px 5px;
+  text-align      : center;
 }
-.dropdown-item{
+
+.dropdown-item {
   padding: .25rem 0;
 }
+
 .dropdown-menu a:hover {
   background-color: var(--color2);
-  color:var(--colorWhite) ;
+  color           : var(--colorWhite);
 }
+
 .dropdown-menu a {
-  color:var(--colorWhite) ;
+  color: var(--colorWhite);
 }
-.nav-link{
+
+.nav-link {
   padding: .2rem 0;
 }
-.dropdown-toggle{
-  text-align: center;
-  width: 40px;
+
+.dropdown-toggle {
+  text-align     : center;
+  width          : 40px;
   text-decoration: none;
-  color: var(--colorWhite);
-  border: white 1px solid;
-  border-radius: 5px 5px 5px 5px;
-  margin: 0 1rem 0 0;
+  color          : var(--colorWhite);
+  border         : white 1px solid;
+  border-radius  : 5px 5px 5px 5px;
+  margin         : 0 1rem 0 0;
 }
-.dropdown-toggle:hover{
+
+.dropdown-toggle:hover {
   color: var(--colorWhite);
 }
+
 .dropdown-toggle::after {
   content: none;
 }
-.dropdown{
+
+.dropdown {
   margin-left: 1rem;
-  margin-top:.65rem;
+  margin-top : .65rem;
 }
-.scroll .nav-item.dropdown{
+
+.scroll .nav-item.dropdown {
   position: absolute;
-  top: 2%;
-  right: 5%;
+  top     : 0%;
+  right   : 5%;
 }
-.scroll .dropdown-menu{
+
+.scroll .dropdown-menu {
   margin-top: -.2em;
 }
+
 @media (max-width: 992px) {
 
   #toggle-btn,
-  nav .flex-row-reverse .search , #navbarDropdownMenuLink{
+  nav .flex-row-reverse .search,
+  #navbarDropdownMenuLink {
     display: none;
   }
 }

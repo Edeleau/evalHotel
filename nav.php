@@ -62,9 +62,6 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="container-fluid" id="navbar">
-<<<<<<< HEAD
-            <div class="row justify-content-around mb-auto">
-=======
             <div class="row justify-content-center mb-auto  scroll">
                 <div class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle align-items-center" href="#" id="navbarDropdownNavLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -76,10 +73,9 @@
                         <a class="dropdown-item" href="#" title=" Русский">RU</a>
                     </div>
                 </div>
->>>>>>> dbaf807a2145649ca4704a078a4335d4f883980d
                 <div class="search">
                     <form name="search" class="searching my-auto" method="post">
-                        <input class="gSearch" type="search" size="60" placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">
+                        <input class="gSearch" type="search"  placeholder="Rechercher sur le site" onfocus="this.placeholder=''" onblur="this.placeholder='Rechercher sur le site'" name="search">
 
                         <input class="newsletterNavSubmit" type="submit" value="  ">
                     </form>
