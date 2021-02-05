@@ -71,7 +71,7 @@
                         <label for="cgvAgreement">J'ai lu et accepté les <a href="./cgv.php">conditions générales de ventes Hotelcop</a></label>
                     </div>
 
-                    <input class="linkButton" type="submit" value="Valider">
+                    <input class="linkButton bgColor1" type="submit" value="Valider">
                 </form>
             </div>
 
